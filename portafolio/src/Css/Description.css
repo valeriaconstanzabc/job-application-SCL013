@@ -1,0 +1,33 @@
+#containerDescription{
+    /* background: sandybrown; */
+    width: 378px;
+    height: 70px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: 560px 0px 0px 200px;
+}
+    #descriptionDFE, #descriptionD{
+        width: 378px;
+        height: 72px;
+        font-family: 'Gudea';
+        font-size: 25px;
+        color: #000000;
+        margin: 0;
+    }
+    #descriptionD{
+        font-size: 17px;
+        font-weight: normal;
+    }
+        #me{
+            position: absolute;
+            width: 220px;
+            height: 40px;
+            border: 0;
+            background: #5DA893;
+            box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.3);
+
+            font-family: 'Gudea';
+            font-size: 15px;
+            color: #FFFFFF;
+        }

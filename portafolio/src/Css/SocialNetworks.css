@@ -1,0 +1,25 @@
+#containerSocialNetworks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    width: 60px;
+    height: 665px;
+    left: 1430px;
+    top: 45px;
+    background: #5DA893;
+}
+    .containerBTNSocial{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+        .btnSocial{
+            background: transparent;
+            border: 0;
+        }
+            .imgSocial{
+                width: 50px;
+            }
