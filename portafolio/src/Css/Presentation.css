@@ -1,15 +1,14 @@
 #containerPresentation{
-    position: absolute;
-width: 599px;
-height: 665px;
-left: 165px;
-top: 45px;
-
-background: #F5C5B8;
+    display: flex;
+    width: 599px;
+    height: 665px;
+    margin-left: 165px;
+    margin-top: 45px;
+    background: #F5C5B8;
 }
     #briefcase{
-        position: absolute;
-        top: -55px;
+        display: flex;
+        margin-top: -25px;
         font-family: 'Gudea';
         font-weight: normal;
         font-size: 18px;
@@ -19,25 +18,26 @@ background: #F5C5B8;
         font-family: 'Gudea';
         font-style: normal;
         font-weight: normal;
-        position: absolute;
-        left: 327px;
-        top: 50px;
+        display: flex;
+        margin-left: 240px;
+        margin-top: 90px;
         font-size: 110px;
         color: #1C1B20;
     }
     #lastName, #pointPresentation{
         font-family: 'Fjalla One', sans-serif;
-        position: absolute;
-        left: 450px;
-        top: 70px;
+        display: flex;
+        margin-left: -270px;
+        margin-top: 190px;
         font-style: normal;
         font-weight: normal;
         font-size: 180px;
         color: #1C1B20;
     }
         #pointPresentation{
-            left: 850px;
+            display: flex;
+            margin-left: 0px;
             font-size: 150px;
-            top: 130px;
+            margin-top: 220px;
             color: #A87B6D;
         }

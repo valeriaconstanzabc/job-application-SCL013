@@ -5,7 +5,7 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    margin: 560px 0px 0px 200px;
+    margin: -160px 0px 0px 210px;
 }
     #descriptionDFE, #descriptionD{
         width: 378px;
@@ -26,6 +26,7 @@
             border: 0;
             background: #5DA893;
             box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
 
             font-family: 'Gudea';
             font-size: 15px;

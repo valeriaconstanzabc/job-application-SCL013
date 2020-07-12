@@ -6,7 +6,8 @@ import {
 import Presentation from './Components/Presentation';
 import SocialNetworks from './Components/SocialNetworks';
 import Description from './Components/Description';
-import Menu from './Components/Menu';
+import ButtonMenu from './Components/ButtonMenu';
+import AboutMe from './Components/AboutMe';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
           <Presentation />
           <SocialNetworks />
           <Description />
-          <Menu />
+          <ButtonMenu />
+          <AboutMe />
         </Route>
       </Switch>
     </Router>
