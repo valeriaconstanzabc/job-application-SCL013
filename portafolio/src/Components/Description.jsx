@@ -7,7 +7,7 @@ const Description = () => {
             <h2 id="descriptionDFE">Desarrolladora Front end</h2>
             <h4 id="descriptionD">Diseñadora</h4>
             <div id="containerbtnMe">
-                <button id="me">Conoce más sobre mi</button>
+                <button className="me"><span>Conoce más sobre mi </span></button>
             </div>
         </div>
     )

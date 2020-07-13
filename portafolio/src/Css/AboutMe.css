@@ -1,20 +1,16 @@
 #containerAboutMe{
     display: flex;
     flex-direction: column;
-    position: relative;
-    width: 1150px;
-    height: 409px;
     margin: 170px 0px 50px 164px;
-    background: #FFE1D9;
-    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
 }
-    #containerTittle{
+    .containerTittle{
         display: flex;
         height: 70px;
+        position: relative;
     }
         .tittle{
             display: flex;
-            margin:-70px 0px 0px 45px;
+            margin: 0px 0px 0px 45px;
             font-family: 'Fjalla One';
             font-weight: normal;
             font-size: 120px;
@@ -22,13 +18,24 @@
         }
         .pointTittle{
             display: flex;
-            margin-top: -100px;
+            margin-top: -33px;
             font-size: 150px;
             color: #A87B6D;
             font-family: 'Fjalla One', sans-serif;
         }
+    #containerColorAboutMe{
+        width: 1150px;
+        height: 409px;
+
+        background: #FFE1D9;
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
+    }
     #descriptionAboutMe{
         font-family: 'Gudea';
         font-size: 25px;
         margin-left: 45px;
+        margin-top: 90px;
+    }
+    #containerDescription{
+        display: flex;
     }

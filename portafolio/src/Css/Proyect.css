@@ -1,0 +1,139 @@
+#containerProyects{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px 50px 164px;
+}
+
+/* <-----------PROYECTO UNO------------> */
+#proyectOne{
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+    height: 450px;
+    background: #5DA893;
+    box-shadow: 15px 0px 15px rgba(0, 0, 0, 0.25);
+    
+}
+    .containerDescriptionProyectOne{
+        padding-top: 90px;
+        margin-left: 50px;
+    }
+            .tittleProyectOne, .tittleProyectTwo{    
+                font-family: 'Fjalla One';
+                font-weight: normal;
+                font-size: 72px;
+                margin: 0px;
+                color: #F5F5F5;
+            }
+            .descriptionProyectOne, .descriptionProyectTwo{
+                width: 500px;
+                font-family: 'Gudea';
+                font-size: 24px;
+                color: #F5F5F5;
+            }
+            
+            .btnSeeProjectOne, .btnSeeProjectTwo{
+                width: 198px;
+                height: 47px;
+                margin-top: 30px;
+                background: #1C1B20;
+                border: 1px solid #1C1B20;
+                box-sizing: border-box;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+                font-family: 'Gudea';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 22px;
+                line-height: 27px;
+                color: #f1eeee;
+            }
+        .containerImgProyectOne, .containerImgProyectTwo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            padding-right: 30px;
+        }
+            .imgProyectOne{
+                height: 300px;
+                filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.8))
+            }
+
+/* <-----------PROYECTO DOS------------> */
+#proyectTwo{
+    display: flex;
+    justify-content: space-between;
+    width: 575px;
+    height: 550px;
+    background: #A87B6D;
+    box-shadow: 15px 0px 15px rgba(0, 0, 0, 0.25);
+}
+    .containerDescriptionProyectTwo{
+        padding-top: 30px;
+        margin-left: 50px;
+    }
+            .descriptionProyectTwo{
+                width: 250px;
+            }
+            .btnSeeProjectTwo{
+                margin-top: 15px;
+            }
+            .imgProyectTwo{
+                height: 400px;
+                filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.8))
+            }
+
+/* <-----------PROYECTO TRES------------> */
+#proyectThree{
+    display: flex;
+    width: 576px;
+    height: 550px;
+    background: #FFE1D9;
+    box-shadow: 15px 0px 15px rgba(0, 0, 0, 0.25);
+    margin: -550px 0px 0px 574px;
+    
+}
+    .containerDescriptionProyectThree{
+        margin: 29px 0px 0px 50px;
+    }
+        .tittleProyectThree{
+            font-family: 'Fjalla One';
+                font-weight: normal;
+                font-size: 72px;
+                margin: 0px;
+                padding-right: 50px;
+                color: #1C1B20;
+                text-align: center;
+        }
+        .descriptionProyectThree{
+            width: 480px;
+            font-family: 'Gudea';
+            font-size: 24px;
+            color: #1C1B20;
+            display: flex;
+            padding-top: 16px;
+        }
+        #containerBTNProyectThree{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            padding-right: 50px;
+        }
+        .btnSeeProjectThree{
+            width: 198px;
+            height: 47px;
+            margin-top: 30px;
+            background: #1C1B20;
+            border: 1px solid #1C1B20;
+            box-sizing: border-box;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+            font-family: 'Gudea';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 27px;
+            color: #f1eeee;
+        }

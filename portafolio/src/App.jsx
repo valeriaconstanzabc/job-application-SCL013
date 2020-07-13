@@ -8,6 +8,7 @@ import SocialNetworks from './Components/SocialNetworks';
 import Description from './Components/Description';
 import ButtonMenu from './Components/ButtonMenu';
 import AboutMe from './Components/AboutMe';
+import Projects from './Components/Projects';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Description />
           <ButtonMenu />
           <AboutMe />
+          <Projects />
         </Route>
       </Switch>
     </Router>

@@ -1,43 +1,49 @@
 #containerPresentation{
     display: flex;
-    width: 599px;
-    height: 665px;
+    flex-direction: column;
     margin-left: 165px;
-    margin-top: 45px;
-    background: #F5C5B8;
 }
-    #briefcase{
+    #containerBriefcase{
         display: flex;
-        margin-top: -25px;
-        font-family: 'Gudea';
-        font-weight: normal;
-        font-size: 18px;
-        color: #1C1B20;
+        height: 60px;
     }
-    #name{
-        font-family: 'Gudea';
-        font-style: normal;
-        font-weight: normal;
-        display: flex;
-        margin-left: 240px;
-        margin-top: 90px;
-        font-size: 110px;
-        color: #1C1B20;
-    }
-    #lastName, #pointPresentation{
-        font-family: 'Fjalla One', sans-serif;
-        display: flex;
-        margin-left: -270px;
-        margin-top: 190px;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 180px;
-        color: #1C1B20;
-    }
-        #pointPresentation{
+        #briefcase{
             display: flex;
-            margin-left: 0px;
-            font-size: 150px;
-            margin-top: 220px;
-            color: #A87B6D;
+            font-family: 'Gudea';
+            font-weight: normal;
+            font-size: 18px;
+            color: #1C1B20;
         }
+    #containerColorPresentation{
+        display: flex;
+        width: 599px;
+        height: 665px;
+        background: #F5C5B8;
+    }
+        #name{
+            font-family: 'Gudea';
+            font-style: normal;
+            font-weight: normal;
+            display: flex;
+            margin-left: 240px;
+            margin-top: 90px;
+            font-size: 110px;
+            color: #1C1B20;
+        }
+        #lastName, #pointPresentation{
+            font-family: 'Fjalla One', sans-serif;
+            display: flex;
+            margin-left: -270px;
+            margin-top: 190px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 180px;
+            color: #1C1B20;
+        }
+            #pointPresentation{
+                display: flex;
+                margin-left: 0px;
+                font-size: 150px;
+                margin-top: 220px;
+                color: #A87B6D;
+            }
