@@ -1,0 +1,28 @@
+#containerTools{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px 50px 164px;
+}
+    .pointTittleTools{
+        display: flex;
+        margin-top: -33px;
+        font-size: 150px;
+        color: #F5C5B8;
+        font-family: 'Fjalla One', sans-serif;
+    }
+
+    #containerColorTools{
+        display: flex;
+        flex-wrap: wrap;
+        width: 1150px;
+        height: 409px;
+        background: #A87B6D;
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
+        padding: 80px 30px 0px 20px;
+    }
+    .imgTools{
+        height: 130px;
+        padding: 20px 0px 20px 0px;
+        margin: 0px 50px 0px 50px;
+        filter: drop-shadow(9px 9px 9px rgba(0, 0, 0, 0.6))
+    }

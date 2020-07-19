@@ -10,26 +10,31 @@
     justify-content: space-between;
     width: 1150px;
     height: 450px;
-    background: #5DA893;
+    background: #FFE1D9;
     box-shadow: 15px 0px 15px rgba(0, 0, 0, 0.25);
-    
 }
     .containerDescriptionProyectOne{
         padding-top: 90px;
         margin-left: 50px;
     }
-            .tittleProyectOne, .tittleProyectTwo{    
+            .tittleProyectOne, .tittleProyectTwo, .tittleProyectFour{    
                 font-family: 'Fjalla One';
                 font-weight: normal;
                 font-size: 72px;
                 margin: 0px;
                 color: #F5F5F5;
             }
-            .descriptionProyectOne, .descriptionProyectTwo{
+            
+            .descriptionProyectOne, .descriptionProyectTwo, 
+            .descriptionProyectFour{
                 width: 500px;
                 font-family: 'Gudea';
                 font-size: 24px;
                 color: #F5F5F5;
+            }
+            .tittleProyectOne, .descriptionProyectOne, 
+            .tittleProyectFour, .descriptionProyectFour{
+                color:#1C1B20;
             }
             
             .btnSeeProjectOne, .btnSeeProjectTwo{
@@ -89,28 +94,27 @@
     display: flex;
     width: 576px;
     height: 550px;
-    background: #FFE1D9;
+    background: #5DA893;
     box-shadow: 15px 0px 15px rgba(0, 0, 0, 0.25);
     margin: -550px 0px 0px 574px;
-    
 }
     .containerDescriptionProyectThree{
         margin: 29px 0px 0px 50px;
     }
         .tittleProyectThree{
             font-family: 'Fjalla One';
-                font-weight: normal;
-                font-size: 72px;
-                margin: 0px;
-                padding-right: 50px;
-                color: #1C1B20;
-                text-align: center;
+            font-weight: normal;
+            font-size: 72px;
+            margin: 0px;
+            padding-right: 50px;
+            color: #F5F5F5;
+            text-align: center;
         }
         .descriptionProyectThree{
             width: 480px;
             font-family: 'Gudea';
             font-size: 24px;
-            color: #1C1B20;
+            color: #F5F5F5;
             display: flex;
             padding-top: 16px;
         }
@@ -137,3 +141,52 @@
             line-height: 27px;
             color: #f1eeee;
         }
+
+/* <-----------PROYECTO CUATRO------------> */
+#proyectFour{
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+    height: 450px;
+    background: #F5C5B8;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
+}
+    .containerDescriptionProyectFour{
+        padding-top: 40px;
+        margin-left: 50px;
+    }
+    .containerImgProyectfOUR{
+        padding: 15px 10px 0px 0px;
+    }
+    .imgProyectFour{
+        filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.8))
+    }        
+
+/* <-----------EFECTO BOTÓN------------> */
+    .btnSeeProjectOne span, .btnSeeProjectTwo span, 
+    .btnSeeProjectThree span{
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+    .btnSeeProjectOne span:after, .btnSeeProjectTwo span:after,
+    .btnSeeProjectThree span:after{
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+      
+    .btnSeeProjectOne:hover span, .btnSeeProjectTwo:hover span, 
+    .btnSeeProjectThree:hover span{
+        padding-right: 25px;
+    }
+    
+    .btnSeeProjectOne:hover span:after, .btnSeeProjectTwo:hover span:after,
+    .btnSeeProjectThree:hover span:after{
+        opacity: 1;
+        right: 0;
+    }
