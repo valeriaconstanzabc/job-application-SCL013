@@ -6,10 +6,10 @@ import {
 import Presentation from './Components/Presentation';
 import SocialNetworks from './Components/SocialNetworks';
 import Description from './Components/Description';
-import ButtonMenu from './Components/ButtonMenu';
 import AboutMe from './Components/AboutMe';
 import Projects from './Components/Projects';
 import Tools from './Components/Tools';
+import Menu from './Components/Menu';
 
 function App() {
   return (
@@ -17,18 +17,25 @@ function App() {
       <Switch>
 
         <Route path="/" exact>
+          <Menu />
           <Presentation />
           <SocialNetworks />
           <Description />
-          <ButtonMenu />
           <AboutMe />
           <Projects />
           <Tools />
         </Route>
 
         <Route path="/acercaDeMi">
+          <Menu />
           <SocialNetworks />
           <AboutMe />
+        </Route>
+
+        <Route path="/proyectos">
+          <Menu />
+          <SocialNetworks />
+          <Projects />
         </Route>
 
       </Switch>

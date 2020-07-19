@@ -1,7 +1,7 @@
 #containerAboutMe{
     display: flex;
     flex-direction: column;
-    margin: 170px 0px 50px 164px;
+    padding: 100px 0px 50px 164px;
 }
     .containerTittle{
         display: flex;

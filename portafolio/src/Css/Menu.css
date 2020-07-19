@@ -1,4 +1,4 @@
-#containerIconMenu{
+/* #containerIconMenu{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,4 +16,72 @@
     }
         #imgIconMenu{
             width: 50px;
+        } */
+
+        #App {
+          font-family: sans-serif;
+          height: 100vh;
+        }
+        
+        #page-wrap {
+          text-align: center;
+          overflow: auto;
+        }
+        
+        /* Botones individuales interiores*/
+        .bm-item {
+            display: inline-block;
+            text-decoration: none;
+            margin-bottom: 20px;
+            font-family: 'Gudea';
+            font-size: 24px;
+            color: #F5F5F5;
+            transition: color 0.2s;
+            width: 200px;
+        }
+        
+        .bm-burger-button {
+            position: fixed;
+            width: 36px;
+            height: 30px;
+            left: 50px;
+            top: 340px;
+        }
+        
+        /* Color de la barra hamburguesa fea y de la x*/
+        .bm-burger-bars, .bm-cross  {
+            background: #1C1B20;
+        }
+        
+        /* Position and sizing of clickable cross button */
+        .bm-cross-button {
+          height: 24px;
+          width: 24px;
+        }
+        
+        
+        /* Contenedor interior del menu */
+        .bm-menu {
+          background: #5DA893;
+          padding: 200px 0px 0px 40px;
+          font-size: 1.15em;
+          filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.6))
+        }
+        
+        /* Morph shape necessary with bubble or elastic */
+        .bm-morph-shape {
+          fill: #5DA893;
+        }
+        
+        /* Wrapper for item list */
+        .bm-item-list {
+          color: #b8b7ad;
+        }
+        
+        /* Se oscurece la página */
+        .bm-overlay {
+          background: rgba(0, 0, 0, 0.3);
+        }
+        .menu-item-proyects{
+            font-size: 18px;
         }
