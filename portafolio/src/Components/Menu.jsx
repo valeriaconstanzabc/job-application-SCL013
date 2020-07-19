@@ -17,16 +17,16 @@ export default props => {
       <a className="menu-item" href="/proyectos">
         PROYECTOS
       </a>
-      <a className="menu-item-proyects" href="/proyectos">
+      <a className="menu-item-proyects" href="/lofche">
         - Lofche
       </a>
-      <a className="menu-item-proyects" href="/proyectos">
+      <a className="menu-item-proyects" href="/guiamuggle">
         - Guia muggle
       </a>
-      <a className="menu-item-proyects" href="/proyectos">
+      <a className="menu-item-proyects" href="/gatera">
         - La gatera hotelera
       </a>
-      <a className="menu-item-proyects" href="/proyectos">
+      <a className="menu-item-proyects" href="/burgerqueen">
         - Burguer-queen
       </a>
 

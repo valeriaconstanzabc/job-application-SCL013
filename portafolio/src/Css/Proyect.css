@@ -1,7 +1,7 @@
 #containerProyects{
     display: flex;
     flex-direction: column;
-    margin: 100px 0px 50px 164px;
+    padding: 100px 0px 50px 164px;
 }
 
 /* <-----------PROYECTO UNO------------> */

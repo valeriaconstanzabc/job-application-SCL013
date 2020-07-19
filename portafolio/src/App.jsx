@@ -3,6 +3,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route} from "react-router-dom";
+
 import Presentation from './Components/Presentation';
 import SocialNetworks from './Components/SocialNetworks';
 import Description from './Components/Description';
@@ -36,6 +37,36 @@ function App() {
           <Menu />
           <SocialNetworks />
           <Projects />
+        </Route>
+
+        <Route path="/herramientas">
+          <Menu />
+          <SocialNetworks />
+          <Tools />
+        </Route>
+
+        <Route path="/lofche">
+          <Menu />
+          <SocialNetworks />
+
+        </Route>
+
+        <Route path="/guiamuggle">
+          <Menu />
+          <SocialNetworks />
+
+        </Route>
+
+        <Route path="/gatera">
+          <Menu />
+          <SocialNetworks />
+
+        </Route>
+
+        <Route path="/burgerqueen">
+          <Menu />
+          <SocialNetworks />
+
         </Route>
 
       </Switch>
