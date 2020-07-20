@@ -11,6 +11,7 @@ import AboutMe from './Components/AboutMe';
 import Projects from './Components/Projects';
 import Tools from './Components/Tools';
 import Menu from './Components/Menu';
+import ProyectFour from './Components/ProyectFour';
 
 function App() {
   return (
@@ -66,7 +67,7 @@ function App() {
         <Route path="/burgerqueen">
           <Menu />
           <SocialNetworks />
-
+          <ProyectFour />
         </Route>
 
       </Switch>

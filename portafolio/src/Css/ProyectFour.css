@@ -1,0 +1,78 @@
+#containerProyectFour{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px 50px 164px;
+}
+    .containerTittleProyectFour{
+        display: flex;
+        height: 70px;
+        position: relative;
+    }
+        .tittleProyectFourr{
+            display: flex;
+            margin: 0px 0px 0px 45px;
+            font-family: 'Fjalla One';
+            font-weight: normal;
+            font-size: 120px;
+            color: #1C1B20;
+        }
+        .pointTittleProyectFour{
+            display: flex;
+            margin-top: -33px;
+            font-size: 150px;
+            color: #5DA893;
+            font-family: 'Fjalla One', sans-serif;
+        }
+    #containerColorAboutMeProyectFour{
+        width: 1150px;
+        height: 2000px;
+        background: #F5C5B8;
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
+    }
+    
+    #descriptionAboutMeProyectFour1, #descriptionAboutMeProyectFour2{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Gudea';
+        font-size: 20px;
+        margin: 0px 45px 0px 45px;
+        margin-top: 90px;
+        color: #1C1B20;
+    }
+    #descriptionAboutMeProyectFour2{
+        margin-top: 30px;
+    }
+    #descriptionAboutMeProyectFour3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Gudea';
+        font-size: 30px;
+        margin: 0px 45px 0px 45px;
+        margin-top: 30px;
+        color: #1C1B20;
+    }
+        .imgProyectFour1{
+            display: flex;
+            width: 500px;
+        }
+        .imgProyectFour2{
+            display: flex;
+            width: 700px;
+        }
+        .container1ProyectFour1, .container1ProyectFour2, .container1ProyectFour3{
+            display: flex;
+            padding: 0;
+        }
+        .text1{
+            margin: 0px 30px 0px 0px;
+        }
+        .text2{
+            margin: 0px 00px 0px 30px;
+        }
+        .imgProyectFour3{
+            height: 250px;
+        }
+        .imgProyectFourArrow3{
+            height: 300px;
+        }
