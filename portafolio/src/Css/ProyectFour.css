@@ -68,11 +68,28 @@
             margin: 0px 30px 0px 0px;
         }
         .text2{
-            margin: 0px 00px 0px 30px;
+            margin: 0px 0px 0px 30px;
+        }
+        .text3{
+            margin: 40px 0px 70px 0px;
         }
         .imgProyectFour3{
-            height: 250px;
+            height: 200px;
         }
         .imgProyectFourArrow3{
-            height: 300px;
+            height: 150px;
+        }
+        .containerImgProyectFourArrow3{
+            display: flex;
+            align-items: center;
+        }
+        .btnImgProyectFour3{
+            background: transparent;
+            border: 0;
+            overflow:hidden;
+            width: 250px;
+            height: 250px;
+        }
+        .btnImgProyectFour3:hover .imgProyectFour3 {
+            transform:scale(1.1);
         }

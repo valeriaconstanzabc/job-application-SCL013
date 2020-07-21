@@ -70,31 +70,31 @@ const ProyectFour = () => {
                 </div>
 
                 <div id="descriptionAboutMeProyectFour3">
-                    <h2>HISTORIAS DE USUARIO</h2>
+                    <h2 className="text3">HISTORIAS DE USUARIO</h2>
 
                     <div className="container1ProyectFour3">
                         <div>
-                            <button>
+                            <button className="btnImgProyectFour3">
                                 <img className="imgProyectFour3" src="https://i.ibb.co/z75nXXG/Group-1.png" alt=""/>
                             </button>
                         </div>
 
-                        <div>
+                        <div className="containerImgProyectFourArrow3">
                             <img className="imgProyectFourArrow3" src="https://i.ibb.co/TkX1RRV/eva-arrow-ios-forward-fill.png" alt=""/>
                         </div>
 
                         <div>
-                            <button>
-                                <img className="imgProyectFour3" src="https://i.ibb.co/z75nXXG/Group-1.png" alt=""/>
+                            <button className="btnImgProyectFour3">
+                                <img className="imgProyectFour3" src="https://i.ibb.co/XtdxZzZ/Group-3.png" alt=""/>
                             </button>                        
                         </div>
 
-                        <div>
+                        <div className="containerImgProyectFourArrow3">
                             <img className="imgProyectFourArrow3" src="https://i.ibb.co/TkX1RRV/eva-arrow-ios-forward-fill.png" alt=""/>
                         </div>
 
                         <div>
-                            <button>
+                            <button className="btnImgProyectFour3">
                                 <img className="imgProyectFour3" src="https://i.ibb.co/qWYRgRT/Group-2.png" alt=""/>
                             </button>                        
                         </div>
