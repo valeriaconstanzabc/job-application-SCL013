@@ -20,7 +20,8 @@
             .tittleProyectOne, .tittleProyectTwo, .tittleProyectFour{    
                 font-family: 'Fjalla One';
                 font-weight: normal;
-                font-size: 72px;
+                font-size: 65px;
+                padding-top: 15px;
                 margin: 0px;
                 color: #F5F5F5;
             }
@@ -29,7 +30,8 @@
             .descriptionProyectFour{
                 width: 500px;
                 font-family: 'Gudea';
-                font-size: 24px;
+                font-size: 20px;
+                padding: 15px 0px 15px 0px;
                 color: #F5F5F5;
             }
             .tittleProyectOne, .descriptionProyectOne, 
@@ -80,6 +82,7 @@
     }
             .descriptionProyectTwo{
                 width: 250px;
+                padding-bottom: 30px;
             }
             .btnSeeProjectTwo{
                 margin-top: 15px;
@@ -104,16 +107,16 @@
         .tittleProyectThree{
             font-family: 'Fjalla One';
             font-weight: normal;
-            font-size: 72px;
+            font-size: 65px;
             margin: 0px;
-            padding-right: 50px;
+            padding-top: 15px;
             color: #F5F5F5;
             text-align: center;
         }
         .descriptionProyectThree{
             width: 480px;
             font-family: 'Gudea';
-            font-size: 24px;
+            font-size: 20px;
             color: #F5F5F5;
             display: flex;
             padding-top: 16px;
@@ -123,7 +126,6 @@
             justify-content: center;
             align-content: center;
             align-items: center;
-            padding-right: 50px;
         }
         .btnSeeProjectThree{
             width: 198px;

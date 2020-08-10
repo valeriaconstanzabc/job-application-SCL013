@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Css/Proyect.css'
+import { Link } from "react-router-dom";
 
 const Projects = () => {
     return (
@@ -39,7 +40,8 @@ const Projects = () => {
 
             <div id="proyectThree">
                 <div className="containerDescriptionProyectThree">
-                    <h5 className="tittleProyectThree">LA GATERA HOTELERA</h5>
+                    <h5 className="tittleProyectThree">GATERA</h5>
+                    <h5 className="tittleProyectThree">HOTELERA</h5>
                     <p className="descriptionProyectThree">
                         Página web realizada para un hostal turístico ubicado en Pichilemu. En 
                         esta página podrás conocer un poco más sobre la historia del hostal 
@@ -60,7 +62,9 @@ const Projects = () => {
                         estilo vintage. En esta app se pueden tomar pedidos usando una Tablet, 
                         enviar estos a la cocina y ver el estado de cada uno de ellos.
                     </p>
-                    <button className="btnSeeProjectOne"><span>VER PROYECTO </span></button>
+                    <Link to="burgerqueen">
+                        <button className="btnSeeProjectOne"><span>VER PROYECTO </span></button>
+                    </Link>
                 </div>
                 <div className="containerImgProyectfOUR">
                     <img className="imgProyectFour" src="http://imgfz.com/i/Qy81tV4.png" alt="burguer-Queen"/>

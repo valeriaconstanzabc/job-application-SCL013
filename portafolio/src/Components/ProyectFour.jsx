@@ -1,7 +1,17 @@
 import React from 'react'
 import '../Css/ProyectFour.css'
+import ModalProyectFour from './ModalProyectFour';
 
 const ProyectFour = () => {
+
+    const [modalShow, setModalShow] = React.useState(null);
+
+    const clickHistory1 = () => {
+        return (
+            () => setModalShow(modalShow === null ? <ModalProyectFour /> : null)
+        )
+    }
+    
     return (
         <div id="containerProyectFour">
             <div className="containerTittleProyectFour">
@@ -11,6 +21,7 @@ const ProyectFour = () => {
 
             <div id="containerColorAboutMeProyectFour">
                 <div id="descriptionAboutMeProyectFour1">
+                    <p id="tProduction">Tiempo de producción: 4 semanas</p>
                     <h2>DEFINICIÓN DE PRODUCTO</h2>
                     <p>BurgerQueen es un pequeño restaurante de hamburguesas estilo <strong>vintage. </strong> 
                             Este restaurante está creciendo, por lo que fue necesario realizar una 
