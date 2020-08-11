@@ -33,7 +33,7 @@
 
                 .imgToolsHTML5, .imgToolsJS, .imgToolsCSS,
                 .imgToolsReact, .imgToolsGithub, .imgToolsFigma,
-                .imgToolsInvision{
+                .imgToolsInvision, .imgToolsNodeJS{
                     height: 110px;
                     width: 110px;
                     background-size: cover;
@@ -43,11 +43,12 @@
                 .imgToolsHTML5{background-image: url("http://imgfz.com/i/cBb3i7D.png");}
                 .imgToolsJS{background-image: url("http://imgfz.com/i/RkSbjGl.png");}
                 .imgToolsCSS{background-image: url("http://imgfz.com/i/AYunpIz.png");}
+                .imgToolsNodeJS{background-image: url("https://i.ibb.co/64NpXmG/js-1.png");}
                 .imgToolsReact{background-image: url("http://imgfz.com/i/KI90XYh.png");}
                 .imgToolsGithub{background-image: url("http://imgfz.com/i/LhKOBqf.png");}
                 .imgToolsFigma{background-image: url("http://imgfz.com/i/QcyeCpM.png");}
                 .imgToolsInvision{background-image: url("http://imgfz.com/i/Trg7GMB.png");}
-                
+
                 .containerImgTools{
                     display: flex;
                     justify-content: center;
@@ -62,7 +63,8 @@
                 }
                     .imgToolsHTML5:hover .containerImgTools,
                     .imgToolsJS:hover .containerImgTools,
-                    .imgToolsCSS:hover .containerImgTools, 
+                    .imgToolsCSS:hover .containerImgTools,
+                    .imgToolsNodeJS:hover .containerImgTools, 
                     .imgToolsReact:hover .containerImgTools,
                     .imgToolsGithub:hover .containerImgTools,
                     .imgToolsFigma:hover .containerImgTools,
