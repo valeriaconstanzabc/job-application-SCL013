@@ -1,17 +1,10 @@
-import React from 'react'
+import React from 'react';
 import '../Css/ProyectFour.css'
-import ModalProyectFour from './ModalProyectFour';
+
+import { ModalOneProyectFour, ModalTwoProyectFour, ModalThreeProyectFour } from './ModalProyectFour';
 
 const ProyectFour = () => {
 
-    const [modalShow, setModalShow] = React.useState(null);
-
-    const clickHistory1 = () => {
-        return (
-            () => setModalShow(modalShow === null ? <ModalProyectFour /> : null)
-        )
-    }
-    
     return (
         <div id="containerProyectFour">
             <div className="containerTittleProyectFour">
@@ -85,9 +78,7 @@ const ProyectFour = () => {
 
                     <div className="container1ProyectFour3">
                         <div>
-                            <button className="btnImgProyectFour3">
-                                <img className="imgProyectFour3" src="https://i.ibb.co/z75nXXG/Group-1.png" alt=""/>
-                            </button>
+                            { <ModalOneProyectFour />}
                         </div>
 
                         <div className="containerImgProyectFourArrow3">
@@ -95,9 +86,7 @@ const ProyectFour = () => {
                         </div>
 
                         <div>
-                            <button className="btnImgProyectFour3">
-                                <img className="imgProyectFour3" src="https://i.ibb.co/XtdxZzZ/Group-3.png" alt=""/>
-                            </button>                        
+                            { <ModalTwoProyectFour /> }
                         </div>
 
                         <div className="containerImgProyectFourArrow3">
@@ -105,10 +94,9 @@ const ProyectFour = () => {
                         </div>
 
                         <div>
-                            <button className="btnImgProyectFour3">
-                                <img className="imgProyectFour3" src="https://i.ibb.co/qWYRgRT/Group-2.png" alt=""/>
-                            </button>                        
+                            { <ModalThreeProyectFour /> }
                         </div>
+
                     </div>                   
                 </div>
             </div>            

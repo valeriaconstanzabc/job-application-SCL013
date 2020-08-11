@@ -1,40 +1,65 @@
-// import React from 'react'
-// import Modal from 'react-bootstrap/Modal'
+import React from 'react';
+import useModal from 'react-hooks-use-modal';
+ 
+export const  ModalOneProyectFour = () => {
+  const [Modal, open, close] = useModal('root', {
+    preventScroll: true
+  });
+  return (
+    <div>
+        <button className="btnImgProyectFour3" onClick={open}>
+            <img className="imgProyectFour3" src="https://i.ibb.co/z75nXXG/Group-1.png" alt=""/> 
+        </button>
+        <Modal>
+            <div>
+                <h1>Probando</h1>
+                <p>Holiiiiii</p>
+                <button onClick={close}>CLOSE</button>
+            </div>
+        </Modal>
+    </div>
+      
+  );
+};
 
-// const ModalProyectFour = () => {
-//     const [show, setShow] = React.useState(false);
-  
-//     const handleClose = () => setShow(false);
-//     const handleShow = () => setShow(true);
+export const ModalTwoProyectFour = () => {
+    const [Modal, open, close] = useModal('root', {
+      preventScroll: true
+    });
+    return (
+      <div>
+          <button className="btnImgProyectFour3" onClick={open}>
+                <img className="imgProyectFour3" src="https://i.ibb.co/XtdxZzZ/Group-3.png" alt=""/>               
+            </button>
+          <Modal>
+              <div>
+                  <h1>Lo logré?</h1>
+                  <p>Si sis si sis is isisi?</p>
+                  <button onClick={close}>CLOSE</button>
+              </div>
+          </Modal>
+      </div>
+        
+    );
+};
 
-//     return (
-//         <>
-//           <button variant="primary" onClick={handleShow}>
-//             Launch static backdrop modal
-//           </button>
-    
-//           <Modal
-//             show={show}
-//             onHide={handleClose}
-//             backdrop="static"
-//             keyboard={false}
-//           >
-//             <Modal.Header closeButton>
-//               <Modal.Title>Modal title</Modal.Title>
-//             </Modal.Header>
-//             <Modal.Body>
-//               I will not close if you click outside me. Don't even try to press
-//               escape key.
-//             </Modal.Body>
-//             <Modal.Footer>
-//               <button variant="secondary" onClick={handleClose}>
-//                 Close
-//               </button>
-//               <button variant="primary">Understood</button>
-//             </Modal.Footer>
-//           </Modal>
-//         </>
-//       );
-// }
-
-// export default ModalProyectFour
+export const ModalThreeProyectFour = () => {
+    const [Modal, open, close] = useModal('root', {
+      preventScroll: true
+    });
+    return (
+      <div>
+            <button className="btnImgProyectFour3" onClick={open}>
+                <img className="imgProyectFour3" src="https://i.ibb.co/qWYRgRT/Group-2.png" alt=""/>
+            </button> 
+          <Modal>
+              <div>
+                  <h1>Logradooo</h1>
+                  <p>Eh eh eh eh eh eh</p>
+                  <button onClick={close}>CLOSE</button>
+              </div>
+          </Modal>
+      </div>
+        
+    );
+};
