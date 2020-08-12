@@ -28,14 +28,15 @@
             color: #5DA893;
             font-family: 'Fjalla One', sans-serif;
         }
-    #containerColorAboutMeProyectFour{
+    #containerColorProyectFour{
         width: 1150px;
-        height: 2000px;
+        height: 2650px;
         background: #F5C5B8;
         box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
     }
     
-    #descriptionAboutMeProyectFour1{
+    #containerDescriptionProductProyect4, #containerHistoryUserProyect4, 
+    #containerToolsProyect4, #visitBurgerQueen, #containerUserDefinition{
         display: flex;
         flex-direction: column;
         font-family: 'Gudea';
@@ -43,6 +44,8 @@
         margin: 0px 52px 0px 52px;
         margin-top: 40px;
         color: #1C1B20;
+        text-align: justify;
+        /* font-weight: bold; */
     }
     #descriptionAboutMeProyectFour2{
         display: flex;
@@ -65,11 +68,12 @@
     }
         .imgProyectFour1{
             display: flex;
-            width: 400px;
+            width: 425px;
         }
         .imgProyectFour2{
             display: flex;
-            width: 600px;
+            width: 1048px;
+            padding-top: 30px;
         }
         .container1ProyectFour1, .container1ProyectFour2, .container1ProyectFour3{
             display: flex;
@@ -103,5 +107,69 @@
             height: 250px;
         }
         .btnImgProyectFour3:hover .imgProyectFour3 {
+            transform:scale(1.1);
+        }
+
+.toolsProyectFour{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+
+}
+.imgToolsHTML5Proyect4, .imgToolsJSProyect4, .imgToolsCSSProyect4,
+.imgToolsReactProyect4, .imgToolsFigmaProyect4,
+.imgToolsInvisionProyect4{
+    height: 110px;
+    width: 110px;
+    background-size: cover;
+    filter: drop-shadow(9px 9px 9px rgba(0, 0, 0, 0.6))
+}
+.imgToolsHTML5Proyect4{background-image: url("http://imgfz.com/i/cBb3i7D.png");}
+.imgToolsJSProyect4{background-image: url("http://imgfz.com/i/RkSbjGl.png");}
+.imgToolsCSSProyect4{background-image: url("http://imgfz.com/i/AYunpIz.png");}
+.imgToolsReactProyect4{background-image: url("http://imgfz.com/i/KI90XYh.png");}
+.imgToolsFigmaProyect4{background-image: url("http://imgfz.com/i/QcyeCpM.png");}
+.imgToolsInvisionProyect4{background-image: url("http://imgfz.com/i/Trg7GMB.png");}
+
+.containerImgToolsProyect4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+    width: 118px;
+    height: 118px;
+    opacity:0;
+    transition: opacity 0.3s;
+    margin: 0;
+}
+    .imgToolsHTML5Proyect4:hover .containerImgToolsProyect4,
+    .imgToolsJSProyect4:hover .containerImgToolsProyect4,
+    .imgToolsCSSProyect4:hover .containerImgToolsProyect4,
+    .imgToolsReactProyect4:hover .containerImgToolsProyect4,
+    .imgToolsGithubProyect4:hover .containerImgToolsProyect4,
+    .imgToolsFigmaProyect4:hover .containerImgToolsProyect4,
+    .imgToolsInvisionProyect4:hover .containerImgToolsProyect4{
+        opacity: 1;
+    }
+/* <-----------Contenedor de Links-------> */
+#containerLinksProyect4{
+    display: flex;
+    margin: 0px 52px 0px 52px;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+    .btnLinkProyect4, .btnGitHubProyect4{
+        background: transparent;
+        border: 0;
+        overflow:hidden;
+        width: 300px;
+        height: 300px;
+    }
+        .imgLinkProyect4, .imgGitHubProyect4{
+            height: 250px;
+        }
+        .btnLinkProyect4:hover .imgLinkProyect4,
+        .btnGitHubProyect4:hover .imgGitHubProyect4{
             transform:scale(1.1);
         }

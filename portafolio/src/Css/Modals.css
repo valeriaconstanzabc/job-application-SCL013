@@ -1,0 +1,15 @@
+.backgroundModal{
+    width: 500px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+}
+.containerTittleAndX{
+    display: flex;
+    justify-content: space-between;
+}
+.btnClose{
+    height: 20px;
+    text-align: center;
+    border: 0;
+    background-color: rgb(255, 0, 0, 0.71);
+}
