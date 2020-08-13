@@ -104,3 +104,130 @@ export const ModalThreeProyectFour = () => {
         
     );
 };
+
+
+
+
+export const  ModalOneProyectOne = () => {
+    const [Modal, open, close] = useModal('root', {
+      preventScroll: true
+    });
+    return (
+      <div>
+          <button className="btnImgProyectOne" onClick={open}>
+              <img className="imgProyectOneUserHistory" src="https://i.ibb.co/7GVwRPP/2.png" alt=""/> 
+          </button>
+          <Modal>
+              <div className="backgroundModal">
+                  <div className="containerTittleAndX">
+                      <button class="btnClose" onClick={close}>X</button>
+                  </div>
+                  <p>
+                    Como vecin@ quiero una página en donde pueda comunicarme con 
+                    las personas de mi barrio.
+                  </p>
+                  <h4>Criterios de aceptación</h4>
+                  <p>
+                      * El usuario podrá acceder a una página dirigida a la conectividad barrial.<br/>
+                      * El usuario podrá ver información de qué trata la página (red social).<br/>
+                      * La página podrá visualizarse desde cualquier dispositivo.
+                  </p>
+              </div>
+          </Modal>
+      </div>
+        
+    );
+  };
+
+  export const  ModalTwoProyectOne = () => {
+    const [Modal, open, close] = useModal('root', {
+      preventScroll: true
+    });
+    return (
+      <div>
+          <button className="btnImgProyectOne" onClick={open}>
+              <img className="imgProyectOneUserHistory" src="https://i.ibb.co/fF7xmRQ/1.png" alt=""/> 
+          </button>
+          <Modal>
+              <div className="backgroundModal">
+                  <div className="containerTittleAndX">
+                      <button class="btnClose" onClick={close}>X</button>
+                  </div>
+                  <p>
+                    Como usuario quiero poder registrarme a la página.
+                  </p>
+                  <h4>Criterios de aceptación</h4>
+                  <p>
+                      * El usuario podrá acceder a la opción de registrarse.<br/>
+                      * El usuario podrá registrarse con Google.<br/>
+                      * El usuario podrá registrarse con Facebook.<br/>
+                      * El usuario podrá registrarse en la página.<br/>
+                      * El usuario recibirá verificación de su registro en su correo electrónico.
+                  </p>
+              </div>
+          </Modal>
+      </div>
+        
+    );
+  };
+
+  export const  ModalThreeProyectOne = () => {
+    const [Modal, open, close] = useModal('root', {
+      preventScroll: true
+    });
+    return (
+      <div>
+          <button className="btnImgProyectOne" onClick={open}>
+              <img className="imgProyectOneUserHistory" src="https://i.ibb.co/rdxg9vF/3.png" alt=""/> 
+          </button>
+          <Modal>
+              <div className="backgroundModal">
+                  <div className="containerTittleAndX">
+                      <button class="btnClose" onClick={close}>X</button>
+                  </div>
+                  <p>
+                    Yo como usuario quiero Iniciar Sesión para ingresar a la página.
+                  </p>
+                  <h4>Criterios de aceptación</h4>
+                  <p>
+                      * El usuario podrá acceder al formulario para iniciar sesión.<br/>
+                      * Podrá iniciar sesión con cuenta de Google.<br/>
+                      * Podrá iniciar sesión con cuenta de Facebook.<br/>
+                      * Una vez iniciada la sesión debe llevar al muro de la web.
+                  </p>
+              </div>
+          </Modal>
+      </div>
+        
+    );
+  };
+
+  export const  ModalFourProyectOne = () => {
+    const [Modal, open, close] = useModal('root', {
+      preventScroll: true
+    });
+    return (
+      <div>
+          <button className="btnImgProyectOne" onClick={open}>
+              <img className="imgProyectOneUserHistory" src="https://i.ibb.co/sPKNQFN/Group-15.png" alt=""/> 
+          </button>
+          <Modal>
+              <div className="backgroundModal">
+                  <div className="containerTittleAndX">
+                      <button class="btnClose" onClick={close}>X</button>
+                  </div>
+                  <p>
+                    Como usuario quiero postear publicaciones para que mis vecinos las vean 
+                    y le den like (comentar, guardar publicación, notificaciones).
+                  </p>
+                  <h4>Criterios de aceptación</h4>
+                  <p>
+                      * El usuario podrá acceder a sección en donde aparezca el muro de publicaciones.<br/>
+                      * Las publicaciones se verán por fecha y hora de posteo.
+                  </p>
+              </div>
+          </Modal>
+      </div>
+        
+    );
+  };

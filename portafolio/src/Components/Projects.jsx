@@ -12,15 +12,17 @@ const Projects = () => {
 
             <div id="proyectOne">
                 <div className="containerDescriptionProyectOne">
-                    <h5 className="tittleProyectOne">LOFCHE</h5>
+                    <h5 className="tittleProyectOneHome">LOFCHE</h5>
                     <p className="descriptionProyectOne">
                         Red social dirigida a personas pertenecientes a una comunidad, 
                         vecindad o barrio, que desean conectar y generar redes de apoyo.
                     </p>
-                    <button className="btnSeeProjectOne"><span>VER PROYECTO </span></button>
+                    <Link to="lofche">
+                    <button className="btnSeeProjectOne" onClick={() => window.scrollTo(0, 0)}><span>VER PROYECTO </span></button>
+                    </Link>
                 </div>
-                <div className="containerImgProyectOne">
-                    <img className="imgProyectOne" src="http://imgfz.com/i/wHPXCJm.png" alt="lofche"/>
+                <div className="containerImgProyectOneHome">
+                    <img className="imgProyectOneHome" src="http://imgfz.com/i/wHPXCJm.png" alt="lofche"/>
                 </div>
             </div>
             
@@ -31,7 +33,7 @@ const Projects = () => {
                         Página web que brinda a los usuarios una biblioteca con información 
                         relevante sobre los personajes de la saga de Harry Potter.
                     </p>
-                    <button className="btnSeeProjectTwo"><span>VER PROYECTO </span></button>
+                    <button className="btnSeeProjectTwo" onClick={() => window.scrollTo(0, 0)}><span>VER PROYECTO </span></button>
                 </div>
                 <div className="containerImgProyectTwo">
                     <img className="imgProyectTwo" src="http://imgfz.com/i/w5d6rKQ.png" alt="guia-muggle"/>
@@ -49,7 +51,7 @@ const Projects = () => {
                         dependencias del él.
                     </p>
                     <div id="containerBTNProyectThree">
-                        <button className="btnSeeProjectThree"><span>VER PROYECTO </span></button>
+                        <button className="btnSeeProjectThree" onClick={() => window.scrollTo(0, 0)}><span>VER PROYECTO </span></button>
                     </div>
                 </div>
             </div>
@@ -63,7 +65,7 @@ const Projects = () => {
                         enviar estos a la cocina y ver el estado de cada uno de ellos.
                     </p>
                     <Link to="burgerqueen">
-                        <button className="btnSeeProjectOne"><span>VER PROYECTO </span></button>
+                        <button className="btnSeeProjectOne" onClick={() => window.scrollTo(0, 0)}><span>VER PROYECTO </span></button>
                     </Link>
                 </div>
                 <div className="containerImgProyectfOUR">

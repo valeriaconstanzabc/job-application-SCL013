@@ -156,6 +156,7 @@
     }
 
 /* <----------------------CONTENED0R DE LINKS----------------> */
+
 #containerLinksProyect4{
     display: flex;
     margin: 60px 100px 0px 100px;
@@ -165,6 +166,7 @@
 .content {
     position: relative;
     width: 250px;
+    overflow: hidden;
 }
           
 .content .content-overlay {
@@ -190,7 +192,11 @@
 .content-details {
     position: absolute;
     text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
     width: 100%;
+    top: 50%;
+    left: 50%;
     opacity: 0;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -198,7 +204,7 @@
     -webkit-transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
-}
+  }
           
 .content:hover .content-details{
     top: 50%;

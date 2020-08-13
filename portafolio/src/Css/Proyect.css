@@ -17,7 +17,7 @@
         padding-top: 90px;
         margin-left: 50px;
     }
-            .tittleProyectOne, .tittleProyectTwo, .tittleProyectFour{    
+            .tittleProyectOneHome, .tittleProyectTwo, .tittleProyectFour{    
                 font-family: 'Fjalla One';
                 font-weight: normal;
                 font-size: 65px;
@@ -34,7 +34,7 @@
                 padding: 15px 0px 15px 0px;
                 color: #F5F5F5;
             }
-            .tittleProyectOne, .descriptionProyectOne, 
+            .tittleProyectOneHome, .descriptionProyectOne, 
             .tittleProyectFour, .descriptionProyectFour{
                 color:#1C1B20;
             }
@@ -56,14 +56,15 @@
                 color: #f1eeee;
                 outline: none;
             }
-        .containerImgProyectOne, .containerImgProyectTwo{
+            
+        .containerImgProyectOneHome, .containerImgProyectTwo{
             display: flex;
             justify-content: center;
             align-items: center;
             align-content: center;
             padding-right: 30px;
         }
-            .imgProyectOne{
+            .imgProyectOneHome{
                 height: 300px;
                 filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.8))
             }

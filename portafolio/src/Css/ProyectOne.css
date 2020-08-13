@@ -1,0 +1,69 @@
+#containerProyectOne{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px 50px 164px;
+    scroll-snap-align: initial;
+}
+#tProduction1{
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+    .containerTittleProyectOne{
+        display: flex;
+        height: 70px;
+        position: relative;
+    }
+        .tittleProyectOne{
+            padding: 0;
+            display: flex;
+            margin: 0px 0px 0px 45px;
+            font-family: 'Fjalla One';
+            font-weight: normal;
+            font-size: 120px;
+            color: #1C1B20;
+        }
+        .pointTittleProyectOne{
+            display: flex;
+            margin-top: -33px;
+            font-size: 150px;
+            color: #5DA893;
+            font-family: 'Fjalla One', sans-serif;
+        }
+    #containerColorProyectOne{
+        width: 1150px;
+        height: 2650px;
+        background: #F5C5B8;
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
+    }
+    
+    .imgLofche{
+        display: flex;
+    }
+
+    #containerDescriptionProductProyectOne,
+    #containerHistoryUserProyectOne{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Gudea';
+        font-size: 18px;
+        margin: 0px 52px 0px 52px;
+        margin-top: 40px;
+        color: #1C1B20;
+        text-align: justify;
+        /* font-weight: bold; */
+    }
+
+        .imgProyectOne{
+            padding-top: 20px;
+            height: 375px;
+        }
+
+.containerProyectOne{
+    display: flex;
+    padding: 0;
+}
+
+.imgProyectOneArrow3{
+    height: 120px;
+    width: 115px;
+}

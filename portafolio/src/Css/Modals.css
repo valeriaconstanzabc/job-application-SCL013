@@ -16,3 +16,21 @@
     outline: none;
     cursor: pointer;
 }
+/* <-----------------Historias de usuario proyecto 1--------> */
+.imgProyectOneUserHistory{
+    height: 140px;
+}
+
+.btnImgProyectOne{
+    background: transparent;
+    border: 0;
+    height: 500px;
+    overflow:hidden;
+    width: 180px;
+    height: 180px;
+    outline: none;
+    cursor: pointer;
+}
+.btnImgProyectOne:hover .imgProyectOneUserHistory {
+    transform:scale(1.2);
+}

@@ -12,6 +12,7 @@ import Projects from './Components/Projects';
 import Tools from './Components/Tools';
 import Menu from './Components/Menu';
 import ProyectFour from './Components/ProyectFour';
+import ProyectOne from './Components/ProyectOne';
 
 function App() {
   return (
@@ -49,7 +50,7 @@ function App() {
         <Route path="/lofche">
           <Menu />
           <SocialNetworks />
-
+          <ProyectOne />
         </Route>
 
         <Route path="/guiamuggle">
