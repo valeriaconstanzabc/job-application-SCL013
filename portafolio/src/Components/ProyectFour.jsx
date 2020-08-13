@@ -47,16 +47,29 @@ const ProyectFour = () => {
                 </div>
 
                 <div id="containerLinksProyect4">
-                    <a target="blank" href="https://burger-queen-2bad6.web.app/">
-                        <button className="btnLinkProyect4">
-                            <img className="imgLinkProyect4" src="https://i.ibb.co/zV5SjV3/Group-7.png" alt=""/>
-                        </button>
-                    </a>
-                    <a target="blank" href="https://github.com/valeriaconstanzabc/SCL013-burger-queen">
-                        <button className="btnGitHubProyect4">
-                            <img className="imgGitHubProyect4" src="https://i.ibb.co/QddgN9p/Group-8.png" alt=""/>
-                        </button>
-                    </a>
+                    <div className="container">
+                        <div className="content">
+                            <a href="https://burger-queen-2bad6.web.app/" target="blank">
+                            <div className="content-overlay"></div>
+                            <img className="content-image" src="https://i.ibb.co/zV5SjV3/Group-7.png"/>
+                            <div className="content-details fadeIn-bottom">
+                                <h3 className="content-title">¡Visita <br/> Burger-Queen!</h3>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="container">
+                        <div className="content">
+                            <a href="https://github.com/valeriaconstanzabc/SCL013-burger-queen" target="blank">
+                            <div className="content-overlay"></div>
+                            <img className="content-image" src="https://i.ibb.co/QddgN9p/Group-8.png"/>
+                            <div className="content-details fadeIn-bottom">
+                                <h3 className="content-title">Código del <br/> proyecto</h3>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
                 <div id="containerUserDefinition">

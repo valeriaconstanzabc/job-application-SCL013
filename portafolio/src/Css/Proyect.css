@@ -54,6 +54,7 @@
                 font-size: 22px;
                 line-height: 27px;
                 color: #f1eeee;
+                outline: none;
             }
         .containerImgProyectOne, .containerImgProyectTwo{
             display: flex;
@@ -86,6 +87,7 @@
             }
             .btnSeeProjectTwo{
                 margin-top: 15px;
+                outline: none;
             }
             .imgProyectTwo{
                 height: 400px;
@@ -142,6 +144,7 @@
             font-size: 22px;
             line-height: 27px;
             color: #f1eeee;
+            outline: none;
         }
 
 /* <-----------PROYECTO CUATRO------------> */
