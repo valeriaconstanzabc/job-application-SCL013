@@ -36,6 +36,11 @@ const Tools = () => {
                             <h2 className="textImgTools">React</h2>
                         </div>
                     </div>
+                    <div className="imgToolsFirebase">
+                        <div className="containerImgTools">
+                            <h2 className="textImgTools">Firebase</h2>
+                        </div>
+                    </div>
                     <div className="imgToolsGithub">
                         <div className="containerImgTools">
                             <h2 className="textImgTools">Github</h2>

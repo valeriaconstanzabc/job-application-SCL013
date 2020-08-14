@@ -1,7 +1,8 @@
 import React from 'react';
 import useModal from 'react-hooks-use-modal';
 import '../Css/Modals.css'
- 
+
+//<----------------------------MODALES PROYECTO CUATRO--------------------------->
 export const  ModalOneProyectFour = () => {
   const [Modal, open, close] = useModal('root', {
     preventScroll: true
@@ -107,7 +108,7 @@ export const ModalThreeProyectFour = () => {
 
 
 
-
+//<----------------------------MODALES PROYECTO UNO------------------------------>
 export const  ModalOneProyectOne = () => {
     const [Modal, open, close] = useModal('root', {
       preventScroll: true
@@ -120,7 +121,8 @@ export const  ModalOneProyectOne = () => {
           <Modal>
               <div className="backgroundModal">
                   <div className="containerTittleAndX">
-                      <button class="btnClose" onClick={close}>X</button>
+                    <h3>HISTORIA DE USUARIO 1</h3>
+                    <button class="btnClose" onClick={close}>X</button>
                   </div>
                   <p>
                     Como vecin@ quiero una página en donde pueda comunicarme con 
@@ -151,7 +153,8 @@ export const  ModalOneProyectOne = () => {
           <Modal>
               <div className="backgroundModal">
                   <div className="containerTittleAndX">
-                      <button class="btnClose" onClick={close}>X</button>
+                    <h3>HISTORIA DE USUARIO 2</h3>
+                    <button class="btnClose" onClick={close}>X</button>
                   </div>
                   <p>
                     Como usuario quiero poder registrarme a la página.
@@ -183,7 +186,8 @@ export const  ModalOneProyectOne = () => {
           <Modal>
               <div className="backgroundModal">
                   <div className="containerTittleAndX">
-                      <button class="btnClose" onClick={close}>X</button>
+                    <h3>HISTORIA DE USUARIO 3</h3>
+                    <button class="btnClose" onClick={close}>X</button>
                   </div>
                   <p>
                     Yo como usuario quiero Iniciar Sesión para ingresar a la página.
@@ -214,7 +218,8 @@ export const  ModalOneProyectOne = () => {
           <Modal>
               <div className="backgroundModal">
                   <div className="containerTittleAndX">
-                      <button class="btnClose" onClick={close}>X</button>
+                    <h3>HISTORIA DE USUARIO 4</h3>
+                    <button class="btnClose" onClick={close}>X</button>
                   </div>
                   <p>
                     Como usuario quiero postear publicaciones para que mis vecinos las vean 

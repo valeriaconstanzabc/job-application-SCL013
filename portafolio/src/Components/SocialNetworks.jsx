@@ -5,13 +5,14 @@ const SocialNetworks = () => {
     return (
         <div id="containerSocialNetworks">
             <div className="containerBTNSocial">
-                <a target="blank" href="https://www.linkedin.com/in/valeria-brito-castillo-3a71b8157/">
+                <a target="blank" href="https://www.linkedin.com/in/valeriabritocastillo/">
                     <button className="btnSocial">
                         <img src="http://imgfz.com/i/WJ68FUz.png" className="imgSocial" alt="linkedin"/>
                     </button>
                 </a>
             </div>
             <div className="containerBTNSocial">
+                
                 <a target="blank" rel="GitHub" href="https://github.com/valeriaconstanzabc">
                     <button className="btnSocial">
                         <img src="http://imgfz.com/i/iQHKf6A.png" className="imgSocial" alt="github"/>

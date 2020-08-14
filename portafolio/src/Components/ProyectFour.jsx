@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Css/ProyectFour.css'
 
-import { ModalOneProyectFour, ModalTwoProyectFour, ModalThreeProyectFour } from './ModalProyectFour';
+import { ModalOneProyectFour, ModalTwoProyectFour, ModalThreeProyectFour } from './Modals';
 
 const ProyectFour = () => {
 
@@ -51,7 +51,7 @@ const ProyectFour = () => {
                         <div className="content">
                             <a href="https://burger-queen-2bad6.web.app/" target="blank">
                             <div className="content-overlay"></div>
-                            <img className="content-image" src="https://i.ibb.co/zV5SjV3/Group-7.png"/>
+                            <img className="content-image" alt="Logo del proyecto" src="https://i.ibb.co/zV5SjV3/Group-7.png"/>
                             <div className="content-details fadeIn-bottom">
                                 <h3 className="content-title">¡Visita <br/> Burger-Queen!</h3>
                             </div>
@@ -63,7 +63,7 @@ const ProyectFour = () => {
                         <div className="content">
                             <a href="https://github.com/valeriaconstanzabc/SCL013-burger-queen" target="blank">
                             <div className="content-overlay"></div>
-                            <img className="content-image" src="https://i.ibb.co/QddgN9p/Group-8.png"/>
+                            <img className="content-image" alt="Código del proyecto" src="https://i.ibb.co/QddgN9p/Group-8.png"/>
                             <div className="content-details fadeIn-bottom">
                                 <h3 className="content-title">Código del <br/> proyecto</h3>
                             </div>

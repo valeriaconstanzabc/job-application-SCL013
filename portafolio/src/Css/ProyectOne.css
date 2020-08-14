@@ -31,7 +31,7 @@
         }
     #containerColorProyectOne{
         width: 1150px;
-        height: 2650px;
+        height: 1650px;
         background: #F5C5B8;
         box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
     }
@@ -41,7 +41,8 @@
     }
 
     #containerDescriptionProductProyectOne,
-    #containerHistoryUserProyectOne{
+    #containerHistoryUserProyectOne,
+    #containerToolsProyectOne{
         display: flex;
         flex-direction: column;
         font-family: 'Gudea';
@@ -67,3 +68,46 @@
     height: 120px;
     width: 115px;
 }
+
+/* <------------------------HERRAMIENTAS-----------------------> */
+.toolsProyectOne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+    .imgToolsHTML5ProyectOne, .imgToolsJSProyectOne,
+    .imgToolsCSSProyectOne, .imgToolsFirebaseProyectOne,
+    .imgToolsFigmaProyectOne, .imgToolsInvisionProyectOne{
+        height: 110px;
+        width: 110px;
+        background-size: cover;
+        filter: drop-shadow(9px 9px 9px rgba(0, 0, 0, 0.6))
+    }
+    .imgToolsHTML5ProyectOne{background-image: url("http://imgfz.com/i/cBb3i7D.png");}
+    .imgToolsJSProyectOne{background-image: url("http://imgfz.com/i/RkSbjGl.png");}
+    .imgToolsCSSProyectOne{background-image: url("http://imgfz.com/i/AYunpIz.png");}
+    .imgToolsFirebaseProyectOne{background-image: url("https://i.ibb.co/8x6Rv7P/firebase.png");}
+    .imgToolsFigmaProyectOne{background-image: url("http://imgfz.com/i/QcyeCpM.png");}
+    .imgToolsInvisionProyectOne{background-image: url("http://imgfz.com/i/Trg7GMB.png");}
+        
+    .imgToolsHTML5ProyectOne:hover .containerImgToolsProyectOne,
+    .imgToolsJSProyectOne:hover .containerImgToolsProyectOne,
+    .imgToolsCSSProyectOne:hover .containerImgToolsProyectOne,
+    .imgToolsFirebaseProyectOne:hover .containerImgToolsProyectOne,
+    .imgToolsGithubProyectOne:hover .containerImgToolsProyectOne,
+    .imgToolsFigmaProyectOne:hover .containerImgToolsProyectOne,
+    .imgToolsInvisionProyectOne:hover .containerImgToolsProyectOne{
+        opacity: 1;
+    }
+        .containerImgToolsProyectOne{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow:hidden;
+            width: 118px;
+            height: 118px;
+            opacity:0;
+            transition: opacity 0.3s;
+            margin: 0;
+        }            
