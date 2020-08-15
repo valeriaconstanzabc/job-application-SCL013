@@ -1,4 +1,4 @@
-#containerProyectFour{
+#containerProjectFour{
     display: flex;
     flex-direction: column;
     padding: 100px 0px 50px 164px;
@@ -7,12 +7,12 @@
     font-size: 15px;
     padding-bottom: 30px;
 }
-    .containerTittleProyectFour{
+    .containerTittleProjectFour{
         display: flex;
         height: 70px;
         position: relative;
     }
-        .tittleProyectFourr{
+        .tittleProjectFourr{
             display: flex;
             margin: 0px 0px 0px 45px;
             font-family: 'Fjalla One';
@@ -20,22 +20,22 @@
             font-size: 120px;
             color: #1C1B20;
         }
-        .pointTittleProyectFour{
+        .pointTittleProjectFour{
             display: flex;
             margin-top: -33px;
             font-size: 150px;
             color: #5DA893;
             font-family: 'Fjalla One', sans-serif;
         }
-    #containerColorProyectFour{
+    #containerColorProjectFour{
         width: 1150px;
         height: 2650px;
         background: #F5C5B8;
         box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
     }
     
-    #containerDescriptionProductProyect4, #containerHistoryUserProyect4, 
-    #containerToolsProyect4, #visitBurgerQueen, #containerUserDefinition{
+    #containerDescriptionProductProject4, #containerHistoryUserProject4, 
+    #containerToolsProject4, #visitBurgerQueen, #containerUserDefinition{
         display: flex;
         flex-direction: column;
         font-family: 'Gudea';
@@ -46,7 +46,7 @@
         text-align: justify;
         /* font-weight: bold; */
     }
-    #descriptionAboutMeProyectFour2{
+    #descriptionAboutMeProjectFour2{
         display: flex;
         flex-direction: column;
         font-family: 'Gudea';
@@ -55,7 +55,7 @@
         margin-top: 15px;
         color: #1C1B20;
     }
-    #descriptionAboutMeProyectFour3{
+    #descriptionAboutMeProjectFour3{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -65,16 +65,16 @@
         margin-top: 30px;
         color: #1C1B20;
     }
-        .imgProyectFour1{
+        .imgProjectFour1{
             display: flex;
             width: 425px;
         }
-        .imgProyectFour2{
+        .imgProjectFour2{
             display: flex;
             width: 1048px;
             padding-top: 30px;
         }
-        .container1ProyectFour1, .container1ProyectFour2, .container1ProyectFour3{
+        .container1ProjectFour1, .container1ProjectFour2, .container1ProjectFour3{
             display: flex;
             padding: 0;
         }
@@ -88,17 +88,17 @@
             font-size: 30px;
             margin: 40px 0px 40px 0px;
         }
-        .imgProyectFour3{
+        .imgProjectFour3{
             height: 200px;
         }
-        .imgProyectFourArrow3{
+        .imgProjectFourArrow3{
             height: 150px;
         }
-        .containerImgProyectFourArrow3{
+        .containerImgProjectFourArrow3{
             display: flex;
             align-items: center;
         }
-        .btnImgProyectFour3{
+        .btnImgProjectFour3{
             background: transparent;
             border: 0;
             overflow:hidden;
@@ -107,32 +107,32 @@
             outline: none;
             cursor: pointer;
         }
-        .btnImgProyectFour3:hover .imgProyectFour3 {
+        .btnImgProjectFour3:hover .imgProjectFour3 {
             transform:scale(1.1);
         }
 
-.toolsProyectFour{
+.toolsProjectFour{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 200px;
 }
-.imgToolsHTML5Proyect4, .imgToolsJSProyect4, .imgToolsCSSProyect4,
-.imgToolsReactProyect4, .imgToolsFigmaProyect4,
-.imgToolsInvisionProyect4{
+.imgToolsHTML5Project4, .imgToolsJSProject4, .imgToolsCSSProject4,
+.imgToolsReactProject4, .imgToolsFigmaProject4,
+.imgToolsInvisionProject4{
     height: 110px;
     width: 110px;
     background-size: cover;
     filter: drop-shadow(9px 9px 9px rgba(0, 0, 0, 0.6))
 }
-.imgToolsHTML5Proyect4{background-image: url("http://imgfz.com/i/cBb3i7D.png");}
-.imgToolsJSProyect4{background-image: url("http://imgfz.com/i/RkSbjGl.png");}
-.imgToolsCSSProyect4{background-image: url("http://imgfz.com/i/AYunpIz.png");}
-.imgToolsReactProyect4{background-image: url("http://imgfz.com/i/KI90XYh.png");}
-.imgToolsFigmaProyect4{background-image: url("http://imgfz.com/i/QcyeCpM.png");}
-.imgToolsInvisionProyect4{background-image: url("http://imgfz.com/i/Trg7GMB.png");}
+.imgToolsHTML5Project4{background-image: url("http://imgfz.com/i/cBb3i7D.png");}
+.imgToolsJSProject4{background-image: url("http://imgfz.com/i/RkSbjGl.png");}
+.imgToolsCSSProject4{background-image: url("http://imgfz.com/i/AYunpIz.png");}
+.imgToolsReactProject4{background-image: url("http://imgfz.com/i/KI90XYh.png");}
+.imgToolsFigmaProject4{background-image: url("http://imgfz.com/i/QcyeCpM.png");}
+.imgToolsInvisionProject4{background-image: url("http://imgfz.com/i/Trg7GMB.png");}
 
-.containerImgToolsProyect4{
+.containerImgToolsProject4{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,19 +143,19 @@
     transition: opacity 0.3s;
     margin: 0;
 }
-    .imgToolsHTML5Proyect4:hover .containerImgToolsProyect4,
-    .imgToolsJSProyect4:hover .containerImgToolsProyect4,
-    .imgToolsCSSProyect4:hover .containerImgToolsProyect4,
-    .imgToolsReactProyect4:hover .containerImgToolsProyect4,
-    .imgToolsGithubProyect4:hover .containerImgToolsProyect4,
-    .imgToolsFigmaProyect4:hover .containerImgToolsProyect4,
-    .imgToolsInvisionProyect4:hover .containerImgToolsProyect4{
+    .imgToolsHTML5Project4:hover .containerImgToolsProject4,
+    .imgToolsJSProject4:hover .containerImgToolsProject4,
+    .imgToolsCSSProject4:hover .containerImgToolsProject4,
+    .imgToolsReactProject4:hover .containerImgToolsProject4,
+    .imgToolsGithubProject4:hover .containerImgToolsProject4,
+    .imgToolsFigmaProject4:hover .containerImgToolsProject4,
+    .imgToolsInvisionProject4:hover .containerImgToolsProject4{
         opacity: 1;
     }
 
 /* <----------------------CONTENED0R DE LINKS----------------> */
 
-#containerLinksProyect4{
+#containerLinksProject4{
     display: flex;
     margin: 60px 100px 0px 100px;
     justify-content: space-around;

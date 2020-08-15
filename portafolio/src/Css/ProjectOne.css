@@ -1,4 +1,4 @@
-#containerProyectOne{
+#containerProjectOne{
     display: flex;
     flex-direction: column;
     padding: 100px 0px 50px 164px;
@@ -8,12 +8,12 @@
     font-size: 15px;
     padding-bottom: 30px;
 }
-    .containerTittleProyectOne{
+    .containerTittleProjectOne{
         display: flex;
         height: 70px;
         position: relative;
     }
-        .tittleProyectOne{
+        .tittleProjectOne{
             padding: 0;
             display: flex;
             margin: 0px 0px 0px 45px;
@@ -22,14 +22,14 @@
             font-size: 120px;
             color: #1C1B20;
         }
-        .pointTittleProyectOne{
+        .pointTittleProjectOne{
             display: flex;
             margin-top: -33px;
             font-size: 150px;
             color: #5DA893;
             font-family: 'Fjalla One', sans-serif;
         }
-    #containerColorProyectOne{
+    #containerColorProjectOne{
         width: 1150px;
         height: 1650px;
         background: #F5C5B8;
@@ -40,9 +40,9 @@
         display: flex;
     }
 
-    #containerDescriptionProductProyectOne,
-    #containerHistoryUserProyectOne,
-    #containerToolsProyectOne{
+    #containerDescriptionProductProjectOne,
+    #containerHistoryUserProjectOne,
+    #containerToolsProjectOne{
         display: flex;
         flex-direction: column;
         font-family: 'Gudea';
@@ -54,53 +54,53 @@
         /* font-weight: bold; */
     }
 
-        .imgProyectOne{
+        .imgProjectOne{
             padding-top: 20px;
             height: 375px;
         }
 
-.containerProyectOne{
+.containerProjectOne{
     display: flex;
     padding: 0;
 }
 
-.imgProyectOneArrow3{
+.imgProjectOneArrow3{
     height: 120px;
     width: 115px;
 }
 
 /* <------------------------HERRAMIENTAS-----------------------> */
-.toolsProyectOne{
+.toolsProjectOne{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 200px;
 }
-    .imgToolsHTML5ProyectOne, .imgToolsJSProyectOne,
-    .imgToolsCSSProyectOne, .imgToolsFirebaseProyectOne,
-    .imgToolsFigmaProyectOne, .imgToolsInvisionProyectOne{
+    .imgToolsHTML5ProjectOne, .imgToolsJSProjectOne,
+    .imgToolsCSSProjectOne, .imgToolsFirebaseProjectOne,
+    .imgToolsFigmaProjectOne, .imgToolsInvisionProjectOne{
         height: 110px;
         width: 110px;
         background-size: cover;
         filter: drop-shadow(9px 9px 9px rgba(0, 0, 0, 0.6))
     }
-    .imgToolsHTML5ProyectOne{background-image: url("http://imgfz.com/i/cBb3i7D.png");}
-    .imgToolsJSProyectOne{background-image: url("http://imgfz.com/i/RkSbjGl.png");}
-    .imgToolsCSSProyectOne{background-image: url("http://imgfz.com/i/AYunpIz.png");}
-    .imgToolsFirebaseProyectOne{background-image: url("https://i.ibb.co/8x6Rv7P/firebase.png");}
-    .imgToolsFigmaProyectOne{background-image: url("http://imgfz.com/i/QcyeCpM.png");}
-    .imgToolsInvisionProyectOne{background-image: url("http://imgfz.com/i/Trg7GMB.png");}
+    .imgToolsHTML5ProjectOne{background-image: url("http://imgfz.com/i/cBb3i7D.png");}
+    .imgToolsJSProjectOne{background-image: url("http://imgfz.com/i/RkSbjGl.png");}
+    .imgToolsCSSProjectOne{background-image: url("http://imgfz.com/i/AYunpIz.png");}
+    .imgToolsFirebaseProjectOne{background-image: url("https://i.ibb.co/8x6Rv7P/firebase.png");}
+    .imgToolsFigmaProjectOne{background-image: url("http://imgfz.com/i/QcyeCpM.png");}
+    .imgToolsInvisionProjectOne{background-image: url("http://imgfz.com/i/Trg7GMB.png");}
         
-    .imgToolsHTML5ProyectOne:hover .containerImgToolsProyectOne,
-    .imgToolsJSProyectOne:hover .containerImgToolsProyectOne,
-    .imgToolsCSSProyectOne:hover .containerImgToolsProyectOne,
-    .imgToolsFirebaseProyectOne:hover .containerImgToolsProyectOne,
-    .imgToolsGithubProyectOne:hover .containerImgToolsProyectOne,
-    .imgToolsFigmaProyectOne:hover .containerImgToolsProyectOne,
-    .imgToolsInvisionProyectOne:hover .containerImgToolsProyectOne{
+    .imgToolsHTML5ProjectOne:hover .containerImgToolsProjectOne,
+    .imgToolsJSProjectOne:hover .containerImgToolsProjectOne,
+    .imgToolsCSSProjectOne:hover .containerImgToolsProjectOne,
+    .imgToolsFirebaseProjectOne:hover .containerImgToolsProjectOne,
+    .imgToolsGithubProjectOne:hover .containerImgToolsProjectOne,
+    .imgToolsFigmaProjectOne:hover .containerImgToolsProjectOne,
+    .imgToolsInvisionProjectOne:hover .containerImgToolsProjectOne{
         opacity: 1;
     }
-        .containerImgToolsProyectOne{
+        .containerImgToolsProjectOne{
             display: flex;
             justify-content: center;
             align-items: center;

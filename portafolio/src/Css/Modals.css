@@ -17,11 +17,11 @@
     cursor: pointer;
 }
 /* <-----------------Historias de usuario proyecto 1--------> */
-.imgProyectOneUserHistory{
+.imgProjectOneUserHistory{
     height: 140px;
 }
 
-.btnImgProyectOne{
+.btnImgProjectOne{
     background: transparent;
     border: 0;
     height: 500px;
@@ -31,6 +31,6 @@
     outline: none;
     cursor: pointer;
 }
-.btnImgProyectOne:hover .imgProyectOneUserHistory {
+.btnImgProjectOne:hover .imgProjectOneUserHistory {
     transform:scale(1.2);
 }

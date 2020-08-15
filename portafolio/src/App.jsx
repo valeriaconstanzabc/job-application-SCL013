@@ -11,8 +11,8 @@ import AboutMe from './Components/AboutMe';
 import Projects from './Components/Projects';
 import Tools from './Components/Tools';
 import Menu from './Components/Menu';
-import ProyectFour from './Components/ProyectFour';
-import ProyectOne from './Components/ProyectOne';
+import ProjectFour from './Components/ProjectFour';
+import ProjectOne from './Components/ProjectOne';
 
 function App() {
   return (
@@ -50,7 +50,7 @@ function App() {
         <Route path="/lofche">
           <Menu />
           <SocialNetworks />
-          <ProyectOne />
+          <ProjectOne />
         </Route>
 
         <Route path="/guiamuggle">
@@ -68,7 +68,7 @@ function App() {
         <Route path="/burgerqueen">
           <Menu />
           <SocialNetworks />
-          <ProyectFour />
+          <ProjectFour />
         </Route>
 
       </Switch>

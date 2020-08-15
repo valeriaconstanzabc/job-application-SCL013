@@ -3,14 +3,14 @@ import useModal from 'react-hooks-use-modal';
 import '../Css/Modals.css'
 
 //<----------------------------MODALES PROYECTO CUATRO--------------------------->
-export const  ModalOneProyectFour = () => {
+export const  ModalOneProjectFour = () => {
   const [Modal, open, close] = useModal('root', {
     preventScroll: true
   });
   return (
     <div>
-        <button className="btnImgProyectFour3" onClick={open}>
-            <img className="imgProyectFour3" src="https://i.ibb.co/z75nXXG/Group-1.png" alt=""/> 
+        <button className="btnImgProjectFour3" onClick={open}>
+            <img className="imgProjectFour3" src="https://i.ibb.co/z75nXXG/Group-1.png" alt=""/> 
         </button>
         <Modal>
             <div className="backgroundModal">
@@ -40,14 +40,14 @@ export const  ModalOneProyectFour = () => {
   );
 };
 
-export const ModalTwoProyectFour = () => {
+export const ModalTwoProjectFour = () => {
     const [Modal, open, close] = useModal('root', {
       preventScroll: true
     });
     return (
       <div>
-          <button className="btnImgProyectFour3" onClick={open}>
-                <img className="imgProyectFour3" src="https://i.ibb.co/XtdxZzZ/Group-3.png" alt=""/>               
+          <button className="btnImgProjectFour3" onClick={open}>
+                <img className="imgProjectFour3" src="https://i.ibb.co/XtdxZzZ/Group-3.png" alt=""/>               
             </button>
           <Modal>
               <div className="backgroundModal">
@@ -74,14 +74,14 @@ export const ModalTwoProyectFour = () => {
     );
 };
 
-export const ModalThreeProyectFour = () => {
+export const ModalThreeProjectFour = () => {
     const [Modal, open, close] = useModal('root', {
       preventScroll: true
     });
     return (
       <div>
-            <button className="btnImgProyectFour3" onClick={open}>
-                <img className="imgProyectFour3" src="https://i.ibb.co/qWYRgRT/Group-2.png" alt=""/>
+            <button className="btnImgProjectFour3" onClick={open}>
+                <img className="imgProjectFour3" src="https://i.ibb.co/qWYRgRT/Group-2.png" alt=""/>
             </button> 
           <Modal>
           <div className="backgroundModal">
@@ -109,14 +109,14 @@ export const ModalThreeProyectFour = () => {
 
 
 //<----------------------------MODALES PROYECTO UNO------------------------------>
-export const  ModalOneProyectOne = () => {
+export const  ModalOneProjectOne = () => {
     const [Modal, open, close] = useModal('root', {
       preventScroll: true
     });
     return (
       <div>
-          <button className="btnImgProyectOne" onClick={open}>
-              <img className="imgProyectOneUserHistory" src="https://i.ibb.co/7GVwRPP/2.png" alt=""/> 
+          <button className="btnImgProjectOne" onClick={open}>
+              <img className="imgProjectOneUserHistory" src="https://i.ibb.co/7GVwRPP/2.png" alt=""/> 
           </button>
           <Modal>
               <div className="backgroundModal">
@@ -141,14 +141,14 @@ export const  ModalOneProyectOne = () => {
     );
   };
 
-  export const  ModalTwoProyectOne = () => {
+  export const  ModalTwoProjectOne = () => {
     const [Modal, open, close] = useModal('root', {
       preventScroll: true
     });
     return (
       <div>
-          <button className="btnImgProyectOne" onClick={open}>
-              <img className="imgProyectOneUserHistory" src="https://i.ibb.co/fF7xmRQ/1.png" alt=""/> 
+          <button className="btnImgProjectOne" onClick={open}>
+              <img className="imgProjectOneUserHistory" src="https://i.ibb.co/fF7xmRQ/1.png" alt=""/> 
           </button>
           <Modal>
               <div className="backgroundModal">
@@ -174,14 +174,14 @@ export const  ModalOneProyectOne = () => {
     );
   };
 
-  export const  ModalThreeProyectOne = () => {
+  export const  ModalThreeProjectOne = () => {
     const [Modal, open, close] = useModal('root', {
       preventScroll: true
     });
     return (
       <div>
-          <button className="btnImgProyectOne" onClick={open}>
-              <img className="imgProyectOneUserHistory" src="https://i.ibb.co/rdxg9vF/3.png" alt=""/> 
+          <button className="btnImgProjectOne" onClick={open}>
+              <img className="imgProjectOneUserHistory" src="https://i.ibb.co/rdxg9vF/3.png" alt=""/> 
           </button>
           <Modal>
               <div className="backgroundModal">
@@ -206,14 +206,14 @@ export const  ModalOneProyectOne = () => {
     );
   };
 
-  export const  ModalFourProyectOne = () => {
+  export const  ModalFourProjectOne = () => {
     const [Modal, open, close] = useModal('root', {
       preventScroll: true
     });
     return (
       <div>
-          <button className="btnImgProyectOne" onClick={open}>
-              <img className="imgProyectOneUserHistory" src="https://i.ibb.co/sPKNQFN/Group-15.png" alt=""/> 
+          <button className="btnImgProjectOne" onClick={open}>
+              <img className="imgProjectOneUserHistory" src="https://i.ibb.co/sPKNQFN/Group-15.png" alt=""/> 
           </button>
           <Modal>
               <div className="backgroundModal">

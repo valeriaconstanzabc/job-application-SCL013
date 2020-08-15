@@ -1,23 +1,23 @@
 import React from 'react';
-import '../Css/ProyectFour.css'
+import '../Css/ProjectFour.css'
 
-import { ModalOneProyectFour, ModalTwoProyectFour, ModalThreeProyectFour } from './Modals';
+import { ModalOneProjectFour, ModalTwoProjectFour, ModalThreeProjectFour } from './Modals';
 
-const ProyectFour = () => {
+const ProjectFour = () => {
 
     return (
-        <div id="containerProyectFour">
-            <div className="containerTittleProyectFour">
-            <h5 className="tittleProyectFourr">BURGER-QUEEN</h5>
-            <h3 className="pointTittleProyectFour">.</h3>
+        <div id="containerProjectFour">
+            <div className="containerTittleProjectFour">
+            <h5 className="tittleProjectFourr">BURGER-QUEEN</h5>
+            <h3 className="pointTittleProjectFour">.</h3>
             </div>
 
-            <div id="containerColorProyectFour">
-                <div id="containerDescriptionProductProyect4">
+            <div id="containerColorProjectFour">
+                <div id="containerDescriptionProductProject4">
                     <p id="tProduction">Tiempo de producción: 4 semanas</p>
                     <h2>DEFINICIÓN DE PRODUCTO</h2>
 
-                    <div className="container1ProyectFour1">
+                    <div className="container1ProjectFour1">
                         <p className="text1">
                         BurgerQueen es un pequeño restaurante de hamburguesas estilo <strong>vintage. </strong> 
                         Este restaurante está creciendo, por lo que fue necesario realizar una 
@@ -41,12 +41,12 @@ const ProyectFour = () => {
                         marcarlas como <strong>"listas"</strong> (las ordenes que ya han sido realizadas).
                         </p>
                         <div>
-                        <img className="imgProyectFour1" src="https://i.ibb.co/BLJj4d4/gKFHiM2.png" alt=""/>
+                        <img className="imgProjectFour1" src="https://i.ibb.co/BLJj4d4/gKFHiM2.png" alt=""/>
                         </div>
                     </div>                   
                 </div>
 
-                <div id="containerLinksProyect4">
+                <div id="containerLinksProject4">
                     <div className="container">
                         <div className="content">
                             <a href="https://burger-queen-2bad6.web.app/" target="blank">
@@ -85,59 +85,59 @@ const ProyectFour = () => {
                         grandes y vistosos que facilitara toda interacción que se 
                         realice en ella.
                     </p>
-                    <img className="imgProyectFour2" src="http://imgfz.com/i/NqGgDFi.jpeg" alt=""/>                   
+                    <img className="imgProjectFour2" src="http://imgfz.com/i/NqGgDFi.jpeg" alt=""/>                   
                 </div>
 
-                <div id="containerHistoryUserProyect4">
+                <div id="containerHistoryUserProject4">
                     <h2 className="text3">HISTORIAS DE USUARIO</h2>
-                    <div className="container1ProyectFour3">
-                        <div>{<ModalOneProyectFour />}</div>
+                    <div className="container1ProjectFour3">
+                        <div>{<ModalOneProjectFour />}</div>
 
-                        <div className="containerImgProyectFourArrow3">
-                            <img className="imgProyectFourArrow3" src="https://i.ibb.co/TkX1RRV/eva-arrow-ios-forward-fill.png" alt=""/>
+                        <div className="containerImgProjectFourArrow3">
+                            <img className="imgProjectFourArrow3" src="https://i.ibb.co/TkX1RRV/eva-arrow-ios-forward-fill.png" alt=""/>
                         </div>
 
-                        <div>{<ModalTwoProyectFour />}</div>
+                        <div>{<ModalTwoProjectFour />}</div>
 
-                        <div className="containerImgProyectFourArrow3">
-                            <img className="imgProyectFourArrow3" src="https://i.ibb.co/TkX1RRV/eva-arrow-ios-forward-fill.png" alt=""/>
+                        <div className="containerImgProjectFourArrow3">
+                            <img className="imgProjectFourArrow3" src="https://i.ibb.co/TkX1RRV/eva-arrow-ios-forward-fill.png" alt=""/>
                         </div>
 
-                        <div>{<ModalThreeProyectFour />}</div>
+                        <div>{<ModalThreeProjectFour />}</div>
                     </div>
                 </div>
 
-                <div id="containerToolsProyect4">
+                <div id="containerToolsProject4">
                     <h2>HERRAMIENTAS UTILIZADAS</h2>
-                    <div className="toolsProyectFour">
-                        <div className="imgToolsHTML5Proyect4">
-                            <div className="containerImgToolsProyect4">
-                                <h2 className="textImgToolsProyect4">HTML5</h2>
+                    <div className="toolsProjectFour">
+                        <div className="imgToolsHTML5Project4">
+                            <div className="containerImgToolsProject4">
+                                <h2 className="textImgToolsProject4">HTML5</h2>
                             </div>
                         </div>
-                        <div className="imgToolsJSProyect4">
-                            <div className="containerImgToolsProyect4">
-                                <h2 className="textImgToolsProyect4">JavaScript</h2>
+                        <div className="imgToolsJSProject4">
+                            <div className="containerImgToolsProject4">
+                                <h2 className="textImgToolsProject4">JavaScript</h2>
                             </div>
                         </div>
-                        <div className="imgToolsCSSProyect4">
-                            <div className="containerImgToolsProyect4">
-                                <h2 className="textImgToolsProyect4">CSS</h2>
+                        <div className="imgToolsCSSProject4">
+                            <div className="containerImgToolsProject4">
+                                <h2 className="textImgToolsProject4">CSS</h2>
                             </div>
                         </div>
-                        <div className="imgToolsReactProyect4">
-                            <div className="containerImgToolsProyect4">
-                                <h2 className="textImgToolsProyect4">React</h2>
+                        <div className="imgToolsReactProject4">
+                            <div className="containerImgToolsProject4">
+                                <h2 className="textImgToolsProject4">React</h2>
                             </div>
                         </div>
-                        <div className="imgToolsFigmaProyect4">
-                            <div className="containerImgToolsProyect4">
-                                <h2 className="textImgToolsProyect4">Figma</h2>
+                        <div className="imgToolsFigmaProject4">
+                            <div className="containerImgToolsProject4">
+                                <h2 className="textImgToolsProject4">Figma</h2>
                             </div>
                         </div>
-                        <div className="imgToolsInvisionProyect4">
-                            <div className="containerImgToolsProyect4">
-                                <h2 className="textImgToolsProyect4">Invision</h2>
+                        <div className="imgToolsInvisionProject4">
+                            <div className="containerImgToolsProject4">
+                                <h2 className="textImgToolsProject4">Invision</h2>
                             </div>
                         </div>
                         
@@ -148,4 +148,4 @@ const ProyectFour = () => {
     )
 }
 
-export default ProyectFour
+export default ProjectFour

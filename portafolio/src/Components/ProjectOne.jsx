@@ -1,23 +1,23 @@
 import React from 'react';
-import '../Css/ProyectOne.css'
+import '../Css/ProjectOne.css'
 
-import { ModalOneProyectOne, ModalTwoProyectOne, ModalThreeProyectOne, ModalFourProyectOne } from './Modals';
+import { ModalOneProjectOne, ModalTwoProjectOne, ModalThreeProjectOne, ModalFourProjectOne } from './Modals';
 
-const ProyectFour = () => {
+const ProjectFour = () => {
 
     return (
-        <div id="containerProyectOne">
-            <div className="containerTittleProyectOne">
-            <h5 className="tittleProyectOne">LOFCHE</h5>
-            <h3 className="pointTittleProyectOne">.</h3>
+        <div id="containerProjectOne">
+            <div className="containerTittleProjectOne">
+            <h5 className="tittleProjectOne">LOFCHE</h5>
+            <h3 className="pointTittleProjectOne">.</h3>
             </div>
 
-            <div id="containerColorProyectOne">
-                <div id="containerDescriptionProductProyectOne">
+            <div id="containerColorProjectOne">
+                <div id="containerDescriptionProductProjectOne">
                     <p id="tProduction1">Tiempo de producción: 4 semanas</p>
                     <h2>DEFINICIÓN DE PRODUCTO</h2>
 
-                    <div className="container1ProyectOne">
+                    <div className="container1ProjectOne">
                         <p className="textOne">
                         Lofche es una Red social dirigida a personas que pertenecen a una comunidad, 
                         vecindad o barrio, y que desean conectar y generar redes de apoyo.
@@ -28,8 +28,8 @@ const ProyectFour = () => {
                         lazos colaborativos.
                         </p>
                         <div class="imgLofche">
-                        <img className="imgProyectOne" src="https://i.ibb.co/JFHzFr5/Lofche.jpg" alt=""/>
-                        <img className="imgProyectOne" src="https://i.ibb.co/F81fqHh/Sin-t-tulo-2.jpg" alt=""/>
+                        <img className="imgProjectOne" src="https://i.ibb.co/JFHzFr5/Lofche.jpg" alt=""/>
+                        <img className="imgProjectOne" src="https://i.ibb.co/F81fqHh/Sin-t-tulo-2.jpg" alt=""/>
                         </div>
                         <div>
                         
@@ -37,7 +37,7 @@ const ProyectFour = () => {
                     </div>                   
                 </div>
 
-                <div id="containerLinksProyect4">
+                <div id="containerLinksProject4">
                     <div className="container">
                         <div className="content">
                             <a href="https://lofche-5e070.web.app/" target="blank">
@@ -63,63 +63,63 @@ const ProyectFour = () => {
                     </div>
                 </div>
 
-                <div id="containerHistoryUserProyectOne">
+                <div id="containerHistoryUserProjectOne">
                     <h2 className="textOne">HISTORIAS DE USUARIO</h2>
-                    <div className="containerProyectOne">
-                        <div>{<ModalOneProyectOne />}</div>
+                    <div className="containerProjectOne">
+                        <div>{<ModalOneProjectOne />}</div>
 
-                        <div className="containerImgProyectFourArrow3">
-                            <img className="imgProyectOneArrow3" src="https://i.ibb.co/TkX1RRV/eva-arrow-ios-forward-fill.png" alt=""/>
+                        <div className="containerImgProjectFourArrow3">
+                            <img className="imgProjectOneArrow3" src="https://i.ibb.co/TkX1RRV/eva-arrow-ios-forward-fill.png" alt=""/>
                         </div>
 
-                        <div>{<ModalTwoProyectOne />}</div>
+                        <div>{<ModalTwoProjectOne />}</div>
 
-                        <div className="containerImgProyectFourArrow3">
-                            <img className="imgProyectOneArrow3" src="https://i.ibb.co/TkX1RRV/eva-arrow-ios-forward-fill.png" alt=""/>
+                        <div className="containerImgProjectFourArrow3">
+                            <img className="imgProjectOneArrow3" src="https://i.ibb.co/TkX1RRV/eva-arrow-ios-forward-fill.png" alt=""/>
                         </div>
 
-                        <div>{<ModalThreeProyectOne />}</div>
+                        <div>{<ModalThreeProjectOne />}</div>
 
-                        <div className="containerImgProyectFourArrow3">
-                            <img className="imgProyectOneArrow3" src="https://i.ibb.co/TkX1RRV/eva-arrow-ios-forward-fill.png" alt=""/>
+                        <div className="containerImgProjectFourArrow3">
+                            <img className="imgProjectOneArrow3" src="https://i.ibb.co/TkX1RRV/eva-arrow-ios-forward-fill.png" alt=""/>
                         </div>
 
-                        <div>{<ModalFourProyectOne />}</div>
+                        <div>{<ModalFourProjectOne />}</div>
                     </div>
                 </div>
              
 
-                <div id="containerToolsProyectOne">
+                <div id="containerToolsProjectOne">
                     <h2>HERRAMIENTAS UTILIZADAS</h2>
-                    <div className="toolsProyectOne">
-                        <div className="imgToolsHTML5ProyectOne">
-                            <div className="containerImgToolsProyectOne">
-                                <h2 className="textImgToolsProyectOne">HTML5</h2>
+                    <div className="toolsProjectOne">
+                        <div className="imgToolsHTML5ProjectOne">
+                            <div className="containerImgToolsProjectOne">
+                                <h2 className="textImgToolsProjectOne">HTML5</h2>
                             </div>
                         </div>
-                        <div className="imgToolsJSProyectOne">
-                            <div className="containerImgToolsProyectOne">
-                                <h2 className="textImgToolsProyectOne">JavaScript</h2>
+                        <div className="imgToolsJSProjectOne">
+                            <div className="containerImgToolsProjectOne">
+                                <h2 className="textImgToolsProjectOne">JavaScript</h2>
                             </div>
                         </div>
-                        <div className="imgToolsCSSProyectOne">
-                            <div className="containerImgToolsProyectOne">
-                                <h2 className="textImgToolsProyectOne">CSS</h2>
+                        <div className="imgToolsCSSProjectOne">
+                            <div className="containerImgToolsProjectOne">
+                                <h2 className="textImgToolsProjectOne">CSS</h2>
                             </div>
                         </div>
-                        <div className="imgToolsFirebaseProyectOne">
-                            <div className="containerImgToolsProyectOne">
-                                <h2 className="textImgToolsProyectOne">Firebase</h2>
+                        <div className="imgToolsFirebaseProjectOne">
+                            <div className="containerImgToolsProjectOne">
+                                <h2 className="textImgToolsProjectOne">Firebase</h2>
                             </div>
                         </div>
-                        <div className="imgToolsFigmaProyectOne">
-                            <div className="containerImgToolsProyectOne">
-                                <h2 className="textImgToolsProyectOne">Figma</h2>
+                        <div className="imgToolsFigmaProjectOne">
+                            <div className="containerImgToolsProjectOne">
+                                <h2 className="textImgToolsProjectOne">Figma</h2>
                             </div>
                         </div>
-                        <div className="imgToolsInvisionProyectOne">
-                            <div className="containerImgToolsProyectOne">
-                                <h2 className="textImgToolsProyectOne">Invision</h2>
+                        <div className="imgToolsInvisionProjectOne">
+                            <div className="containerImgToolsProjectOne">
+                                <h2 className="textImgToolsProjectOne">Invision</h2>
                             </div>
                         </div>
                     </div>                   
@@ -129,4 +129,4 @@ const ProyectFour = () => {
     )
 }
 
-export default ProyectFour
+export default ProjectFour

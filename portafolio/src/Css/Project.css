@@ -1,11 +1,11 @@
-#containerProyects{
+#containerProjects{
     display: flex;
     flex-direction: column;
     padding: 100px 0px 50px 164px;
 }
 
 /* <-----------PROYECTO UNO------------> */
-#proyectOne{
+#projectOne{
     display: flex;
     justify-content: space-between;
     width: 1150px;
@@ -13,11 +13,11 @@
     background: #FFE1D9;
     box-shadow: 15px 0px 15px rgba(0, 0, 0, 0.25);
 }
-    .containerDescriptionProyectOne{
+    .containerDescriptionProjectOne{
         padding-top: 90px;
         margin-left: 50px;
     }
-            .tittleProyectOneHome, .tittleProyectTwo, .tittleProyectFour{    
+            .tittleProjectOneHome, .tittleProjectTwo, .tittleProjectFour{    
                 font-family: 'Fjalla One';
                 font-weight: normal;
                 font-size: 65px;
@@ -26,8 +26,8 @@
                 color: #F5F5F5;
             }
             
-            .descriptionProyectOne, .descriptionProyectTwo, 
-            .descriptionProyectFour{
+            .descriptionProjectOne, .descriptionProjectTwo, 
+            .descriptionProjectFour{
                 width: 500px;
                 font-family: 'Gudea';
                 font-size: 20px;
@@ -35,8 +35,8 @@
                 color: #F5F5F5;
                 text-align: justify;
             }
-            .tittleProyectOneHome, .descriptionProyectOne, 
-            .tittleProyectFour, .descriptionProyectFour{
+            .tittleProjectOneHome, .descriptionProjectOne, 
+            .tittleProjectFour, .descriptionProjectFour{
                 color:#1C1B20;
             }
             
@@ -58,20 +58,20 @@
                 outline: none;
             }
             
-        .containerImgProyectOneHome, .containerImgProyectTwo{
+        .containerImgProjectOneHome, .containerImgProjectTwo{
             display: flex;
             justify-content: center;
             align-items: center;
             align-content: center;
             padding-right: 30px;
         }
-            .imgProyectOneHome{
+            .imgProjectOneHome{
                 height: 300px;
                 filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.8))
             }
 
 /* <-----------PROYECTO DOS------------> */
-#proyectTwo{
+#projectTwo{
     display: flex;
     justify-content: space-between;
     width: 575px;
@@ -79,11 +79,11 @@
     background: #A87B6D;
     box-shadow: 15px 0px 15px rgba(0, 0, 0, 0.25);
 }
-    .containerDescriptionProyectTwo{
+    .containerDescriptionProjectTwo{
         padding-top: 30px;
         margin-left: 50px;
     }
-            .descriptionProyectTwo{
+            .descriptionProjectTwo{
                 width: 250px;
                 padding-bottom: 30px;
             }
@@ -91,13 +91,13 @@
                 margin-top: 15px;
                 outline: none;
             }
-            .imgProyectTwo{
+            .imgProjectTwo{
                 height: 400px;
                 filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.8))
             }
 
 /* <-----------PROYECTO TRES------------> */
-#proyectThree{
+#projectThree{
     display: flex;
     width: 576px;
     height: 550px;
@@ -105,10 +105,10 @@
     box-shadow: 15px 0px 15px rgba(0, 0, 0, 0.25);
     margin: -550px 0px 0px 574px;
 }
-    .containerDescriptionProyectThree{
+    .containerDescriptionProjectThree{
         margin: 29px 0px 0px 50px;
     }
-        .tittleProyectThree{
+        .tittleProjectThree{
             font-family: 'Fjalla One';
             font-weight: normal;
             font-size: 65px;
@@ -117,7 +117,7 @@
             color: #F5F5F5;
             text-align: center;
         }
-        .descriptionProyectThree{
+        .descriptionProjectThree{
             width: 480px;
             font-family: 'Gudea';
             font-size: 20px;
@@ -127,7 +127,7 @@
             text-align: justify;
             margin-right: 15px;
         }
-        #containerBTNProyectThree{
+        #containerBTNProjectThree{
             display: flex;
             justify-content: center;
             align-content: center;
@@ -152,7 +152,7 @@
         }
 
 /* <-----------PROYECTO CUATRO------------> */
-#proyectFour{
+#projectFour{
     display: flex;
     justify-content: space-between;
     width: 1150px;
@@ -160,14 +160,14 @@
     background: #F5C5B8;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
 }
-    .containerDescriptionProyectFour{
+    .containerDescriptionProjectFour{
         padding-top: 40px;
         margin-left: 50px;
     }
-    .containerImgProyectfOUR{
+    .containerImgProjectfOUR{
         padding: 15px 10px 0px 0px;
     }
-    .imgProyectFour{
+    .imgProjectFour{
         filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.8))
     }        
 
