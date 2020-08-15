@@ -1,0 +1,124 @@
+/* <---------------CONTENEDOR TÍTULO DEL PROYECTO--------------> */
+#containerProjectTwo{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px 50px 164px;
+    scroll-snap-align: initial;
+}
+#tProduction1{
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+    .containerTittleProjectTwo{
+        display: flex;
+        height: 70px;
+        position: relative;
+    }
+        .tittleProjectTwo{
+            padding: 0;
+            display: flex;
+            margin: 0px 0px 0px 45px;
+            font-family: 'Fjalla One';
+            font-weight: normal;
+            font-size: 120px;
+            color: #1C1B20;
+        }
+        .pointTittleProjectTwo{
+            display: flex;
+            margin-top: -33px;
+            font-size: 150px;
+            color: #5DA893;
+            font-family: 'Fjalla One', sans-serif;
+        }
+
+
+/* <------------------DESCRIPCIÓN DEL PROYECTO-----------------> */
+    #containerColorProjectTwo{
+        width: 1150px;
+        height: 1650px;
+        background: #F5C5B8;
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
+    }
+    
+    .imgLofche{
+        display: flex;
+    }
+
+    #containerDescriptionProductProjectTwo,
+    #containerHistoryUserProjectTwo,
+    #containerToolsProjectTwo{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Gudea';
+        font-size: 18px;
+        margin: 0px 52px 0px 52px;
+        margin-top: 40px;
+        color: #1C1B20;
+        text-align: justify;
+    }
+    .container1ProjectTwo{
+        display: flex;
+    }
+    .textTwo{
+        padding-right: 35px;
+    }
+
+
+/* <-------------------BOTONES LINKS PROYECTO------------------> */
+#containerLinksProjectTwo{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 100px 0px 100px;
+}
+
+
+/* <--------------------HISTORIAS DE USUARIO-------------------> */
+.containerProjectTwo{
+    display: flex;
+    padding: 0;
+}
+.imgProjectTwoArrow3{
+    height: 170px;
+    width: 150px;
+}
+
+
+/* <---------------------HERRAMIENTAS USADAS-------------------> */
+.toolsProjectTwo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+    .imgToolsHTML5ProjectTwo, .imgToolsJSProjectTwo,
+    .imgToolsCSSProjectTwo, .imgToolsFigmaProjectTwo, 
+    .imgToolsInvisionProjectTwo{
+        height: 110px;
+        width: 110px;
+        background-size: cover;
+        filter: drop-shadow(9px 9px 9px rgba(0, 0, 0, 0.6))
+    }
+    .imgToolsHTML5ProjectTwo{background-image: url("http://imgfz.com/i/cBb3i7D.png");}
+    .imgToolsJSProjectTwo{background-image: url("http://imgfz.com/i/RkSbjGl.png");}
+    .imgToolsCSSProjectTwo{background-image: url("http://imgfz.com/i/AYunpIz.png");}
+    .imgToolsFigmaProjectTwo{background-image: url("http://imgfz.com/i/QcyeCpM.png");}
+    .imgToolsInvisionProjectTwo{background-image: url("http://imgfz.com/i/Trg7GMB.png");}
+        
+    .imgToolsHTML5ProjectTwo:hover .containerImgToolsProjectTwo,
+    .imgToolsJSProjectTwo:hover .containerImgToolsProjectTwo,
+    .imgToolsCSSProjectTwo:hover .containerImgToolsProjectTwo,
+    .imgToolsFigmaProjectTwo:hover .containerImgToolsProjectTwo,
+    .imgToolsInvisionProjectTwo:hover .containerImgToolsProjectTwo{
+        opacity: 1;
+    }
+        .containerImgToolsProjectTwo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow:hidden;
+            width: 118px;
+            height: 118px;
+            opacity:0;
+            transition: opacity 0.3s;
+            margin: 0;
+        }

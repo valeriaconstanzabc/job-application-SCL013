@@ -33,7 +33,9 @@ const Projects = () => {
                         Página web que brinda a los usuarios una biblioteca con información 
                         relevante sobre los personajes de la saga de Harry Potter.
                     </p>
+                    <Link to="guiamuggle">
                     <button className="btnSeeProjectTwo" onClick={() => window.scrollTo(0, 0)}><span>VER PROYECTO </span></button>
+                    </Link>
                 </div>
                 <div className="containerImgProjectTwo">
                     <img className="imgProjectTwo" src="http://imgfz.com/i/w5d6rKQ.png" alt="guia-muggle"/>
@@ -51,7 +53,9 @@ const Projects = () => {
                         dependencias del él.
                     </p>
                     <div id="containerBTNProjectThree">
+                        <Link to="guiamuggle">
                         <button className="btnSeeProjectThree" onClick={() => window.scrollTo(0, 0)}><span>VER PROYECTO </span></button>
+                        </Link>
                     </div>
                 </div>
             </div>

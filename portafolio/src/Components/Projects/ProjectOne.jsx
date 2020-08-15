@@ -1,7 +1,7 @@
 import React from 'react';
-import '../Css/ProjectOne.css'
+import '../../Css/ProjectOne.css'
 
-import { ModalOneProjectOne, ModalTwoProjectOne, ModalThreeProjectOne, ModalFourProjectOne } from './Modals';
+import { ModalOneProjectOne, ModalTwoProjectOne, ModalThreeProjectOne, ModalFourProjectOne } from '../Modals';
 
 const ProjectFour = () => {
 
@@ -30,9 +30,6 @@ const ProjectFour = () => {
                         <div class="imgLofche">
                         <img className="imgProjectOne" src="https://i.ibb.co/JFHzFr5/Lofche.jpg" alt=""/>
                         <img className="imgProjectOne" src="https://i.ibb.co/F81fqHh/Sin-t-tulo-2.jpg" alt=""/>
-                        </div>
-                        <div>
-                        
                         </div>
                     </div>                   
                 </div>

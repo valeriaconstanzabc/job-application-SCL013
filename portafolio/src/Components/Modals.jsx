@@ -236,3 +236,117 @@ export const  ModalOneProjectOne = () => {
         
     );
   };
+
+
+
+  //<----------------------------MODALES PROYECTO DOS------------------------------>
+export const  ModalOneProjectTwo = () => {
+  const [Modal, open, close] = useModal('root', {
+    preventScroll: true
+  });
+  return (
+    <div>
+        <button className="btnImgProjectTwo" onClick={open}>
+            <img className="imgProjectTwoUserHistory" src="https://i.ibb.co/tMMH2sX/Group-26.png" alt=""/> 
+        </button>
+        <Modal>
+            <div className="backgroundModal">
+                <div className="containerTittleAndX">
+                    <h3>HISTORIA DE USUARIO 1</h3>
+                    <button class="btnClose" onClick={close}>X</button>
+                </div>
+                <p>
+                  Persona que ha visto 1 o 2 películas de Harry Potter. No se sabe todos 
+                  los nombres de los personajes pero le interesa esta temática. Al entrar 
+                  a la página, esta tendrá una breve explicación de lo que trata la página 
+                  y lo que podrás hacer en ella (para poner a los usuarios en contexto). 
+                  También estará presente un botón que permitirá entrar a la página principal.
+                  <br/><b></b>
+                  Una vez en ella, tomando en cuenta que el usuario conoce poco sobre los 
+                  personajes de la película, se desplegaran automáticamente la información de 
+                  todos ellos y se podrán ordenar de la A-Z y de la Z-A.
+                </p>
+                <p>
+                  * Yo como conocedor casual de Harry potter. <br/>
+                  * Quiero que al entrar a la página no me pida muchos datos. <br/>
+                  * Para conocer a todos los personajes de la película
+                </p>
+            </div>
+        </Modal>
+    </div>
+      
+  );
+};
+
+export const ModalTwoProjectTwo = () => {
+    const [Modal, open, close] = useModal('root', {
+      preventScroll: true
+    });
+    return (
+      <div>
+          <button className="btnImgProjectTwo" onClick={open}>
+                <img className="imgProjectTwoUserHistory" src="https://i.ibb.co/j6zDdmb/Group-27.png" alt=""/>               
+            </button>
+          <Modal>
+              <div className="backgroundModal">
+                <div className="containerTittleAndX">
+                    <h3>HISTORIA DE USUARIO 2</h3>
+                    <button class="btnClose" onClick={close}>X</button>
+                </div>
+                <p>
+                  Persona que ha visto toda la saga de Harry Potter y conoce las historias 
+                  y personajes pero no en profundidad. Al entrar en la página se entusiasmará 
+                  por el recibimiento de esta, e intuitivamente hará click en el botón para 
+                  entrar a la página principal. En ella se encontrará con muchos personajes 
+                  de la película y podrá buscar por los nombres de cada uno para indagar más 
+                  sobre sus personajes.
+                </p>
+                <p>
+                  * Yo como conocedor aficionado de Harry potter. <br/>
+                  * Quiero que al entrar a la página, pueda buscar por los nombres que me sé. <br/>
+                  * Para conocer en mayor profundidad a cada uno de ellos.
+                </p>
+              </div>
+          </Modal>
+      </div>
+        
+    );
+};
+
+export const ModalThreeProjectTwo = () => {
+    const [Modal, open, close] = useModal('root', {
+      preventScroll: true
+    });
+    return (
+      <div>
+            <button className="btnImgProjectTwo" onClick={open}>
+                <img className="imgProjectTwoUserHistory" src="https://i.ibb.co/M5JqwPF/Group-25.png" alt=""/>
+            </button> 
+          <Modal>
+          <div className="backgroundModal">
+                <div className="containerTittleAndX">
+                    <h3>HISTORIA DE USUARIO 3</h3>
+                    <button class="btnClose" onClick={close}>X</button>
+                </div>
+                <p>
+                  Persona que ha visto y leído muchas veces la saga de Harry Potter. Ha visto 
+                  las películas complementarias y sabe cada una de las historias en detalle de 
+                  sus personajes favoritos.
+                  <br/>
+                  Al entrar a la página se entusiasmará por el recibimiento de esta, e 
+                  intuitivamente hará click en el botón para entrar en la página principal. 
+                  Encontrará muchos de los personajes de la película pero al estar más interiorizada 
+                  en cada uno de ellos, querrá buscar por los selectores más específicos que contiene 
+                  la página como la casa, el linaje, el rol, etc.
+                </p>
+                <p>
+                  * Yo como fanático de Harry potter. <br/>
+                  * Quiero poder buscar personajes por selectores específicos. <br/>
+                  * Para leer más en profundidad solo los que me importan.
+                </p>
+              </div>
+          </Modal>
+      </div>
+        
+    );
+};

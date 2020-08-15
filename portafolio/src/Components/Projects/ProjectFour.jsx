@@ -1,7 +1,7 @@
 import React from 'react';
-import '../Css/ProjectFour.css'
+import '../../Css/ProjectFour.css'
 
-import { ModalOneProjectFour, ModalTwoProjectFour, ModalThreeProjectFour } from './Modals';
+import { ModalOneProjectFour, ModalTwoProjectFour, ModalThreeProjectFour } from '../Modals';
 
 const ProjectFour = () => {
 

@@ -11,8 +11,9 @@ import AboutMe from './Components/AboutMe';
 import Projects from './Components/Projects';
 import Tools from './Components/Tools';
 import Menu from './Components/Menu';
-import ProjectFour from './Components/ProjectFour';
-import ProjectOne from './Components/ProjectOne';
+import ProjectFour from './Components/Projects/ProjectFour';
+import ProjectOne from './Components/Projects/ProjectOne';
+import ProjectTwo from './Components/Projects/ProjectTwo';
 
 function App() {
   return (
@@ -56,7 +57,7 @@ function App() {
         <Route path="/guiamuggle">
           <Menu />
           <SocialNetworks />
-
+          <ProjectTwo />
         </Route>
 
         <Route path="/gatera">
