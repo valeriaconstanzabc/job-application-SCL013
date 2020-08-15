@@ -31,8 +31,9 @@
                 width: 500px;
                 font-family: 'Gudea';
                 font-size: 20px;
-                padding: 15px 0px 15px 0px;
+                padding: 15px 15px 15px 0px;
                 color: #F5F5F5;
+                text-align: justify;
             }
             .tittleProyectOneHome, .descriptionProyectOne, 
             .tittleProyectFour, .descriptionProyectFour{
@@ -123,6 +124,8 @@
             color: #F5F5F5;
             display: flex;
             padding-top: 16px;
+            text-align: justify;
+            margin-right: 15px;
         }
         #containerBTNProyectThree{
             display: flex;
