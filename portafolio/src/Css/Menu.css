@@ -7,6 +7,13 @@
           text-align: center;
           overflow: auto;
         }
+
+        .listMenu{
+          list-style-type: circle;
+        }
+        .listProjectsMenu{
+          padding-left: 60px;
+        }
         
         /* Botones individuales interiores*/
         .bm-item {
@@ -43,7 +50,7 @@
         /* Contenedor interior del menu */
         .bm-menu {
           background: #5DA893;
-          padding: 200px 0px 0px 40px;
+          padding: 130px 0px 0px 30px;
           font-size: 1.15em;
           filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.6))
         }

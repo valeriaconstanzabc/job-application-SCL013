@@ -19,20 +19,20 @@ export const  ModalOneProjectFour = () => {
                     <button class="btnClose" onClick={close}>X</button>
                 </div>
                 <p>
-                    Yo como mesero/a quiero tomar el pedido de un cliente para no 
-                    depender de mi mala memoria, para saber cuánto cobrar, y enviarlo 
-                    a la cocina para evitar errores y que se puedan ir preparando en 
-                    orden.
+                  Yo como mesero/a quiero tomar el pedido de un cliente para no 
+                  depender de mi mala memoria, para saber cuánto cobrar, y enviarlo 
+                  a la cocina para evitar errores y que se puedan ir preparando en 
+                  orden.
                 </p>
                 <h4>Criterios de aceptación</h4>
-                <p>
-                    * Anotar nombre de cliente.<br/>
-                    * Agregar productos al pedido.<br/>
-                    * Eliminar productos.<br/>
-                    * Ver resumen y el total de la compra.<br/>
-                    * Enviar pedido a cocina (guardar en alguna base de datos).<br/>
-                    * Se ve y funciona bien en una tablet
-                </p>
+                <ul>
+                  <li>Anotar nombre de cliente.</li>
+                  <li>Agregar productos al pedido.</li>
+                  <li>Eliminar productos.</li>
+                  <li>Ver resumen y el total de la compra.</li>
+                  <li>Enviar pedido a cocina (guardar en alguna base de datos).</li>
+                  <li>Se ve y funciona bien en una tablet.</li>
+                </ul>
             </div>
         </Modal>
     </div>
@@ -56,17 +56,17 @@ export const ModalTwoProjectFour = () => {
                     <button class="btnClose" onClick={close}>X</button>
                 </div>
                 <p>
-                    Yo como jefe/a de cocina quiero ver los pedidos de los 
-                    clientes en orden y marcar cuáles están listos para 
-                    saber qué se debe cocinar y avisar a los/as meseros/as 
-                    que un pedido está listo para servirlo a un cliente.
+                  Yo como jefe/a de cocina quiero ver los pedidos de los 
+                  clientes en orden y marcar cuáles están listos para 
+                  saber qué se debe cocinar y avisar a los/as meseros/as 
+                  que un pedido está listo para servirlo a un cliente.
                 </p>
                 <h4>Criterios de aceptación</h4>
-                <p>
-                    * Ver los pedidos ordenados según se van haciendo.<br/>
-                    * Marcar los pedidos que se han preparado y están listos para servirse.<br/>
-                    * Ver el tiempo que tomó prepara el pedido desde que llegó hasta que se marcó como completado.
-                </p>
+                <ul>
+                  <li>Ver los pedidos ordenados según se van haciendo.</li>
+                  <li>Marcar los pedidos que se han preparado y están listos para servirse.</li>
+                  <li>Ver el tiempo que tomó prepara el pedido desde que llegó hasta que se marcó como completado.</li>
+                </ul>
               </div>
           </Modal>
       </div>
@@ -90,15 +90,15 @@ export const ModalThreeProjectFour = () => {
                     <button class="btnClose" onClick={close}>X</button>
                 </div>
                 <p>
-                    Yo como mesero/a quiero ver los pedidos que están 
-                    preparados para entregarlos rápidamente a los clientes 
-                    que las hicieron.
+                  Yo como mesero/a quiero ver los pedidos que están 
+                  preparados para entregarlos rápidamente a los clientes 
+                  que las hicieron.
                 </p>
                 <h4>Criterios de aceptación</h4>
-                <p>
-                    * Ver listado de pedido listos para servir.<br/>
-                    * Marcar pedidos que han sido entregados.
-                </p>
+                <ul>
+                  <li>Ver listado de pedido listos para servir.</li>
+                  <li>Marcar pedidos que han sido entregados.</li>
+                </ul>
               </div>
           </Modal>
       </div>
@@ -129,11 +129,11 @@ export const  ModalOneProjectOne = () => {
                     las personas de mi barrio.
                   </p>
                   <h4>Criterios de aceptación</h4>
-                  <p>
-                      * El usuario podrá acceder a una página dirigida a la conectividad barrial.<br/>
-                      * El usuario podrá ver información de qué trata la página (red social).<br/>
-                      * La página podrá visualizarse desde cualquier dispositivo.
-                  </p>
+                  <ul>
+                    <li>El usuario podrá acceder a una página dirigida a la conectividad barrial.</li>
+                    <li>El usuario podrá ver información de qué trata la página (red social).</li>
+                    <li>La página podrá visualizarse desde cualquier dispositivo.</li>
+                  </ul>
               </div>
           </Modal>
       </div>
@@ -160,13 +160,13 @@ export const  ModalOneProjectOne = () => {
                     Como usuario quiero poder registrarme a la página.
                   </p>
                   <h4>Criterios de aceptación</h4>
-                  <p>
-                      * El usuario podrá acceder a la opción de registrarse.<br/>
-                      * El usuario podrá registrarse con Google.<br/>
-                      * El usuario podrá registrarse con Facebook.<br/>
-                      * El usuario podrá registrarse en la página.<br/>
-                      * El usuario recibirá verificación de su registro en su correo electrónico.
-                  </p>
+                  <ul>
+                    <li>El usuario podrá acceder a la opción de registrarse.</li>
+                    <li>El usuario podrá registrarse con Google.</li>
+                    <li>El usuario podrá registrarse con Facebook.</li>
+                    <li>El usuario podrá registrarse en la página.</li>
+                    <li>El usuario recibirá verificación de su registro en su correo electrónico.</li>
+                  </ul>
               </div>
           </Modal>
       </div>
@@ -193,12 +193,12 @@ export const  ModalOneProjectOne = () => {
                     Yo como usuario quiero Iniciar Sesión para ingresar a la página.
                   </p>
                   <h4>Criterios de aceptación</h4>
-                  <p>
-                      * El usuario podrá acceder al formulario para iniciar sesión.<br/>
-                      * Podrá iniciar sesión con cuenta de Google.<br/>
-                      * Podrá iniciar sesión con cuenta de Facebook.<br/>
-                      * Una vez iniciada la sesión debe llevar al muro de la web.
-                  </p>
+                  <ul>
+                    <li>El usuario podrá acceder al formulario para iniciar sesión.</li>
+                    <li>Podrá iniciar sesión con cuenta de Google.</li>
+                    <li>Podrá iniciar sesión con cuenta de Facebook.</li>
+                    <li>Una vez iniciada la sesión debe llevar al muro de la web.</li>
+                  </ul>
               </div>
           </Modal>
       </div>
@@ -226,10 +226,10 @@ export const  ModalOneProjectOne = () => {
                     y le den like (comentar, guardar publicación, notificaciones).
                   </p>
                   <h4>Criterios de aceptación</h4>
-                  <p>
-                      * El usuario podrá acceder a sección en donde aparezca el muro de publicaciones.<br/>
-                      * Las publicaciones se verán por fecha y hora de posteo.
-                  </p>
+                  <ul>
+                    <li>El usuario podrá acceder a sección en donde aparezca el muro de publicaciones.</li>
+                    <li>Las publicaciones se verán por fecha y hora de posteo.</li>
+                  </ul>
               </div>
           </Modal>
       </div>
@@ -266,11 +266,11 @@ export const  ModalOneProjectTwo = () => {
                   personajes de la película, se desplegaran automáticamente la información de 
                   todos ellos y se podrán ordenar de la A-Z y de la Z-A.
                 </p>
-                <p>
-                  * Yo como conocedor casual de Harry potter. <br/>
-                  * Quiero que al entrar a la página no me pida muchos datos. <br/>
-                  * Para conocer a todos los personajes de la película
-                </p>
+                <ul>
+                  <li>Yo como conocedor casual de Harry potter.</li>
+                  <li>Quiero que al entrar a la página no me pida muchos datos.</li>
+                  <li>Para conocer a todos los personajes de la película</li>
+                </ul>
             </div>
         </Modal>
     </div>
@@ -301,11 +301,11 @@ export const ModalTwoProjectTwo = () => {
                   de la película y podrá buscar por los nombres de cada uno para indagar más 
                   sobre sus personajes.
                 </p>
-                <p>
-                  * Yo como conocedor aficionado de Harry potter. <br/>
-                  * Quiero que al entrar a la página, pueda buscar por los nombres que me sé. <br/>
-                  * Para conocer en mayor profundidad a cada uno de ellos.
-                </p>
+                <ul>
+                  <li>Yo como conocedor aficionado de Harry potter.</li>
+                  <li>Quiero que al entrar a la página, pueda buscar por los nombres que me sé.</li>
+                  <li>Para conocer en mayor profundidad a cada uno de ellos.</li>
+                </ul>
               </div>
           </Modal>
       </div>
@@ -339,11 +339,11 @@ export const ModalThreeProjectTwo = () => {
                   en cada uno de ellos, querrá buscar por los selectores más específicos que contiene 
                   la página como la casa, el linaje, el rol, etc.
                 </p>
-                <p>
-                  * Yo como fanático de Harry potter. <br/>
-                  * Quiero poder buscar personajes por selectores específicos. <br/>
-                  * Para leer más en profundidad solo los que me importan.
-                </p>
+                <ul>
+                  <li>Yo como fanático de Harry potter.</li>
+                  <li>Quiero poder buscar personajes por selectores específicos.</li>
+                  <li>Para leer más en profundidad solo los que me importan.</li>
+                </ul>
               </div>
           </Modal>
       </div>

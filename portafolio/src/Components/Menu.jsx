@@ -6,31 +6,57 @@ export default props => {
   return (
       <Menu {...props}>
         <a className="menu-item" href="/">
-          HOME
+          <ul className="listMenu">
+            <li>HOME</li>
+          </ul>
         </a>
 
         <a className="menu-item" href="/acercaDeMi">
-          ACERCA DE MI
+          <ul className="listMenu">
+            <li>ACERCA DE MI</li>
+          </ul>
         </a>
 
         <a className="menu-item" href="/proyectos">
-          PROYECTOS
+          <ul className="listMenu">
+            <li>PROYECTOS</li>
+          </ul>
         </a>
         <a className="menu-item-proyects" href="/lofche">
-          - Lofche
+          <ul className="listProjectsMenu">
+            <li>Lofche</li>
+          </ul>
         </a>
         <a className="menu-item-proyects" href="/guiamuggle">
-          - Guia muggle
+          <ul className="listProjectsMenu">
+            <li>Guia muggle</li>
+          </ul>
         </a>
         <a className="menu-item-proyects" href="/gatera">
-          - La gatera hotelera
+          <ul className="listProjectsMenu">
+            <li>Gatera hotelera</li>
+          </ul>
         </a>
         <a className="menu-item-proyects" href="/burgerqueen">
-          - Burguer-queen
+          <ul className="listProjectsMenu">
+            <li>Burguer-queen</li>
+          </ul>
+        </a>
+        <a className="menu-item-proyects" href="/burgerqueen">
+          <ul className="listProjectsMenu">
+            <li>MD-Links</li>
+          </ul>
+        </a>
+        <a className="menu-item-proyects" href="/burgerqueen">
+          <ul className="listProjectsMenu">
+            <li>Proyecto empresa</li>
+          </ul>
         </a>
 
         <a className="menu-item" href="/herramientas">
-          HERRAMIENTAS
+          <ul className="listMenu">
+            <li>HERRAMIENTAS</li>
+          </ul>
         </a>
       </Menu>
   );
