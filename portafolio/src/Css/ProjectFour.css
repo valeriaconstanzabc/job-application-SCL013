@@ -1,11 +1,8 @@
+/* <---------------CONTENEDOR TÍTULO DEL PROYECTO--------------> */
 #containerProjectFour{
     display: flex;
     flex-direction: column;
     padding: 100px 0px 50px 164px;
-}
-#tProduction{
-    font-size: 15px;
-    padding-bottom: 30px;
 }
     .containerTittleProjectFour{
         display: flex;
@@ -27,122 +24,164 @@
             color: #5DA893;
             font-family: 'Fjalla One', sans-serif;
         }
+
+
+/* <------------------DESCRIPCIÓN DEL PROYECTO-----------------> */
     #containerColorProjectFour{
         width: 1150px;
         height: 2650px;
         background: #F5C5B8;
         box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
     }
+
+        #containerDescriptionProductProject4, 
+        #containerHistoryUserProject4, 
+        #containerToolsProject4, #containerUserDefinition{
+            display: flex;
+            flex-direction: column;
+            font-family: 'Gudea';
+            font-size: 18px;
+            margin: 0px 52px 0px 52px;
+            margin-top: 40px;
+            color: #1C1B20;
+            text-align: justify;
+        }
+            #tProduction{
+                font-size: 15px;
+                padding-bottom: 30px;
+            }
+            .container1ProjectFour1{
+                display: flex;
+                padding: 0;
+            }
+                .text1{
+                    margin: 0px 30px 0px 0px;
+                }
+                    .imgProjectFour1{
+                        display: flex;
+                        width: 425px;
+                    }
     
-    #containerDescriptionProductProject4, #containerHistoryUserProject4, 
-    #containerToolsProject4, #visitBurgerQueen, #containerUserDefinition{
-        display: flex;
-        flex-direction: column;
-        font-family: 'Gudea';
-        font-size: 18px;
-        margin: 0px 52px 0px 52px;
-        margin-top: 40px;
-        color: #1C1B20;
-        text-align: justify;
-        /* font-weight: bold; */
+        
+/* <-------------------BOTONES LINKS PROYECTO------------------> */    
+#containerLinksProject4{
+    display: flex;
+    margin: 60px 100px 0px 100px;
+    justify-content: space-around;
+}
+    .content {
+        position: relative;
+        width: 250px;
+        overflow: hidden;
     }
-    #descriptionAboutMeProjectFour2{
+        .content .content-overlay {
+            background: rgba(0,0,0,0.7);
+            border-radius: 200px;
+            position: absolute;
+            height: 99%;
+            width: 100%;
+            opacity: 0;
+            -webkit-transition: all 0.4s ease-in-out 0s;
+            -moz-transition: all 0.4s ease-in-out 0s;
+            transition: all 0.4s ease-in-out 0s;
+        }   
+        .content:hover .content-overlay{
+            opacity: 1;
+        }   
+            .content-image{
+                width: 100%;
+            }
+            
+        .content-details {
+            position: absolute;
+            text-align: center;
+            padding-left: 1em;
+            padding-right: 1em;
+            width: 100%;
+            top: 50%;
+            left: 50%;
+            opacity: 0;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            -webkit-transition: all 0.3s ease-in-out 0s;
+            -moz-transition: all 0.3s ease-in-out 0s;
+            transition: all 0.3s ease-in-out 0s;
+        }       
+        .content:hover .content-details{
+            top: 50%;
+            left: 50%;
+            opacity: 1;
+        }          
+        .content-details h3{
+            color: #fff;
+            font-weight: 500;
+            letter-spacing: 0.15em;
+            margin-bottom: 0.5em;
+            text-transform: uppercase;
+        }
+
+
+/* <------------------DESCRIPCIÓN DE USUARIO-------------------> */
+
+    .imgProjectFour2{
         display: flex;
-        flex-direction: column;
-        font-family: 'Gudea';
-        font-size: 18px;
-        margin: 0px 45px 0px 45px;
-        margin-top: 15px;
-        color: #1C1B20;
+        width: 1048px;
+        padding-top: 30px;
     }
-    #descriptionAboutMeProjectFour3{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-family: 'Gudea';
+
+
+/* <--------------------HISTORIAS DE USUARIO-------------------> */
+    .text3{
         font-size: 30px;
-        margin: 0px 45px 0px 45px;
-        margin-top: 30px;
-        color: #1C1B20;
+        margin: 40px 0px 40px 0px;
     }
-        .imgProjectFour1{
-            display: flex;
-            width: 425px;
-        }
-        .imgProjectFour2{
-            display: flex;
-            width: 1048px;
-            padding-top: 30px;
-        }
-        .container1ProjectFour1, .container1ProjectFour2, .container1ProjectFour3{
-            display: flex;
-            padding: 0;
-        }
-        .text1{
-            margin: 0px 30px 0px 0px;
-        }
-        .text2{
-            margin: 0px 0px 0px 30px;
-        }
-        .text3{
-            font-size: 30px;
-            margin: 40px 0px 40px 0px;
-        }
-        .imgProjectFour3{
-            height: 200px;
-        }
-        .imgProjectFourArrow3{
-            height: 150px;
-        }
+    .container1ProjectFour3{
+        display: flex;
+        padding: 0;
+    }
         .containerImgProjectFourArrow3{
             display: flex;
             align-items: center;
         }
-        .btnImgProjectFour3{
-            background: transparent;
-            border: 0;
-            overflow:hidden;
-            width: 250px;
-            height: 250px;
-            outline: none;
-            cursor: pointer;
-        }
-        .btnImgProjectFour3:hover .imgProjectFour3 {
-            transform:scale(1.1);
-        }
+            .imgProjectFourArrow3{
+                height: 150px;
+            }
 
+
+/* <---------------------HERRAMIENTAS USADAS-------------------> */
 .toolsProjectFour{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 200px;
 }
-.imgToolsHTML5Project4, .imgToolsJSProject4, .imgToolsCSSProject4,
-.imgToolsReactProject4, .imgToolsFigmaProject4,
-.imgToolsInvisionProject4{
-    height: 110px;
-    width: 110px;
-    background-size: cover;
-    filter: drop-shadow(9px 9px 9px rgba(0, 0, 0, 0.6))
-}
-.imgToolsHTML5Project4{background-image: url("http://imgfz.com/i/cBb3i7D.png");}
-.imgToolsJSProject4{background-image: url("http://imgfz.com/i/RkSbjGl.png");}
-.imgToolsCSSProject4{background-image: url("http://imgfz.com/i/AYunpIz.png");}
-.imgToolsReactProject4{background-image: url("http://imgfz.com/i/KI90XYh.png");}
-.imgToolsFigmaProject4{background-image: url("http://imgfz.com/i/QcyeCpM.png");}
-.imgToolsInvisionProject4{background-image: url("http://imgfz.com/i/Trg7GMB.png");}
+    .imgToolsHTML5Project4, .imgToolsJSProject4, 
+    .imgToolsCSSProject4, .imgToolsReactProject4, 
+    .imgToolsFigmaProject4, .imgToolsInvisionProject4{
+        height: 110px;
+        width: 110px;
+        background-size: cover;
+        filter: drop-shadow(9px 9px 9px rgba(0, 0, 0, 0.6))
+    }
+    .containerImgToolsProject4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow:hidden;
+        width: 118px;
+        height: 118px;
+        opacity:0;
+        transition: opacity 0.3s;
+        margin: 0;
+    }
+    .imgToolsHTML5Project4{background-image: url("http://imgfz.com/i/cBb3i7D.png");}
+    .imgToolsJSProject4{background-image: url("http://imgfz.com/i/RkSbjGl.png");}
+    .imgToolsCSSProject4{background-image: url("http://imgfz.com/i/AYunpIz.png");}
+    .imgToolsReactProject4{background-image: url("http://imgfz.com/i/KI90XYh.png");}
+    .imgToolsFigmaProject4{background-image: url("http://imgfz.com/i/QcyeCpM.png");}
+    .imgToolsInvisionProject4{background-image: url("http://imgfz.com/i/Trg7GMB.png");}
 
-.containerImgToolsProject4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow:hidden;
-    width: 118px;
-    height: 118px;
-    opacity:0;
-    transition: opacity 0.3s;
-    margin: 0;
-}
     .imgToolsHTML5Project4:hover .containerImgToolsProject4,
     .imgToolsJSProject4:hover .containerImgToolsProject4,
     .imgToolsCSSProject4:hover .containerImgToolsProject4,
@@ -152,68 +191,3 @@
     .imgToolsInvisionProject4:hover .containerImgToolsProject4{
         opacity: 1;
     }
-
-/* <----------------------CONTENED0R DE LINKS----------------> */
-
-#containerLinksProject4{
-    display: flex;
-    margin: 60px 100px 0px 100px;
-    justify-content: space-around;
-}
-
-.content {
-    position: relative;
-    width: 250px;
-    overflow: hidden;
-}
-          
-.content .content-overlay {
-    background: rgba(0,0,0,0.7);
-    border-radius: 200px;
-    position: absolute;
-    height: 99%;
-    width: 100%;
-    opacity: 0;
-    -webkit-transition: all 0.4s ease-in-out 0s;
-    -moz-transition: all 0.4s ease-in-out 0s;
-    transition: all 0.4s ease-in-out 0s;
-}
-          
-.content:hover .content-overlay{
-    opacity: 1;
-}
-          
-.content-image{
-    width: 100%;
-}
-          
-.content-details {
-    position: absolute;
-    text-align: center;
-    padding-left: 1em;
-    padding-right: 1em;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    opacity: 0;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    -moz-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
-  }
-          
-.content:hover .content-details{
-    top: 50%;
-    left: 50%;
-    opacity: 1;
-}
-          
-.content-details h3{
-    color: #fff;
-    font-weight: 500;
-    letter-spacing: 0.15em;
-    margin-bottom: 0.5em;
-    text-transform: uppercase;
-}

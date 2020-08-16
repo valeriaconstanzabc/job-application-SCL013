@@ -14,6 +14,7 @@ import Menu from './Components/Menu';
 import ProjectFour from './Components/Projects/ProjectFour';
 import ProjectOne from './Components/Projects/ProjectOne';
 import ProjectTwo from './Components/Projects/ProjectTwo';
+import ProjectThree from './Components/Projects/ProjectThree';
 
 function App() {
   return (
@@ -63,7 +64,7 @@ function App() {
         <Route path="/gatera">
           <Menu />
           <SocialNetworks />
-
+          <ProjectThree />
         </Route>
 
         <Route path="/burgerqueen">

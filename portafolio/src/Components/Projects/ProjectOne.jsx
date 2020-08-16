@@ -3,7 +3,7 @@ import '../../Css/ProjectOne.css'
 
 import { ModalOneProjectOne, ModalTwoProjectOne, ModalThreeProjectOne, ModalFourProjectOne } from '../Modals';
 
-const ProjectFour = () => {
+const ProjectOne = () => {
 
     return (
         <div id="containerProjectOne">
@@ -126,4 +126,4 @@ const ProjectFour = () => {
     )
 }
 
-export default ProjectFour
+export default ProjectOne

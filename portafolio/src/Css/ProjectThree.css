@@ -1,0 +1,110 @@
+/* <---------------CONTENEDOR TÍTULO DEL PROYECTO--------------> */
+#containerProjectThree{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px 50px 164px;
+    scroll-snap-align: initial;
+}
+    .containerTittleProjectThree{
+        display: flex;
+        height: 70px;
+        position: relative;
+    }
+        .tittleProjectThree{
+            padding: 0;
+            display: flex;
+            margin: 0px 0px 0px 45px;
+            font-family: 'Fjalla One';
+            font-weight: normal;
+            font-size: 120px;
+            color: #1C1B20;
+        }
+        .pointTittleProjectThree{
+            display: flex;
+            margin-top: -33px;
+            font-size: 150px;
+            color: #5DA893;
+            font-family: 'Fjalla One', sans-serif;
+        }
+
+
+/* <------------------DESCRIPCIÓN DEL PROYECTO-----------------> */
+#containerColorProjectThree{
+    width: 1150px;
+    height: 1150px;
+    background: #F5C5B8;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
+}
+    #containerDescriptionProductProjectThree,
+    #containerToolsProjectThree{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Gudea';
+        font-size: 18px;
+        margin: 0px 52px 0px 52px;
+        margin-top: 40px;
+        color: #1C1B20;
+        text-align: justify;
+    }
+        #tProduction1{
+            font-size: 15px;
+            padding-bottom: 30px;
+        }
+        .container1ProjectThree{
+            display: flex;
+        }
+            .imgProjectThree{
+                height: 300px;
+            }
+                .textThree{
+                    padding-left: 30px;
+                }
+
+
+/* <-------------------BOTONES LINKS PROYECTO------------------> */
+#containerLinksProjectThree{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 100px 0px 100px;
+}
+
+
+/* <---------------------HERRAMIENTAS USADAS-------------------> */
+.toolsProjectThree{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+    .imgToolsHTML5ProjectThree, .imgToolsJSProjectThree,
+    .imgToolsCSSProjectThree, .imgToolsFigmaProjectThree, 
+    .imgToolsInvisionProjectThree{
+        height: 110px;
+        width: 110px;
+        background-size: cover;
+        filter: drop-shadow(9px 9px 9px rgba(0, 0, 0, 0.6))
+    }
+    .imgToolsHTML5ProjectThree{background-image: url("http://imgfz.com/i/cBb3i7D.png");}
+    .imgToolsJSProjectThree{background-image: url("http://imgfz.com/i/RkSbjGl.png");}
+    .imgToolsCSSProjectThree{background-image: url("http://imgfz.com/i/AYunpIz.png");}
+    .imgToolsFigmaProjectThree{background-image: url("http://imgfz.com/i/QcyeCpM.png");}
+    .imgToolsInvisionProjectThree{background-image: url("http://imgfz.com/i/Trg7GMB.png");}
+        
+    .imgToolsHTML5ProjectThree:hover .containerImgToolsProjectThree,
+    .imgToolsJSProjectThree:hover .containerImgToolsProjectThree,
+    .imgToolsCSSProjectThree:hover .containerImgToolsProjectThree,
+    .imgToolsFigmaProjectThree:hover .containerImgToolsProjectThree,
+    .imgToolsInvisionProjectThree:hover .containerImgToolsProjectThree{
+        opacity: 1;
+    }
+        .containerImgToolsProjectThree{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow:hidden;
+            width: 118px;
+            height: 118px;
+            opacity:0;
+            transition: opacity 0.3s;
+            margin: 0;
+        }

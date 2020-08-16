@@ -5,10 +5,6 @@
     padding: 100px 0px 50px 164px;
     scroll-snap-align: initial;
 }
-#tProduction1{
-    font-size: 15px;
-    padding-bottom: 30px;
-}
     .containerTittleProjectTwo{
         display: flex;
         height: 70px;
@@ -55,6 +51,10 @@
         margin-top: 40px;
         color: #1C1B20;
         text-align: justify;
+    }
+    #tProduction1{
+        font-size: 15px;
+        padding-bottom: 30px;
     }
     .container1ProjectTwo{
         display: flex;
