@@ -1,7 +1,7 @@
 #containerTools{
     display: flex;
     flex-direction: column;
-    padding: 100px 0px 80px 164px;
+    padding: 60px 164px 40px 164px;
 }
     .pointTittleTools{
         display: flex;
@@ -13,17 +13,17 @@
 
     #containerColorTools{
         display: flex;
-        width: 1150px;
+        width: 1090px;
         height: 360px;
         background: #A87B6D;
         box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
         padding: 100px 0px 0px 0px;
         justify-content: center;
         align-items: center;
-
     }
     #containerTotalTools{
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
         width: 1050px;
         height: 360px;
@@ -33,8 +33,8 @@
                 .imgToolsHTML5, .imgToolsJS, .imgToolsCSS,
                 .imgToolsReact, .imgToolsGithub, .imgToolsFirebase,
                 .imgToolsFigma, .imgToolsInvision, .imgToolsNodeJS{
-                    height: 110px;
-                    width: 110px;
+                    height: 100px;
+                    width: 100px;
                     background-size: cover;
                     margin: 0px 50px 0px 50px;
                     filter: drop-shadow(9px 9px 9px rgba(0, 0, 0, 0.6))
@@ -72,3 +72,10 @@
                     .imgToolsInvision:hover .containerImgTools{
                         opacity: 1;
                     }
+
+/*<-----------------------MEDIA QUERY----------------------->*/
+@media all and (max-width: 1024px){
+    #containerColorTools{
+        width: 924px;
+    }
+}

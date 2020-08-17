@@ -2,7 +2,7 @@
 #containerProjects{
     display: flex;
     flex-direction: column;
-    padding: 100px 0px 50px 164px;
+    padding: 60px 0px 40px 164px;
 }
     .containerTittleProject{
         display: flex;
@@ -30,7 +30,7 @@
 #projectOne{
     display: flex;
     justify-content: space-between;
-    width: 1150px;
+    width: 1090px;
     height: 450px;
     background: #FFE1D9;
     box-shadow: 15px 0px 15px rgba(0, 0, 0, 0.25);
@@ -49,9 +49,9 @@
             }
             
             .descriptionProjectOne{
-                width: 500px;
+                width: 470px;
                 font-family: 'Gudea';
-                font-size: 20px;
+                font-size: 19px;
                 padding: 15px 15px 15px 0px;
                 color:#1C1B20;
                 text-align: justify;
@@ -92,7 +92,7 @@
 #projectTwo{
     display: flex;
     justify-content: space-between;
-    width: 575px;
+    width: 545px;
     height: 550px;
     background: #A87B6D;
     box-shadow: 15px 0px 15px rgba(0, 0, 0, 0.25);
@@ -110,11 +110,11 @@
         color:#1C1B20;
     }
     .descriptionProjectTwo{
-        width: 250px;
+        width: 240px;
         padding-bottom: 30px;
         font-family: 'Gudea';
-        font-size: 20px;
-        padding: 15px 15px 15px 0px;
+        font-size: 19px;
+        padding: 15px 0px 15px 0px;
         color: #F5F5F5;
         text-align: justify;
     }
@@ -143,7 +143,7 @@
             padding-right: 30px;
         }
         .imgProjectTwo{
-            height: 400px;
+            height: 390px;
             filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.8))
         }
 
@@ -152,16 +152,19 @@
 /* <------------------------PROYECTO TRES----------------------> */         
 #projectThree{
     display: flex;
-    width: 576px;
+    width: 545px;
     height: 550px;
     background: #5DA893;
     box-shadow: 15px 0px 15px rgba(0, 0, 0, 0.25);
-    margin: -550px 0px 0px 574px;
+    margin: -550px 0px 0px 545px;
 }
     .containerDescriptionProjectThree{
-        margin: 29px 0px 0px 50px;
+        margin: 29px 0px 0px 0px;
+        width: 100%;
     }
     .tittleHomeProjectThree{
+        display: flex;
+        justify-content: center;
         font-family: 'Fjalla One';
         font-weight: normal;
         font-size: 65px;
@@ -171,14 +174,13 @@
         text-align: center;
     }
         .descriptionProjectThree{
-            width: 480px;
+            margin: 20px 35px 0px 35px;
             font-family: 'Gudea';
             font-size: 20px;
             color: #F5F5F5;
             display: flex;
             padding-top: 16px;
             text-align: justify;
-            margin-right: 15px;
         }
 
         #containerBTNProjectThree{
@@ -210,7 +212,7 @@
 #projectFour{
     display: flex;
     justify-content: space-between;
-    width: 1150px;
+    width: 1090px;
     height: 450px;
     background: #F5C5B8;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
@@ -228,9 +230,9 @@
             color:#1C1B20;
         }  
         .descriptionProjectFour{
-            width: 500px;
+            width: 470px;
             font-family: 'Gudea';
-            font-size: 20px;
+            font-size: 19px;
             padding: 15px 15px 15px 0px;
             color:#1C1B20;
             text-align: justify;
@@ -241,6 +243,8 @@
         }
 
         .imgProjectFour{
+            padding-top: 10px;
+            width: 520px;
             filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.8))
         }    
     
@@ -273,3 +277,96 @@
         opacity: 1;
         right: 0;
     }
+
+
+/*<-----------------------MEDIA QUERY----------------------->*/
+@media all and (max-width: 1024px){
+    #projectOne, 
+    #projectFour{
+        width: 924px;
+    }
+    #projectTwo,
+    #projectThree{
+        width: 462px;
+    }
+    #projectThree{
+        margin: -550px 0px 0px 462px;
+    }
+    .descriptionProjectTwo{
+        width: 200px;
+    }
+    .imgProjectTwo{
+        height: 340px;
+        padding-top: 120px;
+    }
+    .descriptionProjectOne{
+        width: 330px;
+        padding: 15px 15px 0px 0px;
+    }
+    .descriptionProjectFour{
+        width: 370px;
+    }
+    .imgProjectFour{
+        width: 430px;
+        padding-top: 35px;
+        padding-right: 10px;
+    }
+    .imgProjectOneHome{
+        height: 270px;
+    }
+}
+
+@media all and (max-width: 768px){
+    #projectTwo{
+        width: 924px;
+        height: 400px;
+    }
+    #projectThree{
+        width: 924px;
+        height: 450px;
+        margin: 0px;
+    }
+    .imgProjectTwo{
+        height: 340px;
+        padding-top: 0px;
+    }
+    .descriptionProjectTwo{
+        width: 500px;
+    }
+}
+/* <-----------------------MEDIA QUERY----------------------->
+@media all and (max-width: 1024px){
+    #projectOne, 
+    #projectFour{
+        width: 870px;
+    }
+    #projectTwo{
+        width: 870px;
+    }
+    #projectThree{
+        width: 870px;
+        margin: 0px 0px 0px 0px;
+    }
+    .descriptionProjectTwo{
+        width: 200px;
+    }
+    .imgProjectTwo{
+        height: 340px;
+        padding-top: 120px;
+    }
+    .imgProjectFour{
+        width: 400px;
+        padding-top: 35px;
+        padding-right: 10px;
+    }
+    .imgProjectOneHome{
+        height: 250px;
+    }
+    .descriptionProjectOne{
+        width: 330px;
+        padding: 15px 15px 0px 0px;
+    }
+    .descriptionProjectFour{
+        width: 370px;
+    }
+} */

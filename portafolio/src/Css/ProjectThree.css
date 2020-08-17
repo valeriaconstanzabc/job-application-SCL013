@@ -30,7 +30,7 @@
 
 /* <------------------DESCRIPCIÓN DEL PROYECTO-----------------> */
 #containerColorProjectThree{
-    width: 1150px;
+    width: 1090px;
     height: 1150px;
     background: #F5C5B8;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
@@ -52,6 +52,9 @@
         }
         .container1ProjectThree{
             display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
         }
             .imgProjectThree{
                 height: 300px;
@@ -108,3 +111,16 @@
             transition: opacity 0.3s;
             margin: 0;
         }
+
+
+@media all and (max-width: 1024px){
+    #containerColorProjectThree{
+        width: 924px;
+    }
+    .containerTittleProjectThree{
+        width: 890px;
+    }
+    .imgProjectThree{
+        height: 210px;
+    }
+}

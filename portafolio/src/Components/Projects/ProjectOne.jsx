@@ -28,8 +28,8 @@ const ProjectOne = () => {
                         lazos colaborativos.
                         </p>
                         <div class="imgLofche">
-                        <img className="imgProjectOne" src="https://i.ibb.co/JFHzFr5/Lofche.jpg" alt=""/>
-                        <img className="imgProjectOne" src="https://i.ibb.co/F81fqHh/Sin-t-tulo-2.jpg" alt=""/>
+                        <img className="imgProjectOne1" src="https://i.ibb.co/JFHzFr5/Lofche.jpg" alt=""/>
+                        <img className="imgProjectOne2" src="https://i.ibb.co/F81fqHh/Sin-t-tulo-2.jpg" alt=""/>
                         </div>
                     </div>                   
                 </div>
@@ -62,23 +62,23 @@ const ProjectOne = () => {
 
                 <div id="containerHistoryUserProjectOne">
                     <h2 className="textOne">HISTORIAS DE USUARIO</h2>
-                    <div className="containerProjectOne">
+                    <div className="containerHistoryProjectOne">
                         <div>{<ModalOneProjectOne />}</div>
 
                         <div className="containerImgProjectFourArrow3">
-                            <img className="imgProjectOneArrow3" src="https://i.ibb.co/TkX1RRV/eva-arrow-ios-forward-fill.png" alt=""/>
+                            <img className="imgProjectOneArrow3" src="https://i.ibb.co/8zNpQnH/eva-arrow-ios-forward-fill.png" alt=""/>
                         </div>
 
                         <div>{<ModalTwoProjectOne />}</div>
 
                         <div className="containerImgProjectFourArrow3">
-                            <img className="imgProjectOneArrow3" src="https://i.ibb.co/TkX1RRV/eva-arrow-ios-forward-fill.png" alt=""/>
+                            <img className="imgProjectOneArrow3" src="https://i.ibb.co/8zNpQnH/eva-arrow-ios-forward-fill.png" alt=""/>
                         </div>
 
                         <div>{<ModalThreeProjectOne />}</div>
 
                         <div className="containerImgProjectFourArrow3">
-                            <img className="imgProjectOneArrow3" src="https://i.ibb.co/TkX1RRV/eva-arrow-ios-forward-fill.png" alt=""/>
+                            <img className="imgProjectOneArrow3" src="https://i.ibb.co/8zNpQnH/eva-arrow-ios-forward-fill.png" alt=""/>
                         </div>
 
                         <div>{<ModalFourProjectOne />}</div>

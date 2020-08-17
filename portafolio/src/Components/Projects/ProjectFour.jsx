@@ -40,7 +40,7 @@ const ProjectFour = () => {
                         cocina, en donde podrá visualizar todas las ordenes pendientes, pudiendo 
                         marcarlas como <strong>"listas"</strong> (las ordenes que ya han sido realizadas).
                         </p>
-                        <div>
+                        <div id="containerImgProjectFour1">
                         <img className="imgProjectFour1" src="https://i.ibb.co/BLJj4d4/gKFHiM2.png" alt=""/>
                         </div>
                     </div>                   
@@ -94,13 +94,13 @@ const ProjectFour = () => {
                         <div>{<ModalOneProjectFour />}</div>
 
                         <div className="containerImgProjectFourArrow3">
-                            <img className="imgProjectFourArrow3" src="https://i.ibb.co/TkX1RRV/eva-arrow-ios-forward-fill.png" alt=""/>
+                            <img className="imgProjectFourArrow3" src="https://i.ibb.co/8zNpQnH/eva-arrow-ios-forward-fill.png" alt=""/>
                         </div>
 
                         <div>{<ModalTwoProjectFour />}</div>
 
                         <div className="containerImgProjectFourArrow3">
-                            <img className="imgProjectFourArrow3" src="https://i.ibb.co/TkX1RRV/eva-arrow-ios-forward-fill.png" alt=""/>
+                            <img className="imgProjectFourArrow3" src="https://i.ibb.co/8zNpQnH/eva-arrow-ios-forward-fill.png" alt=""/>
                         </div>
 
                         <div>{<ModalThreeProjectFour />}</div>

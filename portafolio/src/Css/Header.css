@@ -1,0 +1,49 @@
+#containerHeader{
+    display: flex;
+    flex-direction: column;
+    margin-left: 165px;
+}
+    #containerColorHeader{
+        display: flex;
+        width: 1090px;
+        height: 60px;
+        background: #F5C5B8;
+        margin-top: 20px;
+    }
+        #nameHeader{
+            display: flex;
+            align-items: center;
+            font-family: 'Gudea';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            color: #1C1B20;
+            margin-left: 45px;
+        }
+        #lastNameHeader, #pointPresentation{
+            font-family: 'Fjalla One', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+            margin-left: 10px;
+            display: flex;
+            align-items: center;
+            color: #1C1B20;
+        }
+            #pointPresentation{
+                display: flex;
+                margin-left: 0px;
+                font-size: 150px;
+                margin-top: 220px;
+                color: #A87B6D;
+            }
+
+/* <-----------------------MEDIA QUERY-----------------------> */
+@media all and (max-width: 1024px){
+    #containerHeader{
+        width: 1024px;
+    }
+    #containerColorHeader{
+        width: 924px;
+    }
+}

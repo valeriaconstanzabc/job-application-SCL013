@@ -1,7 +1,7 @@
 #containerProjectOne{
     display: flex;
     flex-direction: column;
-    padding: 100px 0px 50px 164px;
+    padding: 80px 0px 40px 164px;
     scroll-snap-align: initial;
 }
 #tProduction1{
@@ -30,8 +30,8 @@
             font-family: 'Fjalla One', sans-serif;
         }
     #containerColorProjectOne{
-        width: 1150px;
-        height: 1650px;
+        width: 1090px;
+        height: 1680px;
         background: #F5C5B8;
         box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
     }
@@ -41,7 +41,6 @@
     }
 
     #containerDescriptionProductProjectOne,
-    #containerHistoryUserProjectOne,
     #containerToolsProjectOne{
         display: flex;
         flex-direction: column;
@@ -54,19 +53,35 @@
         /* font-weight: bold; */
     }
 
-        .imgProjectOne{
+        .imgProjectOne1{
             padding-top: 20px;
-            height: 375px;
+            width: 40%;
+        }
+        .imgProjectOne2{
+            padding-top: 20px;
+            width: 60%;
         }
 
-.containerProjectOne{
+.containerHistoryProjectOne{
     display: flex;
+    justify-content: space-between;
     padding: 0;
 }
 
 .imgProjectOneArrow3{
-    height: 120px;
-    width: 115px;
+    height: 90px;
+}
+
+#containerHistoryUserProjectOne{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gudea';
+    font-size: 18px;
+    margin: 0px 52px 0px 52px;
+    margin-top: 40px;
+    color: #1C1B20;
+    text-align: justify;
+    /* font-weight: bold; */
 }
 
 /* <------------------------HERRAMIENTAS-----------------------> */
@@ -111,3 +126,10 @@
             transition: opacity 0.3s;
             margin: 0;
         }            
+
+
+@media all and (max-width: 1024px){
+    #containerColorProjectOne{
+        width: 924px;
+    }
+}

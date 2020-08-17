@@ -47,3 +47,11 @@
                 margin-top: 220px;
                 color: #A87B6D;
             }
+
+/*<-----------------------MEDIA QUERY----------------------->*/
+@media all and (max-width: 1024px){
+    #containerPresentation{
+        width: 1024px;
+        margin: 0px 165px 0px 165px;
+    }
+}

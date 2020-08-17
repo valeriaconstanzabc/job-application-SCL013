@@ -15,6 +15,7 @@ import ProjectFour from './Components/Projects/ProjectFour';
 import ProjectOne from './Components/Projects/ProjectOne';
 import ProjectTwo from './Components/Projects/ProjectTwo';
 import ProjectThree from './Components/Projects/ProjectThree';
+import Header from './Components/Header';
 
 function App() {
   return (
@@ -24,53 +25,60 @@ function App() {
         <Route path="/" exact>
           <Menu />
           <Presentation />
-          <SocialNetworks />
           <Description />
           <AboutMe />
           <Projects />
-          <Tools />
+          <Tools /> 
+          <SocialNetworks />     
         </Route>
 
         <Route path="/acercaDeMi">
           <Menu />
-          <SocialNetworks />
+          <Header />
           <AboutMe />
+          <SocialNetworks />
         </Route>
 
         <Route path="/proyectos">
           <Menu />
-          <SocialNetworks />
+          <Header />
           <Projects />
+          <SocialNetworks />
         </Route>
 
         <Route path="/herramientas">
           <Menu />
-          <SocialNetworks />
+          <Header />
           <Tools />
+          <SocialNetworks />
         </Route>
 
         <Route path="/lofche">
           <Menu />
-          <SocialNetworks />
+          <Header />
           <ProjectOne />
+          <SocialNetworks />
         </Route>
 
         <Route path="/guiamuggle">
           <Menu />
-          <SocialNetworks />
+          <Header />
           <ProjectTwo />
+          <SocialNetworks />
         </Route>
 
         <Route path="/gatera">
           <Menu />
-          <SocialNetworks />
+          <Header />
           <ProjectThree />
+          <SocialNetworks />
         </Route>
 
         <Route path="/burgerqueen">
           <Menu />
-          <SocialNetworks />
+          <Header />
           <ProjectFour />
+          <SocialNetworks />
         </Route>
 
       </Switch>

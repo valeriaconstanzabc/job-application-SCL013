@@ -1,7 +1,7 @@
 #containerAboutMe{
     display: flex;
     flex-direction: column;
-    padding: 100px 0px 50px 164px;
+    padding: 60px 0px 40px 164px;
 }
     .containerTittle{
         display: flex;
@@ -24,14 +24,14 @@
             font-family: 'Fjalla One', sans-serif;
         }
     #containerColorAboutMe{
-        width: 1150px;
+        width: 1090px;
         height: 409px;
         background: #5DA893;
         box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
     }
     #descriptionAboutMe{
         font-family: 'Gudea';
-        font-size: 20px;
+        font-size: 19px;
         margin: 110px 45px 0px 45px;
         color: #F5F5F5;
         text-align: justify;
@@ -39,3 +39,16 @@
     #containerDescription{
         display: flex;
     }
+
+
+/*<-----------------------MEDIA QUERY----------------------->*/
+@media all and (max-width: 1024px){
+    #containerColorAboutMe{
+        width: 924px;
+    }
+}
+@media all and (max-width: 768px){
+    .containerTittle{
+        width: 700px;
+    }
+}

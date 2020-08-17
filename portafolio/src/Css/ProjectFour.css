@@ -28,7 +28,7 @@
 
 /* <------------------DESCRIPCIÓN DEL PROYECTO-----------------> */
     #containerColorProjectFour{
-        width: 1150px;
+        width: 1090px;
         height: 2650px;
         background: #F5C5B8;
         box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
@@ -126,7 +126,7 @@
 
     .imgProjectFour2{
         display: flex;
-        width: 1048px;
+        width: 100%;
         padding-top: 30px;
     }
 
@@ -138,6 +138,7 @@
     }
     .container1ProjectFour3{
         display: flex;
+        justify-content: space-between;
         padding: 0;
     }
         .containerImgProjectFourArrow3{
@@ -145,7 +146,7 @@
             align-items: center;
         }
             .imgProjectFourArrow3{
-                height: 150px;
+                height: 120px;
             }
 
 
@@ -191,3 +192,31 @@
     .imgToolsInvisionProject4:hover .containerImgToolsProject4{
         opacity: 1;
     }
+
+
+@media all and (max-width: 1024px){
+    #containerColorProjectFour{
+        width: 924px;
+        height: 2870px;
+    }
+    .container1ProjectFour1{
+        display: flex;
+        flex-direction: column;
+    }
+    .containerTittleProjectFour{
+        width: 800px;
+    }
+    .containerTittleProjectThree{
+        width: 890px;
+    }
+    .imgProjectFour1{
+        width: 500px;
+    }
+    #containerImgProjectFour1{
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+}

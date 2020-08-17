@@ -67,13 +67,13 @@ const ProjectTwo = () => {
                         <div>{<ModalOneProjectTwo />}</div>
 
                         <div className="containerImgProjectFourArrow3">
-                            <img className="imgProjectTwoArrow3" src="https://i.ibb.co/TkX1RRV/eva-arrow-ios-forward-fill.png" alt=""/>
+                            <img className="imgProjectTwoArrow3" src="https://i.ibb.co/8zNpQnH/eva-arrow-ios-forward-fill.png" alt=""/>
                         </div>
 
                         <div>{<ModalTwoProjectTwo />}</div>
 
                         <div className="containerImgProjectFourArrow3">
-                            <img className="imgProjectTwoArrow3" src="https://i.ibb.co/TkX1RRV/eva-arrow-ios-forward-fill.png" alt=""/>
+                            <img className="imgProjectTwoArrow3" src="https://i.ibb.co/8zNpQnH/eva-arrow-ios-forward-fill.png" alt=""/>
                         </div>
 
                         <div>{<ModalThreeProjectTwo />}</div>

@@ -5,9 +5,16 @@
     position: fixed;
     width: 60px;
     height: 665px;
-    left: 1430px;
+    left: 1355px;
     top: 45px;
     background: #5DA893;
+}
+#containerTotalSocialNetworks{
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
 }
     .containerBTNSocial{
         display: flex;
@@ -41,4 +48,28 @@
 }
 .btnSocial:hover .imgSocial {
     transform:scale(1.1);
+}
+
+/*<-----------------------MEDIA QUERY----------------------->*/
+@media all and (max-width: 1414px){
+    #containerSocialNetworks{
+        flex-direction: row;
+        position: relative;
+        /* position: sticky; */
+        width: 1090px;
+        height: 75px;
+        left: 164px;
+        margin: 0px -140px 50px 0px;
+    }
+    #containerTotalSocialNetworks{
+        width: 400px;
+        height: 100%;
+        flex-flow: wrap;
+        justify-content: space-between;
+    }
+}
+@media all and (max-width: 1024px){
+    #containerSocialNetworks{
+        width: 924px;
+    }
 }
