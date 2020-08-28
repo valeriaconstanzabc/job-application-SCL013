@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Css/SocialNetworks.css'
+import cv from '../CV/Valeria.Brito-CV.pdf';
 
 const SocialNetworks = () => {
     return (
@@ -27,7 +28,7 @@ const SocialNetworks = () => {
                 </a>
             </div>
             <div className="containerBTNSocial">
-                <a target="blank" href="mailto:valeria.brito.c@gmail.com">
+                <a target="blank" href={cv} download="Valeria.Brito-CV.pdf">
                     <button className="btnSocial">
                         <img src="http://imgfz.com/i/EulG6P1.png" className="imgSocial" alt="cv"/>
                     </button>

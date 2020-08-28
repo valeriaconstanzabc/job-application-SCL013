@@ -44,16 +44,16 @@ const Projects = () => {
 
             <div id="projectThree">
                 <div className="containerDescriptionProjectThree">
-                    <h5 className="tittleHomeProjectThree">GATERA</h5>
-                    <h5 className="tittleHomeProjectThree">HOTELERA</h5>
+                    <h5 className="tittleHomeProjectThree">LIBRERÍA</h5>
+                    <h5 className="tittleHomeProjectThree">MD-LINK</h5>
                     <p className="descriptionProjectThree">
-                        Página web realizada para un hostal turístico ubicado en Pichilemu. En 
-                        esta página podrás conocer un poco más sobre la historia del hostal 
-                        y sus instalaciones. Además te permitirá realizar una reserva en las 
-                        dependencias del él.
+                        Librería creada usando Node.js la cual lee y analiza archivos en  
+                        formato markdown. Esta librería permite verificar los links válidos y
+                        daños que contienen este tipo de archivos, y al mismo tiempo, reporta 
+                        algunas estadísticas de interés.
                     </p>
                     <div id="containerBTNProjectThree">
-                        <Link to="gatera">
+                        <Link to="mdlink">
                         <button className="btnSeeProjectThree" onClick={() => window.scrollTo(0, 0)}><span>VER PROYECTO </span></button>
                         </Link>
                     </div>

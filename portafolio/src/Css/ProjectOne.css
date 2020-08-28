@@ -1,7 +1,7 @@
 #containerProjectOne{
     display: flex;
     flex-direction: column;
-    padding: 80px 0px 40px 164px;
+    padding: 70px 0px 40px 164px;
     scroll-snap-align: initial;
 }
 #tProduction1{

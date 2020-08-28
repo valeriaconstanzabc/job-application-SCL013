@@ -32,9 +32,9 @@ export default props => {
             <li>Guia muggle</li>
           </ul>
         </a>
-        <a className="menu-item-proyects" href="/gatera">
+        <a className="menu-item-proyects" href="/mdlink">
           <ul className="listProjectsMenu">
-            <li>Gatera hotelera</li>
+            <li>MD-Links</li>
           </ul>
         </a>
         <a className="menu-item-proyects" href="/burgerqueen">
@@ -42,14 +42,9 @@ export default props => {
             <li>Burguer-queen</li>
           </ul>
         </a>
-        <a className="menu-item-proyects" href="/burgerqueen">
+        <a className="menu-item-proyects" href="/hootiehoo">
           <ul className="listProjectsMenu">
-            <li>MD-Links</li>
-          </ul>
-        </a>
-        <a className="menu-item-proyects" href="/burgerqueen">
-          <ul className="listProjectsMenu">
-            <li>Proyecto empresa</li>
+            <li>Hootie-Hoo</li>
           </ul>
         </a>
 

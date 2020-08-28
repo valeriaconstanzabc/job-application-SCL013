@@ -67,7 +67,7 @@ function App() {
           <SocialNetworks />
         </Route>
 
-        <Route path="/gatera">
+        <Route path="/mdlink">
           <Menu />
           <Header />
           <ProjectThree />

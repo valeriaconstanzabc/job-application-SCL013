@@ -2,7 +2,7 @@
 #containerProjectThree{
     display: flex;
     flex-direction: column;
-    padding: 100px 0px 50px 164px;
+    padding: 70px 0px 50px 164px;
     scroll-snap-align: initial;
 }
     .containerTittleProjectThree{
@@ -31,7 +31,7 @@
 /* <------------------DESCRIPCIÓN DEL PROYECTO-----------------> */
 #containerColorProjectThree{
     width: 1090px;
-    height: 1150px;
+    height: 1200px;
     background: #F5C5B8;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
 }
@@ -57,7 +57,7 @@
             align-items: center;
         }
             .imgProjectThree{
-                height: 300px;
+                width: 500px;
             }
                 .textThree{
                     padding-left: 30px;
@@ -75,29 +75,22 @@
 /* <---------------------HERRAMIENTAS USADAS-------------------> */
 .toolsProjectThree{
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     align-items: center;
     height: 200px;
 }
-    .imgToolsHTML5ProjectThree, .imgToolsJSProjectThree,
-    .imgToolsCSSProjectThree, .imgToolsFigmaProjectThree, 
-    .imgToolsInvisionProjectThree{
+    .imgToolsJSProjectThree, .imgToolsNodeJSProjectThree{
         height: 110px;
         width: 110px;
         background-size: cover;
-        filter: drop-shadow(9px 9px 9px rgba(0, 0, 0, 0.6))
+        margin-left: 50px;
+        filter: drop-shadow(9px 9px 9px rgba(0, 0, 0, 0.6));
     }
-    .imgToolsHTML5ProjectThree{background-image: url("http://imgfz.com/i/cBb3i7D.png");}
     .imgToolsJSProjectThree{background-image: url("http://imgfz.com/i/RkSbjGl.png");}
-    .imgToolsCSSProjectThree{background-image: url("http://imgfz.com/i/AYunpIz.png");}
-    .imgToolsFigmaProjectThree{background-image: url("http://imgfz.com/i/QcyeCpM.png");}
-    .imgToolsInvisionProjectThree{background-image: url("http://imgfz.com/i/Trg7GMB.png");}
+    .imgToolsNodeJSProjectThree{background-image: url("https://i.ibb.co/64NpXmG/js-1.png");}
         
-    .imgToolsHTML5ProjectThree:hover .containerImgToolsProjectThree,
     .imgToolsJSProjectThree:hover .containerImgToolsProjectThree,
-    .imgToolsCSSProjectThree:hover .containerImgToolsProjectThree,
-    .imgToolsFigmaProjectThree:hover .containerImgToolsProjectThree,
-    .imgToolsInvisionProjectThree:hover .containerImgToolsProjectThree{
+    .imgToolsNodeJSProjectThree:hover .containerImgToolsProjectThree{
         opacity: 1;
     }
         .containerImgToolsProjectThree{
@@ -116,11 +109,12 @@
 @media all and (max-width: 1024px){
     #containerColorProjectThree{
         width: 924px;
+        height: 1240px;
     }
     .containerTittleProjectThree{
         width: 890px;
     }
     .imgProjectThree{
-        height: 210px;
+        width: 400px;
     }
 }
