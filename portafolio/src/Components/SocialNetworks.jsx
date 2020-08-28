@@ -14,9 +14,9 @@ const SocialNetworks = () => {
                 </a>
             </div>
             <div className="containerBTNSocial">
-                <a target="blank" rel="GitHub" href="https://github.com/valeriaconstanzabc">
+                <a target="blank" rel="Laboratoria" href="https://app.talento.laboratoria.la/profile/8K0fyeaWPuQJVmpDzGyREWu9U8J3">
                     <button className="btnSocial">
-                        <img src="http://imgfz.com/i/iQHKf6A.png" className="imgSocial" alt="github"/>
+                        <img src="https://i.ibb.co/yfnK3cT/Group-31.png" className="imgSocial" alt="laboratoria"/>
                     </button>
                 </a>
             </div>
