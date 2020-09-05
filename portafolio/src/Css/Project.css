@@ -4,8 +4,10 @@
     flex-direction: column;
     margin: auto;
     max-width: 1540;
-    padding: 60px 200px 0px 150px;
+    margin: 60px 200px 0px 150px;
     min-width: 469.600px;
+    position: relative;
+    z-index: 100;
 }
 .containerTittleProject{
     display: flex;
@@ -371,12 +373,12 @@
         width: 100%;
     }
     #containerProjects{
-        padding: 60px 150px 0px 100px;
+        margin: 60px 150px 0px 100px;
     }
 }
 @media all and (max-width: 950px){
     #containerProjects{
-        padding: 60px 100px 0px 100px;
+        margin: 60px 100px 0px 100px;
     }
 }
 @media all and (max-width: 840px){

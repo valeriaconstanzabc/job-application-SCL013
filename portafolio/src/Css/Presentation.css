@@ -3,8 +3,10 @@
     flex-direction: column;
     margin: auto;
     max-width: 1540;
-    padding: 0px 200px 0px 150px;
+    margin: 0px 200px 0px 150px;
     min-width: 469.600px;
+    position: relative;
+    z-index: 100;
 }
      #containerBriefcase{
         display: flex;
@@ -127,7 +129,7 @@
 }
 
 @media all and (max-width: 1024px){
-    #containerPresentation{ padding: 0px 150px 0px 100px; }
+    #containerPresentation{ margin: 0px 150px 0px 100px; }
 }
 
 @media all and (max-width: 962px){
@@ -138,7 +140,7 @@
 }
 @media all and (max-width: 768px){
     #containerColorPresentation{ width: 100%; }
-    #containerPresentation{ padding: 0px 100px 0px 100px; }
+    #containerPresentation{ margin: 0px 100px 0px 100px; }
     #name{
         justify-content: flex-start;
         margin: 100px 0px 0px 45px;

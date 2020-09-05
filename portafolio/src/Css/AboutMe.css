@@ -3,8 +3,10 @@
     flex-direction: column;
     margin: auto;
     max-width: 1540;
-    padding: 60px 200px 0px 150px;
+    margin: 60px 200px 0px 150px;
     min-width: 469.600px;
+    position: relative;
+    z-index: 100;
 }
 .containerTittle{
     display: flex;
@@ -56,11 +58,11 @@
     .tittle{ font-size: 100px; }
 }
 @media all and (max-width: 1024px){
-    #containerAboutMe{ padding: 60px 150px 0px 100px; }
+    #containerAboutMe{ margin: 60px 150px 0px 100px; }
 }
 
 @media all and (max-width: 950px){
-    #containerAboutMe{ padding: 60px 100px 0px 100px; }
+    #containerAboutMe{ margin: 60px 100px 0px 100px; }
 }
 @media all and (max-width: 825px){
     .tittle{ font-size: 85px; }

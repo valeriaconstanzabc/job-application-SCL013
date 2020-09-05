@@ -22,16 +22,15 @@ function App() {
       <Switch>
 
         <Route path="/" exact>
-          {/* <SocialNetworks /> */}
           <Menu />
           <Presentation />
           <AboutMe />
           <Projects />
           <Tools /> 
-                    <SocialNetworks />
+          <SocialNetworks />
         </Route>
 
-        {/* <Route path="/acercaDeMi">
+         <Route path="/acercaDeMi">
           <Menu />
           <Header />
           <AboutMe />
@@ -85,7 +84,7 @@ function App() {
           <Header />
           <ProjectFour />
           <SocialNetworks />
-        </Route> */}
+        </Route>
 
       </Switch>
     </Router>
