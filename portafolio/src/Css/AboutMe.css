@@ -62,7 +62,10 @@
 }
 
 @media all and (max-width: 950px){
-    #containerAboutMe{ margin: 45px 100px 60px 100px; }
+    #containerAboutMe{ 
+        margin: 0px 0px 0px 0px; 
+        padding: 45px 100px 60px 100px;
+    }
 }
 @media all and (max-width: 825px){
     .tittle{ font-size: 85px; }
