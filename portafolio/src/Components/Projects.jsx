@@ -98,7 +98,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div id="projectFive">
+            {/* <div id="projectFive">
                 <div className="containerDescriptionProjectFive">
                     <div className="containerInfoProyectFive">
                         <div>
@@ -119,7 +119,7 @@ const Projects = () => {
                         </Link>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
