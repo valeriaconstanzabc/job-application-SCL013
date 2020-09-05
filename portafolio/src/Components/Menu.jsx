@@ -42,15 +42,15 @@ export default props => {
             <li>Burguer-queen</li>
           </ul>
         </a>
-        {/* <a className="menu-item-proyects" href="/hootiehoo">
+        <a className="menu-item-proyects" href="/hootiehoo">
           <ul className="listProjectsMenu">
             <li>Hootie-Hoo</li>
           </ul>
-        </a> */}
+        </a>
 
         <a className="menu-item" href="/herramientas">
           <ul className="listMenu">
-            <li>HERRAMIENTAS</li>
+            <li>SOFTWARES</li>
           </ul>
         </a>
       </Menu>

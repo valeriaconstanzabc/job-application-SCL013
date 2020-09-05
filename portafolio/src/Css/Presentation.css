@@ -1,14 +1,18 @@
 #containerPresentation{
     display: flex;
     flex-direction: column;
-    margin-left: 165px;
+    margin: auto;
+    max-width: 1540;
+    padding: 0px 200px 0px 150px;
+    min-width: 469.600px;
 }
-    #containerBriefcase{
+     #containerBriefcase{
         display: flex;
-        height: 60px;
     }
         #briefcase{
             display: flex;
+            width: 100%;
+            margin: 40px 0px 10px 0px;
             font-family: 'Gudea';
             font-weight: normal;
             font-size: 18px;
@@ -16,42 +20,132 @@
         }
     #containerColorPresentation{
         display: flex;
-        width: 599px;
-        height: 665px;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
         background: #F5C5B8;
     }
-        #name{
+       #name{
             font-family: 'Gudea';
             font-style: normal;
             font-weight: normal;
             display: flex;
-            margin-left: 240px;
-            margin-top: 90px;
+            justify-content: flex-end;
+            margin: 100px -30px 0px 0px;
             font-size: 110px;
             color: #1C1B20;
         }
-        #lastName, #pointPresentation{
+        .lastNameAndPoint{
+            display: flex;
+            justify-content: flex-end;
+            align-content: flex-end;
+            align-items: flex-end;
+        }
+
+        #lastName{
             font-family: 'Fjalla One', sans-serif;
             display: flex;
-            margin-left: -270px;
-            margin-top: 190px;
             font-style: normal;
             font-weight: normal;
+            justify-content: flex-end;
+            margin: 0px 0px 0px 0px;
             font-size: 180px;
             color: #1C1B20;
         }
-            #pointPresentation{
+             #pointPresentationn{
+                font-family: 'Fjalla One', sans-serif;
                 display: flex;
-                margin-left: 0px;
+                font-style: normal;
+                font-weight: normal;
+                display: flex;
                 font-size: 150px;
-                margin-top: 220px;
                 color: #A87B6D;
+                margin: 0px -200px 0px 0px;
+            } 
+
+
+.containerDescriptionn{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 50px;
+}
+    #descriptionDFE, #descriptionD{
+        width: 100%;
+        padding-bottom: 10px;
+        font-family: 'Gudea';
+        font-size: 25px;
+        color: #000000;
+        margin: 0;
+    }
+    #descriptionD{
+        font-size: 17px;
+        font-weight: normal;
+    }
+        .me{
+            width: 270px;
+            height: 50px;
+            border: 0;
+            background: #5DA893;
+            box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+            outline: none;
+
+            font-family: 'Gudea';
+            font-size: 21px;
+            color: #FFFFFF;
+        }
+        .me span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+        .me span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+            }
+            
+            .me:hover span {
+            padding-right: 25px;
+            }
+            
+            .me:hover span:after {
+            opacity: 1;
+            right: 0;
             }
 
+
 /*<-----------------------MEDIA QUERY----------------------->*/
+@media all and (max-width: 1162px){
+    #name{ font-size: 90px; }
+    #lastName{ font-size: 160px; }
+}
+
 @media all and (max-width: 1024px){
-    #containerPresentation{
-        width: 1024px;
-        margin: 0px 165px 0px 165px;
+    #containerPresentation{ padding: 0px 150px 0px 100px; }
+}
+
+@media all and (max-width: 962px){
+    #containerColorPresentation{ width: 60%; }
+}
+@media all and (max-width: 852px){
+    #containerColorPresentation{ width: 70%; }
+}
+@media all and (max-width: 768px){
+    #containerColorPresentation{ width: 100%; }
+    #containerPresentation{ padding: 0px 100px 0px 100px; }
+    #name{
+        justify-content: flex-start;
+        margin: 100px 0px 0px 45px;
     }
+    #pointPresentationn{ margin: 0px 45px 0px 0px; } 
+}
+@media all and (max-width: 769px){
+    #pointPresentationn{ justify-content: flex-start; } 
+    #lastName{ justify-content: flex-start; }
 }

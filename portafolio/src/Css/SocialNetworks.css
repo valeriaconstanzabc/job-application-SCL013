@@ -1,12 +1,20 @@
 #containerSocialNetworks{
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    box-sizing: border-box;
+    padding-right: 40px;
+    top: 0;
+}
+.containerColorSocialNetworks{
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    position: fixed;
     width: 60px;
     height: 665px;
-    left: 1355px;
-    top: 45px;
     background: #5DA893;
 }
 #containerTotalSocialNetworks{
@@ -51,12 +59,62 @@
 }
 
 /*<-----------------------MEDIA QUERY----------------------->*/
-@media all and (max-width: 1414px){
+
+@media all and (max-width: 950px){
+    /* #containerSocialNetworks{
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100%;
+        position: relative;
+        box-sizing: border-box;
+        padding-right: 0px;
+        
+    } */
+/* 
+    #containerSocialNetworks{
+        position: relative;
+        margin: 0px;
+        box-sizing: border-box;
+        min-width: 469.600px;
+        left: 100px;
+        
+    }
+    #containerTotalSocialNetworks {
+        flex-flow: row;
+        min-width: 469.600px;
+    }
+    #containerSocialNetworks {
+        justify-content: center;
+        padding-right: 0px;
+    }
+    .containerColorSocialNetworks {
+        min-width: 469.600px;
+        margin: 0px 100px 0px 0px;
+        width: 723.200px;
+    }
+    .containerBTNSocial {
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+}
+@media all and (max-width: 469px){
+    .containerColorSocialNetworks {
+        margin: 0px 100px 0px 100px;
+    } */
+/* .containerColorSocialNetworks {
+    width: 100%;
+    min-width: 469.600px;
+    margin: 0px 200px 0px 200px;
+} */
+}
+
+/* @media all and (max-width: 1414px){
     #containerSocialNetworks{
         flex-direction: row;
-        position: relative;
+        position: relative; */
         /* position: sticky; */
-        width: 1090px;
+        /* width: 1090px;
         height: 75px;
         left: 164px;
         margin: 0px -140px 50px 0px;
@@ -72,4 +130,4 @@
     #containerSocialNetworks{
         width: 924px;
     }
-}
+} */

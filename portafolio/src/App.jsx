@@ -6,7 +6,6 @@ import {
 
 import Presentation from './Components/Presentation';
 import SocialNetworks from './Components/SocialNetworks';
-import Description from './Components/Description';
 import AboutMe from './Components/AboutMe';
 import Projects from './Components/Projects';
 import Tools from './Components/Tools';
@@ -23,16 +22,16 @@ function App() {
       <Switch>
 
         <Route path="/" exact>
+          {/* <SocialNetworks /> */}
           <Menu />
           <Presentation />
-          <Description />
           <AboutMe />
           <Projects />
           <Tools /> 
-          <SocialNetworks />     
+                    <SocialNetworks />
         </Route>
 
-        <Route path="/acercaDeMi">
+        {/* <Route path="/acercaDeMi">
           <Menu />
           <Header />
           <AboutMe />
@@ -79,7 +78,14 @@ function App() {
           <Header />
           <ProjectFour />
           <SocialNetworks />
-        </Route>
+        </Route> 
+        
+        <Route path="/hootiehoo">
+          <Menu />
+          <Header />
+          <ProjectFour />
+          <SocialNetworks />
+        </Route> */}
 
       </Switch>
     </Router>

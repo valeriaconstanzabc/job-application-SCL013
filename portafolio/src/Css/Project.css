@@ -2,126 +2,134 @@
 #containerProjects{
     display: flex;
     flex-direction: column;
-    padding: 60px 0px 40px 164px;
+    margin: auto;
+    max-width: 1540;
+    padding: 60px 200px 0px 150px;
+    min-width: 469.600px;
 }
-    .containerTittleProject{
-        display: flex;
-        height: 70px;
-        position: relative;
-    }
-        .tittleProject{
-            display: flex;
-            margin: 0px 0px 0px 45px;
-            font-family: 'Fjalla One';
-            font-weight: normal;
-            font-size: 120px;
-            color: #1C1B20;
-        }
-        .pointTittleProject{
-            display: flex;
-            margin-top: -33px;
-            font-size: 150px;
-            color: #F5C5B8;
-            font-family: 'Fjalla One', sans-serif;
-        }
+.containerTittleProject{
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    position: relative;
+    margin: 0px 0px -80px 0px;
+}
+.tittleProject{
+    display: flex;
+    margin: 0px 0px 0px 45px;
+    font-family: 'Fjalla One';
+    font-weight: normal;
+    font-size: 120px;
+    color: #1C1B20;
+}
 
+.pointTittleProject{
+    display: flex;
+    margin: 0;
+    font-size: 150px;
+    color: #5DA893;
+    font-family: 'Fjalla One', sans-serif;
+}
 
 /* <------------------------PROYECTO UNO-----------------------> */
 #projectOne{
     display: flex;
-    justify-content: space-between;
-    width: 1090px;
-    height: 450px;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
     background: #FFE1D9;
-    box-shadow: 15px 0px 15px rgba(0, 0, 0, 0.25);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
 }
-    .containerDescriptionProjectOne{
-        padding-top: 90px;
-        margin-left: 50px;
-    }
-            .tittleHomeProjectOne{    
-                font-family: 'Fjalla One';
-                font-weight: normal;
-                font-size: 65px;
-                padding-top: 15px;
-                margin: 0px;
-                color:#1C1B20;
-            }
-            
-            .descriptionProjectOne{
-                width: 470px;
-                font-family: 'Gudea';
-                font-size: 19px;
-                padding: 15px 15px 15px 0px;
-                color:#1C1B20;
-                text-align: justify;
-            }
+.containerDescriptionProjectOne{
+    display: flex;
+    flex-direction: column;
+    margin: 90px 45px 60px 45px;
+    justify-content: space-between;
+}
 
-            .btnSeeProjectOne{
-                width: 198px;
-                height: 47px;
-                margin-top: 30px;
-                background: #1C1B20;
-                border: 1px solid #1C1B20;
-                box-sizing: border-box;
-                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-                font-family: 'Gudea';
-                font-style: normal;
-                font-weight: bold;
-                font-size: 22px;
-                line-height: 27px;
-                color: #f1eeee;
-                outline: none;
-            }
-            .containerImgProjectOneHome{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                align-content: center;
-                padding-right: 30px;
-            }
-            .imgProjectOneHome{
-                height: 300px;
-                filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.8))
-            }
-         
-
-
-/* <------------------------PROYECTO DOS-----------------------> */    
-#projectTwo{
+.containerInfoProyectOne2{
     display: flex;
     justify-content: space-between;
-    width: 545px;
-    height: 550px;
-    background: #A87B6D;
-    box-shadow: 15px 0px 15px rgba(0, 0, 0, 0.25);
 }
-    .containerDescriptionProjectTwo{
-        padding-top: 30px;
-        margin-left: 50px;
+
+.tittleHomeProjectOne{    
+    font-family: 'Fjalla One';
+    font-weight: normal;
+    font-size: 65px;
+    margin: 0px;
+    color:#1C1B20;
+}
+.descriptionProjectOne{
+    width: 100%;
+    font-family: 'Gudea';
+    font-size: 19px;
+    color:#1C1B20;
+    text-align: justify;
+}
+.btnSeeProjectOne{
+    width: 198px;
+    height: 47px;
+    background: #1C1B20;
+    border: 1px solid #1C1B20;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    font-family: 'Gudea';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #f1eeee;
+    outline: none;
+}
+.containerImgProjectOneHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.imgProjectOneHome{
+    height: 300px;
+    filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.8))
+}
+
+/* <--------------------PROYECTO DOS Y TRES--------------------> */
+.containerProyectTwoAndThree{
+    display: flex;
+    height: 100%;
+}
+    #projectTwo{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+        padding: 45px;
+        box-sizing: border-box;
+        background: #A87B6D;
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
     }
-    .tittleHomeProjectTwo{    
-        font-family: 'Fjalla One';
-        font-weight: normal;
-        font-size: 65px;
-        padding-top: 15px;
-        margin: 0px;
-        color:#1C1B20;
-    }
-    .descriptionProjectTwo{
-        width: 240px;
-        padding-bottom: 30px;
-        font-family: 'Gudea';
-        font-size: 19px;
-        padding: 15px 0px 15px 0px;
-        color: #F5F5F5;
-        text-align: justify;
-    }
+        .containerDescriptionProjectTwo{
+            display: flex;
+            justify-content: space-between;
+        }
+        .tittleHomeProjectTwo{    
+            font-family: 'Fjalla One';
+            font-weight: normal;
+            font-size: 65px;
+            margin: 0px;
+            color:#1C1B20;
+        }
+        .descriptionProjectTwo{
+            width: 100%;
+            padding-top: 20px;
+            font-family: 'Gudea';
+            font-size: 19px;
+            color: #F5F5F5;
+            text-align: justify;
+        }
         .btnSeeProjectTwo{
             width: 198px;
             height: 47px;
-            margin-top: 30px;
             background: #1C1B20;
             border: 1px solid #1C1B20;
             box-sizing: border-box;
@@ -134,33 +142,32 @@
             color: #f1eeee;
             outline: none;
         }
-
         .containerImgProjectTwo{
             display: flex;
             justify-content: center;
             align-items: center;
             align-content: center;
-            padding-right: 30px;
         }
         .imgProjectTwo{
             height: 390px;
             filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.8))
         }
-
-            
-
-/* <------------------------PROYECTO TRES----------------------> */         
-#projectThree{
-    display: flex;
-    width: 545px;
-    height: 550px;
-    background: #5DA893;
-    box-shadow: 15px 0px 15px rgba(0, 0, 0, 0.25);
-    margin: -550px 0px 0px 545px;
-}
+        
+        
+    #projectThree{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 45px;
+        box-sizing: border-box;
+        background: #5DA893;
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
+    }
     .containerDescriptionProjectThree{
-        margin: 29px 0px 0px 0px;
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
     }
     .tittleHomeProjectThree{
         display: flex;
@@ -169,204 +176,225 @@
         font-weight: normal;
         font-size: 65px;
         margin: 0px;
-        padding-top: 15px;
         color:#1C1B20;
         text-align: center;
     }
-        .descriptionProjectThree{
-            margin: 20px 35px 0px 35px;
-            font-family: 'Gudea';
-            font-size: 19px;
-            color: #F5F5F5;
-            display: flex;
-            padding-top: 16px;
-            text-align: justify;
-        }
+    .descriptionProjectThree{
+        font-family: 'Gudea';
+        font-size: 19px;
+        color: #F5F5F5;
+        display: flex;
+        text-align: justify;
+    }
+    #containerBTNProjectThree{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    .btnSeeProjectThree{
+        width: 198px;
+        height: 47px;
+        background: #1C1B20;
+        border: 1px solid #1C1B20;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-        #containerBTNProjectThree{
-            display: flex;
-            justify-content: center;
-            align-content: center;
-            align-items: center;
-        }
-        .btnSeeProjectThree{
-            width: 198px;
-            height: 47px;
-            margin-top: 30px;
-            background: #1C1B20;
-            border: 1px solid #1C1B20;
-            box-sizing: border-box;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-            font-family: 'Gudea';
-            font-style: normal;
-            font-weight: bold;
-            font-size: 22px;
-            line-height: 27px;
-            color: #f1eeee;
-            outline: none;
-        }
-              
-        
+        font-family: 'Gudea';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 27px;
+        color: #f1eeee;
+        outline: none;
+    }
+     
 /* <------------------------PROYECTO CUATRO--------------------> */
 #projectFour{
     display: flex;
-    justify-content: space-between;
-    width: 1090px;
-    height: 450px;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
     background: #F5C5B8;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
 }
-    .containerDescriptionProjectFour{
-        padding-top: 40px;
-        margin-left: 50px;
-    }
-        .tittleHomeProjectFour{
-            font-family: 'Fjalla One';
-            font-weight: normal;
-            font-size: 65px;
-            padding-top: 15px;
-            margin: 0px;
-            color:#1C1B20;
-        }  
-        .descriptionProjectFour{
-            width: 470px;
-            font-family: 'Gudea';
-            font-size: 19px;
-            padding: 15px 15px 15px 0px;
-            color:#1C1B20;
-            text-align: justify;
-        }    
-    
-        .containerImgProjectFour{
-            padding: 15px 10px 0px 0px;
-        }
+.containerImgProjectFour{
+    display: flex;
+}
+.containerDescriptionProjectFour{
+    display: flex;
+    flex-direction: column;
+    margin: 45px 45px 60px 45px;
+    align-items: center;
+}
+.tittleHomeProjectFour{
+    font-family: 'Fjalla One';
+    font-weight: normal;
+    font-size: 65px;
+    margin: 0px;
+    color:#1C1B20;
+}  
+.descriptionProjectFour{
+    font-family: 'Gudea';
+    font-size: 19px;
+    padding: 15px 15px 15px 0px;
+    color:#1C1B20;
+    text-align: justify;
+}
+.containerBtnProjectFour{
+    width: 100%;
+}
+.imgProjectFour{
+    height: 330px;
+    filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.8))
+}
+.containerInfoProjectFour{
+    display: flex;
+}
 
-        .imgProjectFour{
-            padding-top: 10px;
-            width: 520px;
-            filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.8))
-        }    
-    
+/* <----------------------PROYECTO CINCO-----------------------> */
+#projectFive{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background: #5DA893;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
+}
+.containerDescriptionProjectFive{
+    display: flex;
+    flex-direction: column;
+    margin: 45px;
+    justify-content: space-between;
+}
+
+.containerInfoProyectFive{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tittleHomeProjectFive{    
+    font-family: 'Fjalla One';
+    font-weight: normal;
+    font-size: 65px;
+    margin: 0px;
+    color:#1C1B20;
+}
+.descriptionProjectFive{
+    width: 100%;
+    font-family: 'Gudea';
+    font-size: 19px;
+    color:#F5F5F5;
+    text-align: justify;
+}
+
+.containerImgProjectFive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0px 0px 0px 30px;
+}
+.imgProjectFive{
+    height: 400px;
+    filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.8))
+}
+
 
 /* <-----------EFECTO BOTÓN------------> */
-    .btnSeeProjectOne span, .btnSeeProjectTwo span, 
-    .btnSeeProjectThree span{
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-    }
-    .btnSeeProjectOne span:after, .btnSeeProjectTwo span:after,
-    .btnSeeProjectThree span:after{
-        content: '\00bb';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-    }
-      
-    .btnSeeProjectOne:hover span, .btnSeeProjectTwo:hover span, 
-    .btnSeeProjectThree:hover span{
-        padding-right: 25px;
-    }
+.btnSeeProjectOne span, .btnSeeProjectTwo span, 
+.btnSeeProjectThree span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.btnSeeProjectOne span:after, .btnSeeProjectTwo span:after,
+.btnSeeProjectThree span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
     
-    .btnSeeProjectOne:hover span:after, .btnSeeProjectTwo:hover span:after,
-    .btnSeeProjectThree:hover span:after{
-        opacity: 1;
-        right: 0;
-    }
+.btnSeeProjectOne:hover span, .btnSeeProjectTwo:hover span, 
+.btnSeeProjectThree:hover span{
+    padding-right: 25px;
+}
+
+.btnSeeProjectOne:hover span:after, .btnSeeProjectTwo:hover span:after,
+.btnSeeProjectThree:hover span:after{
+    opacity: 1;
+    right: 0;
+}
 
 
 /*<-----------------------MEDIA QUERY----------------------->*/
-@media all and (max-width: 1024px){
-    #projectOne, 
-    #projectFour{
-        width: 924px;
+@media all and (max-width: 1300px){
+    .containerDescriptionProjectTwo{
+        flex-flow: wrap;
+        justify-content: center;
     }
-    #projectTwo,
-    #projectThree{
-        width: 462px;
+    .containerBtnProjectTwo{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
     }
-    #projectThree{
-        margin: -550px 0px 0px 462px;
+}
+@media all and (max-width: 1162px){
+    .containerInfoProyectFive,
+    .containerInfoProjectFour,
+    .containerInfoProyectOne2{
+        flex-flow: wrap;
+        justify-content: center;
     }
-    .descriptionProjectTwo{
-        width: 200px;
+    .containerBtnProjectFive,
+    .containerBtnProjectFour,
+    .containerBtnProjectOne{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
     }
-    .imgProjectTwo{
-        height: 340px;
-        padding-top: 120px;
-    }
-    .descriptionProjectOne{
-        width: 330px;
-        padding: 15px 15px 0px 0px;
-    }
-    .descriptionProjectFour{
-        width: 370px;
-    }
-    .imgProjectFour{
-        width: 430px;
-        padding-top: 35px;
-        padding-right: 10px;
-    }
-    .imgProjectOneHome{
-        height: 270px;
+    .tittleProject{
+        font-size: 100px;
     }
 }
 
-@media all and (max-width: 768px){
-    #projectTwo{
-        width: 924px;
-        height: 400px;
+@media all and (max-width: 1024px){
+    .containerProyectTwoAndThree{
+        flex-direction: column;
     }
+    #projectTwo,
     #projectThree{
-        width: 924px;
-        height: 450px;
-        margin: 0px;
+        width: 100%;
     }
-    .imgProjectTwo{
-        height: 340px;
-        padding-top: 0px;
-    }
-    .descriptionProjectTwo{
-        width: 500px;
+    #containerProjects{
+        padding: 60px 150px 0px 100px;
     }
 }
-/* <-----------------------MEDIA QUERY----------------------->
-@media all and (max-width: 1024px){
-    #projectOne, 
-    #projectFour{
-        width: 870px;
+@media all and (max-width: 950px){
+    #containerProjects{
+        padding: 60px 100px 0px 100px;
     }
-    #projectTwo{
-        width: 870px;
-    }
-    #projectThree{
-        width: 870px;
-        margin: 0px 0px 0px 0px;
-    }
-    .descriptionProjectTwo{
-        width: 200px;
-    }
-    .imgProjectTwo{
-        height: 340px;
-        padding-top: 120px;
+}
+@media all and (max-width: 840px){
+    .imgProjectOneHome{
+        height: 220px;
     }
     .imgProjectFour{
-        width: 400px;
-        padding-top: 35px;
-        padding-right: 10px;
+        height: 300px;
     }
-    .imgProjectOneHome{
-        height: 250px;
+    .imgProjectFive{
+        height: 300px;
     }
-    .descriptionProjectOne{
-        width: 330px;
-        padding: 15px 15px 0px 0px;
+}
+@media all and (max-width: 825px){
+    .tittleProject{
+        font-size: 85px;
     }
-    .descriptionProjectFour{
-        width: 370px;
+    .containerTittleProject{
+        margin: 0px 0px -60px 0px;
     }
-} */
+}

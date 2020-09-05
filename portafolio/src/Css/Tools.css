@@ -1,81 +1,86 @@
 #containerTools{
     display: flex;
     flex-direction: column;
-    padding: 60px 164px 40px 164px;
+    margin: auto;
+    max-width: 1540;
+    padding: 60px 200px 100px 150px;
+    min-width: 469.600px;
 }
-    .pointTittleTools{
-        display: flex;
-        margin-top: -33px;
-        font-size: 150px;
-        color: #F5C5B8;
-        font-family: 'Fjalla One', sans-serif;
-    }
-
+.pointTittleTools{
+    display: flex;
+    margin: 0;
+    font-size: 150px;
+    color: #F5C5B8;
+    font-family: 'Fjalla One', sans-serif;
+}
     #containerColorTools{
         display: flex;
-        width: 1090px;
-        height: 360px;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
         background: #A87B6D;
         box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
-        padding: 100px 0px 0px 0px;
-        justify-content: center;
-        align-items: center;
     }
+
     #containerTotalTools{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        width: 1050px;
-        height: 360px;
-        
+        margin: 110px 0px 10px 0px;
     }
 
-                .imgToolsHTML5, .imgToolsJS, .imgToolsCSS,
-                .imgToolsReact, .imgToolsGithub, .imgToolsFirebase,
-                .imgToolsFigma, .imgToolsInvision, .imgToolsNodeJS{
-                    height: 100px;
-                    width: 100px;
-                    background-size: cover;
-                    margin: 0px 50px 0px 50px;
-                    filter: drop-shadow(9px 9px 9px rgba(0, 0, 0, 0.6))
-                }
-                .imgToolsHTML5{background-image: url("http://imgfz.com/i/cBb3i7D.png");}
-                .imgToolsJS{background-image: url("http://imgfz.com/i/RkSbjGl.png");}
-                .imgToolsCSS{background-image: url("http://imgfz.com/i/AYunpIz.png");}
-                .imgToolsNodeJS{background-image: url("https://i.ibb.co/64NpXmG/js-1.png");}
-                .imgToolsReact{background-image: url("http://imgfz.com/i/KI90XYh.png");}
-                .imgToolsFirebase{background-image: url("https://i.ibb.co/8x6Rv7P/firebase.png");}
-                .imgToolsGithub{background-image: url("http://imgfz.com/i/LhKOBqf.png");}
-                .imgToolsFigma{background-image: url("http://imgfz.com/i/QcyeCpM.png");}
-                .imgToolsInvision{background-image: url("http://imgfz.com/i/Trg7GMB.png");}
+        .imgToolsHTML5, .imgToolsJS, .imgToolsCSS,
+        .imgToolsReact, .imgToolsGithub, .imgToolsFirebase,
+        .imgToolsFigma, .imgToolsInvision, .imgToolsNodeJS{
+            height: 100px;
+            width: 100px;
+            background-size: cover;
+            margin: 0px 50px 50px 50px;
+            filter: drop-shadow(9px 9px 9px rgba(0, 0, 0, 0.6))
+        }
+        .imgToolsHTML5{background-image: url("http://imgfz.com/i/cBb3i7D.png");}
+        .imgToolsJS{background-image: url("http://imgfz.com/i/RkSbjGl.png");}
+        .imgToolsCSS{background-image: url("http://imgfz.com/i/AYunpIz.png");}
+        .imgToolsNodeJS{background-image: url("https://i.ibb.co/64NpXmG/js-1.png");}
+        .imgToolsReact{background-image: url("http://imgfz.com/i/KI90XYh.png");}
+        .imgToolsFirebase{background-image: url("https://i.ibb.co/8x6Rv7P/firebase.png");}
+        .imgToolsGithub{background-image: url("http://imgfz.com/i/LhKOBqf.png");}
+        .imgToolsFigma{background-image: url("http://imgfz.com/i/QcyeCpM.png");}
+        .imgToolsInvision{background-image: url("http://imgfz.com/i/Trg7GMB.png");}
 
-                .containerImgTools{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    position:absolute;
-                    overflow:hidden;
-                    width: 110px;
-                    height: 110px;
-                    opacity:0;
-                    transition: opacity 0.3s;
-                    margin: 0;
-                }
-                    .imgToolsHTML5:hover .containerImgTools,
-                    .imgToolsJS:hover .containerImgTools,
-                    .imgToolsCSS:hover .containerImgTools,
-                    .imgToolsNodeJS:hover .containerImgTools, 
-                    .imgToolsReact:hover .containerImgTools,
-                    .imgToolsFirebase:hover .containerImgTools,
-                    .imgToolsGithub:hover .containerImgTools,
-                    .imgToolsFigma:hover .containerImgTools,
-                    .imgToolsInvision:hover .containerImgTools{
-                        opacity: 1;
-                    }
+        .containerImgTools{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position:absolute;
+            overflow:hidden;
+            width: 110px;
+            height: 110px;
+            opacity:0;
+            transition: opacity 0.3s;
+            margin: 0;
+        }
+            .imgToolsHTML5:hover .containerImgTools,
+            .imgToolsJS:hover .containerImgTools,
+            .imgToolsCSS:hover .containerImgTools,
+            .imgToolsNodeJS:hover .containerImgTools, 
+            .imgToolsReact:hover .containerImgTools,
+            .imgToolsFirebase:hover .containerImgTools,
+            .imgToolsGithub:hover .containerImgTools,
+            .imgToolsFigma:hover .containerImgTools,
+            .imgToolsInvision:hover .containerImgTools{
+                opacity: 1;
+            }
+
 
 /*<-----------------------MEDIA QUERY----------------------->*/
 @media all and (max-width: 1024px){
-    #containerColorTools{
-        width: 924px;
+    #containerTools{
+        padding: 60px 150px 100px 100px;
+    }
+}
+@media all and (max-width: 950px){
+    #containerTools{
+        padding: 60px 100px 100px 100px;
     }
 }

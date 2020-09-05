@@ -72,3 +72,11 @@
         .menu-item-proyects{
             font-size: 18px;
         }
+
+
+/*<-----------------------MEDIA QUERY----------------------->*/
+@media all and (max-width: 1024px){
+  .bm-burger-button {
+    left: 30px;
+  }
+}
