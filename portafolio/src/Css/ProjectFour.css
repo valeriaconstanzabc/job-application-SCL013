@@ -4,7 +4,7 @@
     flex-direction: column;
     margin: auto;
     max-width: 1540;
-    margin: 60px 200px 0px 150px;
+    margin: 60px 200px 60px 150px;
     min-width: 469.600px;
     position: relative;
     z-index: 100;
@@ -144,7 +144,7 @@
     }
     .container1ProjectFour3{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 0;
     }
         .containerImgProjectFourArrow3{
@@ -159,15 +159,18 @@
 /* <---------------------HERRAMIENTAS USADAS-------------------> */
 .toolsProjectFour{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
-    height: 200px;
+    height: 100%;
+    padding-bottom: 40px;
 }
     .imgToolsHTML5Project4, .imgToolsJSProject4, 
     .imgToolsCSSProject4, .imgToolsReactProject4, 
     .imgToolsFigmaProject4, .imgToolsInvisionProject4{
         height: 110px;
         width: 110px;
+        margin: 15px;
         background-size: cover;
         filter: drop-shadow(9px 9px 9px rgba(0, 0, 0, 0.6))
     }
@@ -200,29 +203,33 @@
     }
 
 
-/* @media all and (max-width: 1024px){
-    #containerColorProjectFour{
-        width: 924px;
-        height: 2870px;
-    }
-    .container1ProjectFour1{
-        display: flex;
-        flex-direction: column;
-    }
-    .containerTittleProjectFour{
-        width: 800px;
-    }
-    .containerTittleProjectThree{
-        width: 890px;
-    }
-    .imgProjectFour1{
-        width: 500px;
-    }
-    #containerImgProjectFour1{
+
+/*<-----------------------MEDIA QUERY----------------------->*/
+@media all and (max-width: 1323px){
+    .container1ProjectFour1{ flex-direction: column; }
+    #containerImgProjectFour1{ 
+        display: flex; 
+        justify-content: center; 
         padding-top: 30px;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
     }
-} */
+    .container1ProjectFour3{
+        flex-wrap: wrap;
+    }
+    .imgProjectFour1 {
+        display: flex;
+        width: 100%;
+    }
+    /* .textThree{ padding-left: 0px; } */
+}
+@media all and (max-width: 1174px){
+    .tittleProjectFourr { font-size: 90px; }
+}
+@media all and (max-width: 1024px){
+    #containerProjectFour{ margin: 60px 150px 60px 100px; }
+}
+@media all and (max-width: 950px){
+    #containerProjectFour{ margin: 60px 100px 60px 100px; }
+}
+@media all and (max-width: 837px){
+    .tittleProjectFourr { font-size: 65px; }
+}

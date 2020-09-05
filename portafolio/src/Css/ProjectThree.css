@@ -4,7 +4,7 @@
     flex-direction: column;
     margin: auto;
     max-width: 1540;
-    margin: 60px 200px 0px 150px;
+    margin: 60px 200px 60px 150px;
     min-width: 469.600px;
     position: relative;
     z-index: 100;
@@ -110,15 +110,20 @@
         }
 
 
-/* @media all and (max-width: 1024px){
-    #containerColorProjectThree{
-        width: 924px;
-        height: 1240px;
+/*<-----------------------MEDIA QUERY----------------------->*/
+@media all and (max-width: 1369px){
+    .container1ProjectThree{ flex-direction: column-reverse; }
+    .textThree{ padding-left: 0px; }
+    .imgProjectThree {
+        width: 100%;
     }
-    .containerTittleProjectThree{
-        width: 890px;
-    }
-    .imgProjectThree{
-        width: 400px;
-    }
-} */
+}
+@media all and (max-width: 1024px){
+    #containerProjectThree{ margin: 60px 150px 60px 100px; }
+}
+@media all and (max-width: 950px){
+    #containerProjectThree{ margin: 60px 100px 60px 100px; }
+}
+@media all and (max-width: 743px){
+    .tittleProjectThree { font-size: 100px; }
+}

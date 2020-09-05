@@ -31,7 +31,7 @@ const ProjectTwo = () => {
                         buscar por los nombres de cada uno de ellos y podrán seleccionar diferentes 
                         buscadores específicos de acuerdo a sus intereses y conocimientos.
                         </p>
-                        <img className="imgProjectTwo" src="https://i.ibb.co/jZ9L1Xf/guy-using-his-laptop-shoulder-view-23-2148288560.jpg" alt=""/>
+                        <img className="imgProjectTwoo" src="https://i.ibb.co/jZ9L1Xf/guy-using-his-laptop-shoulder-view-23-2148288560.jpg" alt=""/>
                     </div>                   
                 </div>
 
