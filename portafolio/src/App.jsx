@@ -79,12 +79,12 @@ function App() {
           <SocialNetworks />
         </Route> 
         
-        <Route path="/hootiehoo">
+        {/* <Route path="/hootiehoo">
           <Menu />
           <Header />
           <ProjectFour />
           <SocialNetworks />
-        </Route>
+        </Route> */}
 
       </Switch>
     </Router>

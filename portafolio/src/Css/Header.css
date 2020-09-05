@@ -1,15 +1,22 @@
 #containerHeader{
     display: flex;
     flex-direction: column;
-    margin-left: 165px;
+    margin: auto;
+    max-width: 1540;
+    margin: 0px 200px 0px 150px;
+    padding-top: 20px;
+    min-width: 469.600px;
+    position: relative;
+    z-index: 100;
 }
     #containerColorHeader{
         display: flex;
-        width: 1090px;
+        width: 100%;
         height: 60px;
         background: #F5C5B8;
-        margin-top: 20px;
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
     }
+    
         #nameHeader{
             display: flex;
             align-items: center;
@@ -39,11 +46,11 @@
             }
 
 /* <-----------------------MEDIA QUERY-----------------------> */
-@media all and (max-width: 1024px){
+/* @media all and (max-width: 1024px){
     #containerHeader{
         width: 1024px;
     }
     #containerColorHeader{
         width: 924px;
     }
-}
+} */

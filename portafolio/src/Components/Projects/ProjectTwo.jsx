@@ -8,8 +8,8 @@ const ProjectTwo = () => {
     return (
         <div id="containerProjectTwo">
             <div className="containerTittleProjectTwo">
-            <h5 className="tittleProjectTwo">GUÍA MUGGLE</h5>
-            <h3 className="pointTittleProjectTwo">.</h3>
+                <h5 className="tittleProjectTwo">GUÍA MUGGLE</h5>
+                <h3 className="pointTittleProjectTwo">.</h3>
             </div>
 
             <div id="containerColorProjectTwo">

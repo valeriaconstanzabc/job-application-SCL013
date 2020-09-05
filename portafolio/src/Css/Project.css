@@ -4,7 +4,7 @@
     flex-direction: column;
     margin: auto;
     max-width: 1540;
-    margin: 60px 200px 0px 150px;
+    margin: 45px 200px 60px 150px;
     min-width: 469.600px;
     position: relative;
     z-index: 100;
@@ -373,12 +373,12 @@
         width: 100%;
     }
     #containerProjects{
-        margin: 60px 150px 0px 100px;
+        margin: 45px 150px 60px 100px;
     }
 }
 @media all and (max-width: 950px){
     #containerProjects{
-        margin: 60px 100px 0px 100px;
+        margin: 45px 100px 60px 100px;
     }
 }
 @media all and (max-width: 840px){
