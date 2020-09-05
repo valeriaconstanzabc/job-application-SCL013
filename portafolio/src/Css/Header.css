@@ -46,11 +46,15 @@
             }
 
 /* <-----------------------MEDIA QUERY-----------------------> */
-/* @media all and (max-width: 1024px){
-    #containerHeader{
-        width: 1024px;
+@media all and (max-width: 1024px){
+    #containerHeader{ margin: 0px 150px 0px 100px; }
+}
+@media all and (max-width: 950px){
+    #containerHeader{ margin: 0px 100px 0px 100px; }
+}
+@media all and (max-width: 950px){
+    #containerHeader{ 
+        margin: 0px 0px 0px 0px;
+        padding: 20px 100px 0px 100px;  
     }
-    #containerColorHeader{
-        width: 924px;
-    }
-} */
+}

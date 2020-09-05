@@ -71,6 +71,7 @@
 /* <-------------------BOTONES LINKS PROYECTO------------------> */    
 #containerLinksProject4{
     display: flex;
+    flex-flow: wrap;
     margin: 60px 100px 0px 100px;
     justify-content: space-around;
 }

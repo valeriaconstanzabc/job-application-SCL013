@@ -3,7 +3,7 @@
     flex-direction: column;
     margin: auto;
     max-width: 1540;
-    margin: 60px 200px 0px 150px;
+    margin: 60px 200px 60px 150px;
     min-width: 469.600px;
     position: relative;
     z-index: 100;
@@ -34,8 +34,8 @@
             font-family: 'Fjalla One', sans-serif;
         }
     #containerColorProjectOne{
-        /* display: flex;
-        flex-direction: column; */
+        display: flex;
+        flex-flow: column;
         width: 100%;
         height: 100%;
         background: #F5C5B8;
@@ -46,7 +46,6 @@
         display: flex;
     }
 
-    #containerDescriptionProductProjectOne,
     #containerToolsProjectOne{
         display: flex;
         flex-direction: column;
@@ -58,7 +57,16 @@
         text-align: justify;
         /* font-weight: bold; */
     }
-
+    #containerDescriptionProductProjectOne{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Gudea';
+        font-size: 18px;
+        margin: 0px 52px 0px 52px;
+        margin-top: 40px;
+        color: #1C1B20;
+        text-align: justify;
+    }
         .imgProjectOne1{
             padding-top: 20px;
             width: 40%;
@@ -70,12 +78,13 @@
 
 .containerHistoryProjectOne{
     display: flex;
-    justify-content: space-between;
+    flex-flow: wrap;
+    justify-content: center;
     padding: 0;
 }
 
 .imgProjectOneArrow3{
-    height: 90px;
+    height: 80px;
 }
 
 #containerHistoryUserProjectOne{
@@ -93,15 +102,18 @@
 /* <------------------------HERRAMIENTAS-----------------------> */
 .toolsProjectOne{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
-    height: 200px;
+    height: 100%;
+    padding-bottom: 40px;
 }
     .imgToolsHTML5ProjectOne, .imgToolsJSProjectOne,
     .imgToolsCSSProjectOne, .imgToolsFirebaseProjectOne,
     .imgToolsFigmaProjectOne, .imgToolsInvisionProjectOne{
         height: 110px;
         width: 110px;
+        margin: 15px;
         background-size: cover;
         filter: drop-shadow(9px 9px 9px rgba(0, 0, 0, 0.6))
     }
@@ -133,9 +145,10 @@
             margin: 0;
         }            
 
-
-/* @media all and (max-width: 1024px){
-    #containerColorProjectOne{
-        width: 924px;
-    }
-} */
+/*<-----------------------MEDIA QUERY----------------------->*/
+@media all and (max-width: 1024px){
+    #containerProjectOne{ margin: 45px 150px 60px 100px; }
+}
+@media all and (max-width: 950px){
+    #containerProjectOne{ margin: 45px 100px 60px 100px; }
+}
