@@ -10,6 +10,7 @@ import AboutMe from './Components/AboutMe';
 import Projects from './Components/Projects';
 import Tools from './Components/Tools';
 import Menu from './Components/Menu';
+import ProjectSix from './Components/Projects/ProjectSix';
 import ProjectFive from './Components/Projects/ProjectFive';
 import ProjectFour from './Components/Projects/ProjectFour';
 import ProjectThree from './Components/Projects/ProjectThree';
@@ -84,6 +85,13 @@ function App() {
           <Menu />
           <Header />
           <ProjectFive />
+          <SocialNetworks />
+        </Route>
+
+        <Route path="/sis">
+          <Menu />
+          <Header />
+          <ProjectSix />
           <SocialNetworks />
         </Route>
 

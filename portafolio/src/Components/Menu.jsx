@@ -47,6 +47,11 @@ export default props => {
             <li>Hootie-Hoo</li>
           </ul>
         </a>
+        <a className="menu-item-proyects" href="/sis">
+          <ul className="listProjectsMenu">
+            <li>Sis</li>
+          </ul>
+        </a>
 
         <a className="menu-item" href="/herramientas">
           <ul className="listMenu">
