@@ -74,30 +74,6 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div id="projectFour">
-                <div className="containerDescriptionProjectFour">
-                    <div className="containerInfoProjectFour">
-                        <div>
-                            <h5 className="tittleHomeProjectFour">BURGER-QUEEN</h5>
-                            <p className="descriptionProjectFour">
-                                BurgerQueen es la interfaz de un pequeño restaurante de hamburguesas 
-                                estilo vintage. En esta app se pueden tomar pedidos usando una Tablet, 
-                                enviar estos a la cocina y ver el estado de cada uno de ellos.
-                            </p>
-                        </div>
-                        <div className="containerImgProjectFour">
-                            <img className="imgProjectFour" src="http://imgfz.com/i/Qy81tV4.png" alt="burguer-Queen"/>
-                        </div>
-
-                    </div>
-                    <div className="containerBtnProjectFour">
-                        <Link to="burgerqueen">
-                            <button className="btnSeeProjectOne" onClick={() => window.scrollTo(0, 0)}><span>VER PROYECTO </span></button>
-                        </Link>
-                    </div>
-                </div>
-            </div>
-
             <div id="projectFive">
                 <div className="containerDescriptionProjectFive">
                     <div className="containerInfoProyectFive">
@@ -122,6 +98,79 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="containerProyectFourAndSix">
+                <div id="projectFour">
+                    <div className="containerInfoProjectFour">
+                        <div>
+                            <h5 className="tittleHomeProjectFour">BURGER-QUEEN</h5>
+                            <p className="descriptionProjectFour">
+                                BurgerQueen es la interfaz de un pequeño restaurante de hamburguesas 
+                                estilo vintage. En esta app se pueden tomar pedidos usando una Tablet, 
+                                enviar estos a la cocina y ver el estado de cada uno de ellos.
+                            </p>
+                        </div>
+                        <div className="containerImgProjectFour">
+                            <img className="imgProjectFour" src="http://imgfz.com/i/Qy81tV4.png" alt="burguer-Queen"/>
+                        </div>
+                    </div>
+                    <div className="containerBtnProjectFour">
+                        <Link to="burgerqueen">
+                            <button className="btnSeeProjectOne" onClick={() => window.scrollTo(0, 0)}><span>VER PROYECTO </span></button>
+                        </Link>
+                    </div>
+                </div>
+
+                <div id="projectSix">
+                    <div className="containerDescriptionProjectSix">
+                        <div className="containerInfoProjectSix">
+                            <div>
+                                <h5 className="tittleHomeProjectSix">SIS</h5>
+                                <p className="descriptionProjectSix">
+                                    MVP de app "Sis" creada gracias a la participación en la hackaton virtual "Hackeado la 
+                                    Desigualdad", organizada por laboratoria en conjunto con everis.
+                                    Sis es una herramienta para evitar situaciones de violencia obstérica, la cual entrega 
+                                    EDUCACIÓN y EMPODERMIENTO a la mujer.
+                                </p>
+                            </div>
+                            <div className="containerImgProjectSix">
+                                <img className="imgProjectSix" src="https://i.ibb.co/3ffH6Hr/sis.png" alt="sis"/>
+                            </div>
+                        </div>
+                        <div id="containerBtnProjectSix">
+                            <Link to="sis">
+                            <button className="btnSeeProjectThree" onClick={() => window.scrollTo(0, 0)}><span>VER PROYECTO </span></button>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* <div id="projectFour">
+                <div className="containerDescriptionProjectFour">
+                    <div className="containerInfoProjectFour">
+                        <div>
+                            <h5 className="tittleHomeProjectFour">BURGER-QUEEN</h5>
+                            <p className="descriptionProjectFour">
+                                BurgerQueen es la interfaz de un pequeño restaurante de hamburguesas 
+                                estilo vintage. En esta app se pueden tomar pedidos usando una Tablet, 
+                                enviar estos a la cocina y ver el estado de cada uno de ellos.
+                            </p>
+                        </div>
+                        <div className="containerImgProjectFour">
+                            <img className="imgProjectFour" src="http://imgfz.com/i/Qy81tV4.png" alt="burguer-Queen"/>
+                        </div>
+
+                    </div>
+                    <div className="containerBtnProjectFour">
+                        <Link to="burgerqueen">
+                            <button className="btnSeeProjectOne" onClick={() => window.scrollTo(0, 0)}><span>VER PROYECTO </span></button>
+                        </Link>
+                    </div>
+                </div>
+            </div> */}
+
+            
         </div>
     )
 }

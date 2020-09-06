@@ -24,7 +24,6 @@
     font-size: 120px;
     color: #1C1B20;
 }
-
 .pointTittleProject{
     display: flex;
     margin: 0;
@@ -48,12 +47,10 @@
     margin: 90px 45px 60px 45px;
     justify-content: space-between;
 }
-
 .containerInfoProyectOne2{
     display: flex;
     justify-content: space-evenly;
 }
-
 .tittleHomeProjectOne{    
     font-family: 'Fjalla One';
     font-weight: normal;
@@ -155,7 +152,7 @@
             filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.8))
         }
         
-        
+/* <-----------------------------------------------------------> */        
     #projectThree{
         display: flex;
         flex-direction: column;
@@ -211,40 +208,49 @@
         outline: none;
     }
      
-/* <------------------------PROYECTO CUATRO--------------------> */
+/* <-------------------PROYECTO CUATRO Y SEIS------------------> */
+.containerProyectFourAndSix{
+    display: flex;
+    height: 100%;
+}
 #projectFour{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
-    background: #F5C5B8;
+    width: 50%;
+    padding: 45px;
+    box-sizing: border-box;
+    background: #5DA893;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
 }
 .containerImgProjectFour{
     display: flex;
+    justify-content: center;
 }
 .containerDescriptionProjectFour{
     display: flex;
     flex-direction: column;
-    margin: 45px 45px 60px 45px;
-    align-items: center;
+    justify-content: space-between;
 }
 .tittleHomeProjectFour{
     font-family: 'Fjalla One';
     font-weight: normal;
     font-size: 65px;
     margin: 0px;
+    text-align: center;
     color:#1C1B20;
 }  
 .descriptionProjectFour{
     font-family: 'Gudea';
     font-size: 21px;
-    padding: 15px 15px 15px 0px;
-    color:#1C1B20;
+    padding: 15px 0px 15px 0px;
+    color:#F5F5F5;
     text-align: justify;
 }
 .containerBtnProjectFour{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 .imgProjectFour{
     height: 330px;
@@ -252,7 +258,56 @@
 }
 .containerInfoProjectFour{
     display: flex;
+    flex-direction: column;
 }
+
+/* <-----------------------------------------------------------> */        
+#projectSix{
+    display: flex;
+    width: 50%;
+    padding: 45px;
+    box-sizing: border-box;
+    background: #A87B6D;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
+}
+.containerDescriptionProjectSix{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+.tittleHomeProjectSix{
+    font-family: 'Fjalla One';
+    font-weight: normal;
+    font-size: 65px;
+    margin: 0px;
+    color:#1C1B20;
+    text-align: center;
+}
+.descriptionProjectSix{
+    font-family: 'Gudea';
+    font-size: 21px;
+    color: #F5F5F5;
+    display: flex;
+    text-align: justify;
+}
+.containerImgProjectSix{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.imgProjectSix{
+    height: 330px;
+    filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.8))
+}
+#containerBtnProjectSix{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 
 /* <----------------------PROYECTO CINCO-----------------------> */
 #projectFive{
@@ -260,7 +315,7 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background: #5DA893;
+    background: #F5C5B8;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
 }
 .containerDescriptionProjectFive{
@@ -286,7 +341,7 @@
     width: 100%;
     font-family: 'Gudea';
     font-size: 21px;
-    color:#F5F5F5;
+    color:#1C1B20;
     text-align: justify;
 }
 
@@ -319,13 +374,11 @@
     top: 0;
     right: -20px;
     transition: 0.5s;
-}
-    
+}  
 .btnSeeProjectOne:hover span, .btnSeeProjectTwo:hover span, 
 .btnSeeProjectThree:hover span{
     padding-right: 25px;
 }
-
 .btnSeeProjectOne:hover span:after, .btnSeeProjectTwo:hover span:after,
 .btnSeeProjectThree:hover span:after{
     opacity: 1;
@@ -334,6 +387,11 @@
 
 
 /*<-----------------------MEDIA QUERY----------------------->*/
+@media all and (max-width: 1404px){
+    .imgProjectFour {
+        height: 280px;
+    }
+}
 @media all and (max-width: 1300px){
     .containerDescriptionProjectTwo,
     .containerInfoProyectOne2{
@@ -365,11 +423,12 @@
 }
 
 @media all and (max-width: 1024px){
-    .containerProyectTwoAndThree{
+    .containerProyectTwoAndThree,
+    .containerProyectFourAndSix{
         flex-direction: column;
     }
-    #projectTwo,
-    #projectThree{
+    #projectTwo, #projectThree,
+    #projectFour, #projectSix{
         width: 100%;
     }
     #containerProjects{
@@ -384,9 +443,6 @@
 @media all and (max-width: 840px){
     .imgProjectOneHome{
         height: 220px;
-    }
-    .imgProjectFour{
-        height: 300px;
     }
     .imgProjectFive{
         height: 300px;
