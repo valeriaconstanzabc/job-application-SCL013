@@ -98,15 +98,17 @@ const Projects = () => {
                 </div>
             </div>
 
-            {/* <div id="projectFive">
+            <div id="projectFive">
                 <div className="containerDescriptionProjectFive">
                     <div className="containerInfoProyectFive">
                         <div>
                             <h5 className="tittleHomeProjectFive">HOOTIE-HOO</h5>
                             <p className="descriptionProjectFive">
-                                BurgerQueen es la interfaz de un pequeño restaurante de hamburguesas 
-                                estilo vintage. En esta app se pueden tomar pedidos usando una Tablet, 
-                                enviar estos a la cocina y ver el estado de cada uno de ellos.
+                                Plataforma web informativa dirigida a cuidadores,  y a niñ@s que se 
+                            encuentran entre el rango etario de entre 4 a 7 años aproximadamente. 
+                            Dentro de esta plataforma podrán encontrar herramientas educativas y a 
+                            su vez lúdicas que permiten adquirir más conocimientos sobre lo que 
+                            está sucediendo con respecto a la pandemia mundial.
                             </p>
                         </div>
                         <div className="containerImgProjectFive">
@@ -119,7 +121,7 @@ const Projects = () => {
                         </Link>
                     </div>
                 </div>
-            </div> */}
+            </div>
         </div>
     )
 }

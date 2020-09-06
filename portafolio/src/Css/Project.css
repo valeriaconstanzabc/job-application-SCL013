@@ -4,7 +4,7 @@
     flex-direction: column;
     margin: auto;
     max-width: 1540;
-    margin: 45px 200px 60px 150px;
+    margin: 45px 200px 60px 200px;
     min-width: 469.600px;
     position: relative;
     z-index: 100;
@@ -51,7 +51,7 @@
 
 .containerInfoProyectOne2{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .tittleHomeProjectOne{    
@@ -64,7 +64,7 @@
 .descriptionProjectOne{
     width: 100%;
     font-family: 'Gudea';
-    font-size: 19px;
+    font-size: 21px;
     color:#1C1B20;
     text-align: justify;
 }
@@ -91,7 +91,7 @@
     align-content: center;
 }
 .imgProjectOneHome{
-    height: 300px;
+    height:330px;
     filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.8))
 }
 
@@ -125,7 +125,7 @@
             width: 100%;
             padding-top: 20px;
             font-family: 'Gudea';
-            font-size: 19px;
+            font-size: 21px;
             color: #F5F5F5;
             text-align: justify;
         }
@@ -183,7 +183,7 @@
     }
     .descriptionProjectThree{
         font-family: 'Gudea';
-        font-size: 19px;
+        font-size: 21px;
         color: #F5F5F5;
         display: flex;
         text-align: justify;
@@ -238,7 +238,7 @@
 }  
 .descriptionProjectFour{
     font-family: 'Gudea';
-    font-size: 19px;
+    font-size: 21px;
     padding: 15px 15px 15px 0px;
     color:#1C1B20;
     text-align: justify;
@@ -285,7 +285,7 @@
 .descriptionProjectFive{
     width: 100%;
     font-family: 'Gudea';
-    font-size: 19px;
+    font-size: 21px;
     color:#F5F5F5;
     text-align: justify;
 }
@@ -335,11 +335,13 @@
 
 /*<-----------------------MEDIA QUERY----------------------->*/
 @media all and (max-width: 1300px){
-    .containerDescriptionProjectTwo{
+    .containerDescriptionProjectTwo,
+    .containerInfoProyectOne2{
         flex-flow: wrap;
         justify-content: center;
     }
-    .containerBtnProjectTwo{
+    .containerBtnProjectTwo,
+    .containerBtnProjectOne{
         display: flex;
         justify-content: center;
         padding-top: 20px;
@@ -347,14 +349,12 @@
 }
 @media all and (max-width: 1162px){
     .containerInfoProyectFive,
-    .containerInfoProjectFour,
-    .containerInfoProyectOne2{
+    .containerInfoProjectFour{
         flex-flow: wrap;
         justify-content: center;
     }
     .containerBtnProjectFive,
-    .containerBtnProjectFour,
-    .containerBtnProjectOne{
+    .containerBtnProjectFour{
         display: flex;
         justify-content: center;
         padding-top: 20px;

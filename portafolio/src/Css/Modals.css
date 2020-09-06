@@ -73,3 +73,25 @@
 .btnImgProjectFour3:hover .imgProjectFour3 {
     transform:scale(1.1);
 }
+/* <-----------------Historias de usuario proyecto 5--------> */
+.imgProjectFive3{
+    height: 260px;
+}
+
+.btnImgProjectFive3{
+    background: transparent;
+    border: 0;
+    height: 500px;
+    overflow:hidden;
+    width: 320px;
+    height: 320px;
+    outline: none;
+    cursor: pointer;
+}
+.btnImgProjectFive3:hover .imgProjectFive3{
+    transform:scale(1.2);
+}
+.imgProjectFiveInclusion,
+.imgProjectFiveGamificacion{
+    width: 100%;
+}

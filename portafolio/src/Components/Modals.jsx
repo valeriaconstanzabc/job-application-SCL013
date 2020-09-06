@@ -350,3 +350,73 @@ export const ModalThreeProjectTwo = () => {
         
     );
 };
+
+//<----------------------------MODALES PROYECTO CINCO---------------------------->
+export const  ModalOneProjectFive = () => {
+  const [Modal, open, close] = useModal('root', {
+    preventScroll: true
+  });
+  return (
+    <div>
+        <button className="btnImgProjectFive3" onClick={open}>
+            <img className="imgProjectFive3" src="https://i.ibb.co/FWKrxBh/Group-32w.png" alt=""/> 
+        </button>
+        <Modal>
+            <div className="backgroundModal">
+                <div className="containerTittleAndX">
+                    <h3>INCLUSIÓN</h3>
+                    <button class="btnClose" onClick={close}>X</button>
+                </div>
+                <p>
+                    En el desarrollo de nuestra web informativa y a quienes va dirigido, tomamos como pilar de 
+                  inclusión principalmente a adultos/as que tengan cierto trastorno del desarrollo de la lectura, 
+                  analfabetismo o alexia, tomando en cuenta que esta problemática no es considerada a grandes 
+                  rasgos dentro de la tecnología, convirtiéndose en una brecha importante que debe ser atacada. 
+                  Y como segundo usuario objetivo, son niños y niñas que se encuentran en etapa de aprendizaje 
+                  y desarrollo de su capacidad lectora, es decir, niñ@s en etapa escolar.
+                  <br/><br/>
+                  Esto fue representado mediante un botón de audio atractico, con un íconos representativos,
+                  el cual relata todo texto informativo que se encuentra en la vista actual. 
+                </p>
+                <img className="imgProjectFiveInclusion" src="https://i.ibb.co/Z8jdrvC/Frame-1.png" alt="inclusión auditiva"/>
+            </div>
+        </Modal>
+    </div>
+      
+  );
+};
+
+export const ModalTwoProjectFive = () => {
+    const [Modal, open, close] = useModal('root', {
+      preventScroll: true
+    });
+    return (
+      <div>
+          <button className="btnImgProjectFive3" onClick={open}>
+                <img className="imgProjectFive3" src="https://i.ibb.co/HtpCPRh/Group-33w.png" alt=""/>               
+            </button>
+          <Modal>
+              <div className="backgroundModal">
+                <div className="containerTittleAndX">
+                    <h3>GAMIFICACIÓN</h3>
+                    <button class="btnClose" onClick={close}>X</button>
+                </div>
+                <p>
+                    La gamificación fue integrada mediante un juego de memoria. El desafío del juego es encontrar 
+                  las parejas que se correspondan, mientras que el detractor serán las vidas, las cuales 
+                  inicialmente parten en 6, e irán disminuyendo en relación a los intentos fallidos. 
+                  <br/><br/>
+                  Este juego, cuenta también con un indicador de logro, el cual incrementa a medida que el niñ@ o
+                  jugador suba de nivel, desarrollando así su competencia y ejercitando su memoria. 
+                  <br/><br/>
+                  Por último, al ganar el juego y subir de nivel encontrarán su recompensa, que son diferentes premios, 
+                  como dibujos para colorear de los personajes de la serie emblemática de hootie-hoo y variados cuentos 
+                  sobre el covid y todo lo relacionado a la situación.
+                </p>
+                <img className="imgProjectFiveGamificacion" src="https://i.ibb.co/4ZdyVbw/memoria.jpg" alt="gamificación"/>
+              </div>
+          </Modal>
+      </div>
+        
+    );
+};

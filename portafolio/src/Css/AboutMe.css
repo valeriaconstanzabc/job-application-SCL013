@@ -3,7 +3,7 @@
     flex-direction: column;
     margin: auto;
     max-width: 1540;
-    margin: 45px 200px 60px 150px;
+    margin: 45px 200px 60px 200px;
     min-width: 469.600px;
     position: relative;
     z-index: 100;
@@ -42,7 +42,7 @@
 
     #descriptionAboutMe{
         font-family: 'Gudea';
-        font-size: 19px;
+        font-size: 21px;
         margin: 110px 45px 60px 45px;
         color: #F5F5F5;
         text-align: justify;
