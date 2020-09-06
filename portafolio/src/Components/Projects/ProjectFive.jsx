@@ -40,23 +40,14 @@ const ProjectFive = () => {
                     </div>                   
                 </div>
 
-                <div id="containerHistoryUserProject5">
-                    <h2 className="text3">REQUERIMIENTOS DEL CLIENTE</h2>
-                    <div className="container1ProjectFive3">
-                        <div>{<ModalOneProjectFive />}</div>
-                        <div>{<ModalTwoProjectFive />}</div>
-                    </div>
-                </div>
-
-
-                {/* <div id="containerLinksProject5">
+                <div id="containerLinksProject5">
                     <div className="container">
                         <div className="content">
-                            <a href="https://burger-queen-2bad6.web.app/" target="blank">
+                            <a href="https://hootie-hoo.web.app/" target="blank">
                             <div className="content-overlay"></div>
-                            <img className="content-image" alt="Logo del proyecto" src="https://i.ibb.co/zV5SjV3/Group-7.png"/>
+                            <img className="content-image" alt="Logo del proyecto" src="https://i.ibb.co/wy0Cskg/Frame-2.png"/>
                             <div className="content-details fadeIn-bottom">
-                                <h3 className="content-title">¡Visita <br/> Burger-Queen!</h3>
+                                <h3 className="content-title">¡Visita <br/> Hootie-Hoo!</h3>
                             </div>
                             </a>
                         </div>
@@ -64,21 +55,29 @@ const ProjectFive = () => {
 
                     <div className="container">
                         <div className="content">
-                            <a href="https://github.com/valeriaconstanzabc/SCL013-burger-queen" target="blank">
+                            <a href="https://github.com/valeriaconstanzabc/Hootie-Hoo" target="blank">
                             <div className="content-overlay"></div>
-                            <img className="content-image" alt="Código del proyecto" src="https://i.ibb.co/QddgN9p/Group-8.png"/>
+                            <img className="content-image" alt="Código del proyecto" src="https://i.ibb.co/84nyQK1/Group-36kkk.png"/>
                             <div className="content-details fadeIn-bottom">
                                 <h3 className="content-title">Código del <br/> proyecto</h3>
                             </div>
                             </a>
                         </div>
                     </div>
-                </div> */}
+                </div>
 
+                <div id="containerHistoryUserProject5">
+                    <h2 className="text3">REQUERIMIENTOS DEL CLIENTE</h2>
+                    <div className="container1ProjectFive3">
+                        <div>{<ModalOneProjectFive />}</div>
+                        <div className="containerImgProjectFiveArrow3">
+                            <img className="imgProjectOneArrow3" src="https://i.ibb.co/8zNpQnH/eva-arrow-ios-forward-fill.png" alt=""/>
+                        </div>
+                        <div>{<ModalTwoProjectFive />}</div>
+                    </div>
+                </div>
 
-
-
-                {/* <div id="containerToolsProject5">
+                <div id="containerToolsProject5">
                     <h2>HERRAMIENTAS UTILIZADAS</h2>
                     <div className="toolsProjectFive">
                         <div className="imgToolsHTML5Project5">
@@ -113,7 +112,7 @@ const ProjectFive = () => {
                         </div>
                         
                     </div>                   
-                </div> */}
+                </div>
             </div>            
         </div>
     )

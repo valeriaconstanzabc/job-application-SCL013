@@ -357,7 +357,7 @@ export const  ModalOneProjectFive = () => {
     preventScroll: true
   });
   return (
-    <div>
+    <div className="containerBtnsCodigo">
         <button className="btnImgProjectFive3" onClick={open}>
             <img className="imgProjectFive3" src="https://i.ibb.co/FWKrxBh/Group-32w.png" alt=""/> 
         </button>
@@ -391,7 +391,7 @@ export const ModalTwoProjectFive = () => {
       preventScroll: true
     });
     return (
-      <div>
+      <div className="containerBtnsCodigo">
           <button className="btnImgProjectFive3" onClick={open}>
                 <img className="imgProjectFive3" src="https://i.ibb.co/HtpCPRh/Group-33w.png" alt=""/>               
             </button>

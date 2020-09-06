@@ -73,3 +73,9 @@
         margin: 0px 0px -60px 0px;
     }
 }
+@media all and (max-width: 747px){
+    .tittle{ font-size: 73px; }
+    .containerTittle{
+        margin: 0px 0px -50px 0px;
+    }
+}
