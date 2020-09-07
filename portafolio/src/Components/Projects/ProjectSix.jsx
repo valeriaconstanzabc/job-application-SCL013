@@ -15,25 +15,31 @@ const ProjectSix = () => {
                     <p id="tProduction">Tiempo de producción: 24 horas</p>
                     <h2>DEFINICIÓN DE PRODUCTO</h2>
 
-                    <div className="container1ProjectFive1">
-                        <p className="text1ProjectFive">
-                            La empresa Hootie-Hoo, un equipo lleno de entusiasmo que busca desarrollar 
-                        el potencial de las personas y empresas entregando soluciones tecnológicas creativas, 
-                        nos entregó la misión de crear una web informativa para niñ@s y cuidadores, ya que
-                        debido a la contingencia sanitaria a nivel mundial, la desinformación y la falta de 
-                        herramienta para atacar esta situación se ha convertido en una problemática creciente.
-                        Esta web busca dar solución desarrolando una plataforma web informativa, dirigida a 
-                        adultos y cuidadores, y a niñ@s que se encuentran en el rango etario de entre 4 a 7 
-                        años aproximadamente.
-                        <br/><br/>
-                        Dentro de esta plataforma los cuidadores podrán encontrar herramientas educativas 
-                        y a su vez lúdicas que les permita adquirir más conocimientos sobre lo que está sucediendo 
-                        y qué cuidados pueden aplicar, mientras que l@s niñ@s en acompañamiento de sus 
-                        tutores tendrán acceso a videos educativos y recreativos, así 
-                        como un juego que incentiva el desarrollo de su memoria.
-                        </p>
-                        <div id="containerImgProjectFive1">
-                            <img className="imgProjectFive1" src="https://i.ibb.co/dKNm0Rt/sis.jpg" alt=""/>
+                    <div className="container1ProjectSix1">
+                        <div className="containerTextSixAndImgSix">
+                            <p className="text1ProjectSix">
+                                Se nos presentó el desafío de crear una solución para cerrar la brecha de género existente en la salud,
+                                disminuyendo diferentes situaciones a través de la educación y el empoderamiento de la paciente. Debido a
+                                esto, decidimos enfocar las bases de nuestra app en la violencia Obstétrica.
+                                <br/><br/>
+                                Pero, ¿Qué es la violencia obstétrica? Es una forma específica de violencia contra las mujeres que constituye 
+                                una violación a los derechos humanos. Se genera en el ámbito de la atención del embarazo, parto y post-parto 
+                                en los servicios de salud públicos y privados, y consiste en cualquier acción u omisión por parte del personal 
+                                salud que cause un daño físico y/o psicológico a la mujer.
+                            </p>
+                            <div id="containerImgProjectSix1">
+                                <img className="imgProjectSix1" src="https://i.ibb.co/dKNm0Rt/sis.jpg" alt=""/>
+                            </div>
+                        </div>
+                        <div>
+                            <p className="text2ProjectSix">
+                                Es aquí, en donde encontramos un gran nicho para crear la app SIS, herramienta para acompañar a las mujeres en su 
+                                proceso de educación y empoderamiento sobre el tema en cuestión. Esta app, mediante la educación de cada usuaria,
+                                te permite ir avanzando diferentes niveles de infomación para lograr desbloquear un botón de pánico que podrás usar
+                                en caso de estar pasando por alguna situación de violancia obtétrica y que estés incapacitada de defender tus derechos. 
+                                Esta app se asegura de darte las herramientas necesarias para informarte sobre tus deberes y derechos como mujer, al 
+                                mismo tiempo que logra brindarte apoyo psicológico y judicial, en caso que necesites oprimir el botón de pánico.
+                            </p>
                         </div>
                     </div>                   
                 </div>
