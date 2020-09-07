@@ -43,11 +43,23 @@ const ProjectFive = () => {
                 <div id="containerLinksProject5">
                     <div className="container">
                         <div className="content">
+                            <a href="https://www.figma.com/proto/4qBH03t51mRVEm98UK56Ke/Hootie-Hoo?node-id=221%3A0&viewport=135%2C353%2C0.02457624487578869&scaling=scale-down" target="blank">
+                            <div className="content-overlay"></div>
+                            <img className="content-image" alt="Prototipo del proyecto" src="https://i.ibb.co/1dByfS8/hootiehooprototipo.png"/>
+                            <div className="content-details fadeIn-bottom">
+                                <h3 className="content-title">¡Visita <br/> prototipo Hootie-Hoo!</h3>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="container">
+                        <div className="content">
                             <a href="https://hootie-hoo.web.app/" target="blank">
                             <div className="content-overlay"></div>
-                            <img className="content-image" alt="Logo del proyecto" src="https://i.ibb.co/wy0Cskg/Frame-2.png"/>
+                            <img className="content-image" alt="Demo del proyecto" src="https://i.ibb.co/LPyRpqV/hootiehoodemo.png"/>
                             <div className="content-details fadeIn-bottom">
-                                <h3 className="content-title">¡Visita <br/> Hootie-Hoo!</h3>
+                                <h3 className="content-title">¡Visita <br/> demo Hootie-Hoo!</h3>
                             </div>
                             </a>
                         </div>
@@ -57,7 +69,7 @@ const ProjectFive = () => {
                         <div className="content">
                             <a href="https://github.com/valeriaconstanzabc/Hootie-Hoo" target="blank">
                             <div className="content-overlay"></div>
-                            <img className="content-image" alt="Código del proyecto" src="https://i.ibb.co/84nyQK1/Group-36kkk.png"/>
+                            <img className="content-image" alt="Código del proyecto" src="https://i.ibb.co/MCM1hqL/hootiehoocodigo.png"/>
                             <div className="content-details fadeIn-bottom">
                                 <h3 className="content-title">Código del <br/> proyecto</h3>
                             </div>

@@ -41,7 +41,7 @@ const ProjectThree = () => {
                         <div className="content">
                             <a href="https://github.com/valeriaconstanzabc/SCL013-md-links" target="blank">
                             <div className="content-overlay"></div>
-                            <img className="content-image" alt="Código del proyecto" src="https://i.ibb.co/djVVfyk/Group-28k.png"/>
+                            <img className="content-image" alt="Código del proyecto" src="https://i.ibb.co/ZgSkZ72/mdlinkcodigo.png"/>
                             <div className="content-details fadeIn-bottom">
                                 <h3 className="content-title">Código del <br/> proyecto</h3>
                             </div>

@@ -49,11 +49,23 @@ const ProjectFour = () => {
                 <div id="containerLinksProject4">
                     <div className="container">
                         <div className="content">
+                            <a href="https://www.figma.com/proto/2rjIuTtVIgK1w6dnOxjfxz/Untitled?node-id=35%3A2&scaling=scale-down" target="blank">
+                            <div className="content-overlay"></div>
+                            <img className="content-image" alt="Prototipo del proyecto" src="https://i.ibb.co/y0bFRLD/burgerqueenprototipo.png"/>
+                            <div className="content-details fadeIn-bottom">
+                                <h3 className="content-title">¡Visita prototipo <br/> Burger-Queen!</h3>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="container">
+                        <div className="content">
                             <a href="https://burger-queen-2bad6.web.app/" target="blank">
                             <div className="content-overlay"></div>
-                            <img className="content-image" alt="Logo del proyecto" src="https://i.ibb.co/zV5SjV3/Group-7.png"/>
+                            <img className="content-image" alt="Demo del proyecto" src="https://i.ibb.co/QdK9Ltx/burgerqueendemo.png"/>
                             <div className="content-details fadeIn-bottom">
-                                <h3 className="content-title">¡Visita <br/> Burger-Queen!</h3>
+                                <h3 className="content-title">¡Visita <br/> demo Burger-Queen!</h3>
                             </div>
                             </a>
                         </div>
@@ -63,7 +75,7 @@ const ProjectFour = () => {
                         <div className="content">
                             <a href="https://github.com/valeriaconstanzabc/SCL013-burger-queen" target="blank">
                             <div className="content-overlay"></div>
-                            <img className="content-image" alt="Código del proyecto" src="https://i.ibb.co/QddgN9p/Group-8.png"/>
+                            <img className="content-image" alt="Código del proyecto" src="https://i.ibb.co/Tqj1bf8/burgerqueencodigo.png"/>
                             <div className="content-details fadeIn-bottom">
                                 <h3 className="content-title">Código del <br/> proyecto</h3>
                             </div>

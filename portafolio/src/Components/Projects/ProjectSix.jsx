@@ -1,20 +1,18 @@
 import React from 'react';
 import '../../Css/ProjectSix.css'
 
-import { ModalOneProjectFive, ModalTwoProjectFive } from '../Modals';
-
 const ProjectSix = () => {
 
     return (
         <div id="containerProjectFive">
             <div className="containerTittleProjectFive">
-            <h5 className="tittleProjectFivee">HOOTIE-HOO</h5>
+            <h5 className="tittleProjectFivee">SIS</h5>
             <h3 className="pointTittleProjectFive">.</h3>
             </div>
 
             <div id="containerColorProjectFive">
                 <div id="containerDescriptionProductProject5">
-                    <p id="tProduction">Tiempo de producción: 3 semanas</p>
+                    <p id="tProduction">Tiempo de producción: 24 horas</p>
                     <h2>DEFINICIÓN DE PRODUCTO</h2>
 
                     <div className="container1ProjectFive1">
@@ -35,7 +33,7 @@ const ProjectSix = () => {
                         como un juego que incentiva el desarrollo de su memoria.
                         </p>
                         <div id="containerImgProjectFive1">
-                            <img className="imgProjectFive1" src="https://i.ibb.co/k9JkFnj/hootie-hoo-Ni-os.jpg" alt=""/>
+                            <img className="imgProjectFive1" src="https://i.ibb.co/dKNm0Rt/sis.jpg" alt=""/>
                         </div>
                     </div>                   
                 </div>
@@ -43,11 +41,11 @@ const ProjectSix = () => {
                 <div id="containerLinksProject5">
                     <div className="container">
                         <div className="content">
-                            <a href="https://hootie-hoo.web.app/" target="blank">
+                            <a href="https://www.figma.com/proto/XkT7NswDOUxDiJAlEXNafu/Hackaton-Copy?node-id=83%3A700&viewport=149%2C-169%2C0.3037109673023224&scaling=scale-down" target="blank">
                             <div className="content-overlay"></div>
-                            <img className="content-image" alt="Logo del proyecto" src="https://i.ibb.co/wy0Cskg/Frame-2.png"/>
+                            <img className="content-image" alt="Prototipo del proyecto" src="https://i.ibb.co/S66wqtX/sisprototipo.png"/>
                             <div className="content-details fadeIn-bottom">
-                                <h3 className="content-title">¡Visita <br/> Hootie-Hoo!</h3>
+                                <h3 className="content-title">¡Visita <br/> prototipo sis!</h3>
                             </div>
                             </a>
                         </div>
@@ -55,25 +53,26 @@ const ProjectSix = () => {
 
                     <div className="container">
                         <div className="content">
-                            <a href="https://github.com/valeriaconstanzabc/Hootie-Hoo" target="blank">
+                            <a href="https://hackathon2020-6329e.firebaseapp.com/" target="blank">
                             <div className="content-overlay"></div>
-                            <img className="content-image" alt="Código del proyecto" src="https://i.ibb.co/84nyQK1/Group-36kkk.png"/>
+                            <img className="content-image" alt="Logo del proyecto" src="https://i.ibb.co/6Hm4y2b/sisDemo.png"/>
+                            <div className="content-details fadeIn-bottom">
+                                <h3 className="content-title">¡Visita <br/> demo Sis!</h3>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="container">
+                        <div className="content">
+                            <a href="https://github.com/valeriaconstanzabc/Hackaton2020-Boton-de-panico" target="blank">
+                            <div className="content-overlay"></div>
+                            <img className="content-image" alt="Código del proyecto" src="https://i.ibb.co/41Lr52q/siscodigo.png"/>
                             <div className="content-details fadeIn-bottom">
                                 <h3 className="content-title">Código del <br/> proyecto</h3>
                             </div>
                             </a>
                         </div>
-                    </div>
-                </div>
-
-                <div id="containerHistoryUserProject5">
-                    <h2 className="text3">REQUERIMIENTOS DEL CLIENTE</h2>
-                    <div className="container1ProjectFive3">
-                        <div>{<ModalOneProjectFive />}</div>
-                        <div className="containerImgProjectFiveArrow3">
-                            <img className="imgProjectOneArrow3" src="https://i.ibb.co/8zNpQnH/eva-arrow-ios-forward-fill.png" alt=""/>
-                        </div>
-                        <div>{<ModalTwoProjectFive />}</div>
                     </div>
                 </div>
 
@@ -103,11 +102,6 @@ const ProjectSix = () => {
                         <div className="imgToolsFigmaProject5">
                             <div className="containerImgToolsProject5">
                                 <h2 className="textImgToolsProject5">Figma</h2>
-                            </div>
-                        </div>
-                        <div className="imgToolsInvisionProject5">
-                            <div className="containerImgToolsProject5">
-                                <h2 className="textImgToolsProject5">Invision</h2>
                             </div>
                         </div>
                         

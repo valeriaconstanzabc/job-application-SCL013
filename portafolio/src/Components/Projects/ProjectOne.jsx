@@ -37,11 +37,23 @@ const ProjectOne = () => {
                 <div id="containerLinksProject4">
                     <div className="container">
                         <div className="content">
+                            <a href="https://www.figma.com/proto/eaSR40o4BIC9QTmQFwP3U7/Lofche?node-id=104%3A41&viewport=207%2C410%2C0.10052621364593506&scaling=scale-down" target="blank">
+                            <div className="content-overlay"></div>
+                            <img className="content-image" alt="Logo del proyecto" src="https://i.ibb.co/g79Qcwb/lofchefigma.png"/>
+                            <div className="content-details fadeIn-bottom">
+                                <h3 className="content-title">¡Visita <br/> prototipo Lofche!</h3>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="container">
+                        <div className="content">
                             <a href="https://lofche-5e070.web.app/" target="blank">
                             <div className="content-overlay"></div>
-                            <img className="content-image" alt="Logo del proyecto" src="https://i.ibb.co/5TJ5Q5Z/Group-17.png"/>
+                            <img className="content-image" alt="Logo del proyecto" src="https://i.ibb.co/ryHgVD0/lofchedemo.png"/>
                             <div className="content-details fadeIn-bottom">
-                                <h3 className="content-title">¡Visita <br/> Lofche!</h3>
+                                <h3 className="content-title">¡Visita <br/> demo Lofche!</h3>
                             </div>
                             </a>
                         </div>
@@ -51,7 +63,7 @@ const ProjectOne = () => {
                         <div className="content">
                             <a href="https://github.com/valeriaconstanzabc/SCL013-social-network" target="blank">
                             <div className="content-overlay"></div>
-                            <img className="content-image" alt="Código del proyecto" src="https://i.ibb.co/wSD6LHb/Group-84.png"/>
+                            <img className="content-image" alt="Código del proyecto" src="https://i.ibb.co/982Dmgg/lofchecodigo.png"/>
                             <div className="content-details fadeIn-bottom">
                                 <h3 className="content-title">Código del <br/> proyecto</h3>
                             </div>
