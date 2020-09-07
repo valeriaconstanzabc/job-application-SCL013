@@ -127,7 +127,7 @@ const Projects = () => {
                             <div>
                                 <h5 className="tittleHomeProjectSix">SIS</h5>
                                 <p className="descriptionProjectSix">
-                                    MVP de app "Sis" creada gracias a la participación en la hackaton virtual "Hackeado la 
+                                    MVP de app "Sis" creada gracias a la participación en la hackathon virtual "Hackeado la 
                                     Desigualdad", organizada por laboratoria en conjunto con everis.
                                     Sis es una herramienta para evitar situaciones de violencia obstérica, la cual entrega 
                                     EDUCACIÓN y EMPODERMIENTO a la mujer.
@@ -144,33 +144,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-
-            {/* <div id="projectFour">
-                <div className="containerDescriptionProjectFour">
-                    <div className="containerInfoProjectFour">
-                        <div>
-                            <h5 className="tittleHomeProjectFour">BURGER-QUEEN</h5>
-                            <p className="descriptionProjectFour">
-                                BurgerQueen es la interfaz de un pequeño restaurante de hamburguesas 
-                                estilo vintage. En esta app se pueden tomar pedidos usando una Tablet, 
-                                enviar estos a la cocina y ver el estado de cada uno de ellos.
-                            </p>
-                        </div>
-                        <div className="containerImgProjectFour">
-                            <img className="imgProjectFour" src="http://imgfz.com/i/Qy81tV4.png" alt="burguer-Queen"/>
-                        </div>
-
-                    </div>
-                    <div className="containerBtnProjectFour">
-                        <Link to="burgerqueen">
-                            <button className="btnSeeProjectOne" onClick={() => window.scrollTo(0, 0)}><span>VER PROYECTO </span></button>
-                        </Link>
-                    </div>
-                </div>
-            </div> */}
-
-            
+            </div>            
         </div>
     )
 }
