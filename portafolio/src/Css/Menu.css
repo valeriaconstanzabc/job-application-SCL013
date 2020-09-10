@@ -80,3 +80,18 @@
     left: 30px;
   }
 }
+@media all and (max-width: 426px){
+  .bm-burger-button {
+    left: 30px;
+    top: 550px;
+  }
+  .bm-item-list{
+    margin-top: 100px;
+  }
+  .listMenu{
+    font-size: 35px;
+  }
+  .listProjectsMenu{
+    font-size: 24px;
+  }
+}

@@ -213,7 +213,7 @@ export const  ModalOneProjectOne = () => {
     return (
       <div>
           <button className="btnImgProjectOne" onClick={open}>
-              <img className="imgProjectOneUserHistory" src="https://i.ibb.co/sPKNQFN/Group-15.png" alt=""/> 
+              <img className="imgProjectOneUserHistory" src="https://i.ibb.co/kJNk5cH/Group-25.png" alt=""/> 
           </button>
           <Modal>
               <div className="backgroundModal">
@@ -247,7 +247,7 @@ export const  ModalOneProjectTwo = () => {
   return (
     <div>
         <button className="btnImgProjectTwo" onClick={open}>
-            <img className="imgProjectTwoUserHistory" src="https://i.ibb.co/tMMH2sX/Group-26.png" alt=""/> 
+            <img className="imgProjectTwoUserHistory" src="https://i.ibb.co/2kNVCF7/Group-26.png" alt=""/> 
         </button>
         <Modal>
             <div className="backgroundModal">
@@ -285,7 +285,7 @@ export const ModalTwoProjectTwo = () => {
     return (
       <div>
           <button className="btnImgProjectTwo" onClick={open}>
-                <img className="imgProjectTwoUserHistory" src="https://i.ibb.co/j6zDdmb/Group-27.png" alt=""/>               
+                <img className="imgProjectTwoUserHistory" src="https://i.ibb.co/b6MFRb0/Group-27.png" alt=""/>               
             </button>
           <Modal>
               <div className="backgroundModal">

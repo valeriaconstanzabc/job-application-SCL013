@@ -388,9 +388,7 @@
 
 /*<-----------------------MEDIA QUERY----------------------->*/
 @media all and (max-width: 1404px){
-    .imgProjectFour {
-        height: 280px;
-    }
+    .imgProjectFour { height: 280px; }
 }
 @media all and (max-width: 1300px){
     .containerDescriptionProjectTwo,
@@ -417,42 +415,28 @@
         justify-content: center;
         padding-top: 20px;
     }
-    .tittleProject{
-        font-size: 100px;
-    }
+    .tittleProject{ font-size: 100px; }
+    .imgProjectFour{ height: 230px; }
 }
 
 @media all and (max-width: 1024px){
     .containerProyectTwoAndThree,
-    .containerProyectFourAndSix{
-        flex-direction: column;
-    }
+    .containerProyectFourAndSix{ flex-direction: column; }
     #projectTwo, #projectThree,
-    #projectFour, #projectSix{
-        width: 100%;
-    }
-    #containerProjects{
-        margin: 45px 150px 60px 100px;
-    }
+    #projectFour, #projectSix{ width: 100%; }
+    #containerProjects{ margin: 45px 150px 60px 100px; }
+    .imgProjectFour{ height: 310px; }
+    .imgProjectSix{ height: 600px; }
+    .imgProjectTwo{ height: 600px; }
 }
 @media all and (max-width: 950px){
-    #containerProjects{
-        margin: 45px 100px 60px 100px;
-    }
+    #containerProjects{ margin: 45px 100px 60px 100px; }
 }
 @media all and (max-width: 840px){
-    .imgProjectOneHome{
-        height: 220px;
-    }
-    .imgProjectFive{
-        height: 300px;
-    }
+    .imgProjectOneHome{ height: 220px; }
+    .imgProjectFive{ height: 300px; }
 }
 @media all and (max-width: 825px){
-    .tittleProject{
-        font-size: 85px;
-    }
-    .containerTittleProject{
-        margin: 0px 0px -60px 0px;
-    }
+    .tittleProject{ font-size: 85px; }
+    .containerTittleProject{ margin: 0px 0px -60px 0px; }
 }
