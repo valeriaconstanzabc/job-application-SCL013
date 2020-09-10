@@ -213,7 +213,7 @@ export const  ModalOneProjectOne = () => {
     return (
       <div>
           <button className="btnImgProjectOne" onClick={open}>
-              <img className="imgProjectOneUserHistory" src="https://i.ibb.co/kJNk5cH/Group-25.png" alt=""/> 
+              <img className="imgProjectOneUserHistory" src="https://i.ibb.co/sPKNQFN/Group-15.png" alt=""/> 
           </button>
           <Modal>
               <div className="backgroundModal">
@@ -320,7 +320,7 @@ export const ModalThreeProjectTwo = () => {
     return (
       <div>
             <button className="btnImgProjectTwo" onClick={open}>
-                <img className="imgProjectTwoUserHistory" src="https://i.ibb.co/M5JqwPF/Group-25.png" alt=""/>
+                <img className="imgProjectTwoUserHistory" src="https://i.ibb.co/kJNk5cH/Group-25.png" alt=""/>
             </button> 
           <Modal>
           <div className="backgroundModal">
