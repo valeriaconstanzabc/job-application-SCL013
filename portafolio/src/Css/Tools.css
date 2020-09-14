@@ -33,7 +33,9 @@
 
         .imgToolsHTML5, .imgToolsJS, .imgToolsCSS,
         .imgToolsReact, .imgToolsGithub, .imgToolsFirebase,
-        .imgToolsFigma, .imgToolsInvision, .imgToolsNodeJS{
+        .imgToolsFigma, .imgToolsInvision, .imgToolsNodeJS,
+        .imgToolsNPM, .imgToolsGit, .imgToolsTrello,
+        .imgToolsPhotoshop, .imgToolsIllustrator{
             height: 100px;
             width: 100px;
             background-size: cover;
@@ -43,12 +45,18 @@
         .imgToolsHTML5{background-image: url("http://imgfz.com/i/cBb3i7D.png");}
         .imgToolsJS{background-image: url("http://imgfz.com/i/RkSbjGl.png");}
         .imgToolsCSS{background-image: url("http://imgfz.com/i/AYunpIz.png");}
-        .imgToolsNodeJS{background-image: url("https://i.ibb.co/64NpXmG/js-1.png");}
+        .imgToolsNodeJS{background-image: url("https://i.ibb.co/LhwYz1r/js22.png");}
         .imgToolsReact{background-image: url("http://imgfz.com/i/KI90XYh.png");}
         .imgToolsFirebase{background-image: url("https://i.ibb.co/8x6Rv7P/firebase.png");}
         .imgToolsGithub{background-image: url("http://imgfz.com/i/LhKOBqf.png");}
         .imgToolsFigma{background-image: url("http://imgfz.com/i/QcyeCpM.png");}
         .imgToolsInvision{background-image: url("http://imgfz.com/i/Trg7GMB.png");}
+
+        .imgToolsNPM{background-image: url("https://i.ibb.co/WW3xfjt/npm.png");}
+        .imgToolsGit{background-image: url("https://i.ibb.co/yfQf9vb/git.png");}
+        .imgToolsTrello{background-image: url("https://i.ibb.co/m09xTJF/trello.png");}
+        .imgToolsPhotoshop{background-image: url("https://i.ibb.co/Yb7Hnrt/photoshop.png");}
+        .imgToolsIllustrator{background-image: url("https://i.ibb.co/8cFvjMj/illustrator.png");}
 
         .containerImgTools{
             display: flex;
@@ -70,8 +78,17 @@
             .imgToolsFirebase:hover .containerImgTools,
             .imgToolsGithub:hover .containerImgTools,
             .imgToolsFigma:hover .containerImgTools,
-            .imgToolsInvision:hover .containerImgTools{
+            .imgToolsInvision:hover .containerImgTools,
+            .imgToolsNPM:hover .containerImgTools, 
+            .imgToolsGit:hover .containerImgTools, 
+            .imgToolsTrello:hover .containerImgTools,
+            .imgToolsPhotoshop:hover .containerImgTools, 
+            .imgToolsIllustrator:hover .containerImgTools{
                 opacity: 1;
+            }
+            .textImgTools2{
+                font-size: 22px;
+                text-align: center;
             }
 
 

@@ -46,6 +46,21 @@ const Tools = () => {
                             <h2 className="textImgTools">Github</h2>
                         </div>
                     </div>
+                    <div className="imgToolsNPM">
+                        <div className="containerImgTools">
+                            <h2 className="textImgTools">NPM</h2>
+                        </div>
+                    </div>
+                    <div className="imgToolsGit">
+                        <div className="containerImgTools">
+                            <h2 className="textImgTools">Git</h2>
+                        </div>
+                    </div>
+                    <div className="imgToolsTrello">
+                        <div className="containerImgTools">
+                            <h2 className="textImgTools">Trello</h2>
+                        </div>
+                    </div>
                     <div className="imgToolsFigma">
                         <div className="containerImgTools">
                             <h2 className="textImgTools">Figma</h2>
@@ -54,6 +69,16 @@ const Tools = () => {
                     <div className="imgToolsInvision">
                         <div className="containerImgTools">
                             <h2 className="textImgTools">Invision</h2>
+                        </div>
+                    </div>
+                    <div className="imgToolsPhotoshop">
+                        <div className="containerImgTools">
+                            <h2 className="textImgTools2">Photoshop</h2>
+                        </div>
+                    </div>
+                    <div className="imgToolsIllustrator">
+                        <div className="containerImgTools">
+                            <h2 className="textImgTools2">Adobe illustrator</h2>
                         </div>
                     </div>
                 </div>
