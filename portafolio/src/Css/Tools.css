@@ -31,7 +31,7 @@
         margin: 110px 0px 10px 0px;
     }
 
-        .imgToolsHTML5, .imgToolsJS, .imgToolsCSS,
+        .imgToolsHTML5, .imgToolsJS, .imgToolsCSS, .imgToolsSASS, 
         .imgToolsReact, .imgToolsGithub, .imgToolsFirebase,
         .imgToolsFigma, .imgToolsInvision, .imgToolsNodeJS,
         .imgToolsNPM, .imgToolsGit, .imgToolsTrello,
@@ -45,6 +45,7 @@
         .imgToolsHTML5{background-image: url("http://imgfz.com/i/cBb3i7D.png");}
         .imgToolsJS{background-image: url("http://imgfz.com/i/RkSbjGl.png");}
         .imgToolsCSS{background-image: url("http://imgfz.com/i/AYunpIz.png");}
+        .imgToolsSASS{background-image: url("https://i.ibb.co/pvLgsXc/sass.png");}
         .imgToolsNodeJS{background-image: url("https://i.ibb.co/LhwYz1r/js22.png");}
         .imgToolsReact{background-image: url("http://imgfz.com/i/KI90XYh.png");}
         .imgToolsFirebase{background-image: url("https://i.ibb.co/8x6Rv7P/firebase.png");}
@@ -73,6 +74,7 @@
             .imgToolsHTML5:hover .containerImgTools,
             .imgToolsJS:hover .containerImgTools,
             .imgToolsCSS:hover .containerImgTools,
+            .imgToolsSASS:hover .containerImgTools,
             .imgToolsNodeJS:hover .containerImgTools, 
             .imgToolsReact:hover .containerImgTools,
             .imgToolsFirebase:hover .containerImgTools,

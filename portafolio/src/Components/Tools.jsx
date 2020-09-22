@@ -26,6 +26,11 @@ const Tools = () => {
                             <h2 className="textImgTools">CSS</h2>
                         </div>
                     </div>
+                    <div className="imgToolsSASS">
+                        <div className="containerImgTools">
+                            <h2 className="textImgTools">SASS</h2>
+                        </div>
+                    </div>
                     <div className="imgToolsNodeJS">
                         <div className="containerImgTools">
                             <h2 className="textImgTools">NodeJS</h2>

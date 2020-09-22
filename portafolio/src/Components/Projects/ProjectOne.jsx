@@ -49,7 +49,7 @@ const ProjectOne = () => {
 
                     <div className="container">
                         <div className="content">
-                            <a href="https://lofche-5e070.web.app/" target="blank">
+                            <a href="https://comunidadlofche.web.app/" target="blank">
                             <div className="content-overlay"></div>
                             <img className="content-image" alt="Logo del proyecto" src="https://i.ibb.co/ryHgVD0/lofchedemo.png"/>
                             <div className="content-details fadeIn-bottom">
@@ -61,7 +61,7 @@ const ProjectOne = () => {
 
                     <div className="container">
                         <div className="content">
-                            <a href="https://github.com/valeriaconstanzabc/SCL013-social-network" target="blank">
+                            <a href="https://github.com/valeriaconstanzabc/Social-Network-Framework" target="blank">
                             <div className="content-overlay"></div>
                             <img className="content-image" alt="Código del proyecto" src="https://i.ibb.co/982Dmgg/lofchecodigo.png"/>
                             <div className="content-details fadeIn-bottom">
@@ -111,9 +111,19 @@ const ProjectOne = () => {
                                 <h2 className="textImgToolsProjectOne">JavaScript</h2>
                             </div>
                         </div>
+                        <div className="imgToolsReactProjectOne">
+                            <div className="containerImgToolsProjectOne">
+                                <h2 className="textImgToolsProjectOne">React</h2>
+                            </div>
+                        </div>
                         <div className="imgToolsCSSProjectOne">
                             <div className="containerImgToolsProjectOne">
                                 <h2 className="textImgToolsProjectOne">CSS</h2>
+                            </div>
+                        </div>
+                        <div className="imgToolsSASSProjectOne">
+                            <div className="containerImgToolsProjectOne">
+                                <h2 className="textImgToolsProjectOne">SASS</h2>
                             </div>
                         </div>
                         <div className="imgToolsFirebaseProjectOne">

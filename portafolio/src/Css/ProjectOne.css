@@ -110,7 +110,8 @@
 }
     .imgToolsHTML5ProjectOne, .imgToolsJSProjectOne,
     .imgToolsCSSProjectOne, .imgToolsFirebaseProjectOne,
-    .imgToolsFigmaProjectOne, .imgToolsInvisionProjectOne{
+    .imgToolsFigmaProjectOne, .imgToolsInvisionProjectOne,
+    .imgToolsSASSProjectOne, .imgToolsReactProjectOne{
         height: 110px;
         width: 110px;
         margin: 15px;
@@ -123,6 +124,8 @@
     .imgToolsFirebaseProjectOne{background-image: url("https://i.ibb.co/8x6Rv7P/firebase.png");}
     .imgToolsFigmaProjectOne{background-image: url("http://imgfz.com/i/QcyeCpM.png");}
     .imgToolsInvisionProjectOne{background-image: url("http://imgfz.com/i/Trg7GMB.png");}
+    .imgToolsSASSProjectOne{background-image: url("https://i.ibb.co/pvLgsXc/sass.png");}
+    .imgToolsReactProjectOne{background-image: url("http://imgfz.com/i/KI90XYh.png");}
         
     .imgToolsHTML5ProjectOne:hover .containerImgToolsProjectOne,
     .imgToolsJSProjectOne:hover .containerImgToolsProjectOne,
@@ -130,7 +133,9 @@
     .imgToolsFirebaseProjectOne:hover .containerImgToolsProjectOne,
     .imgToolsGithubProjectOne:hover .containerImgToolsProjectOne,
     .imgToolsFigmaProjectOne:hover .containerImgToolsProjectOne,
-    .imgToolsInvisionProjectOne:hover .containerImgToolsProjectOne{
+    .imgToolsInvisionProjectOne:hover .containerImgToolsProjectOne,
+    .imgToolsSASSProjectOne:hover .containerImgToolsProjectOne,
+    .imgToolsReactProjectOne:hover .containerImgToolsProjectOne{
         opacity: 1;
     }
         .containerImgToolsProjectOne{
